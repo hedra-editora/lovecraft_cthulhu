@@ -1,0 +1,177 @@
+\documentclass[semcabeco,showtrims,12pt,conselho,spreadimages]{memoir}
+
+\usepackage[largepost]{hedraoptions} %% << %%%%%%%%%%%%%%%%
+\usepackage[baruch]{hedrastyles}
+\usepackage[xetex,chicagofootnotes]{tipografia}
+\usepackage[standart,sempontinhos]{toc}
+\usepackage{hedraextra}
+\usepackage{penalidades}
+\usepackage{graficos}
+\usepackage{hedralogo}
+\usepackage{hifensextras}
+\usepackage{fichatecnica}
+\usepackage[standart]{aparatos}
+\usepackage{tabelas}
+\usepackage{versos}
+\usepackage{gitrevisioninfo}
+
+\newcommand{\forceindent}{\leavevmode{\parindent=1,4em\indent}}
+
+\linespread{1.15}
+
+\usepackage{endnotes}
+\renewcommand{\notesname}{Notas}
+
+\usepackage{makeidx,hedraindex}  % cria índice
+\makeindex	
+
+%\counterwithin*{endnote}{part}
+%\counterwithin*{endnote}{chapter}
+
+\let\latexchapter\chapter
+\makeatletter
+\renewcommand\enoteheading{%
+  \setcounter{secnumdepth}{-2}
+  \latexchapter*{\notesname\markboth{NOTAS}{}}
+  \mbox{}\par\vskip-\baselineskip
+  \let\@afterindentfalse\@afterindenttrue
+}
+\makeatother
+
+%%EPIGRÁFE EM PART
+\let\oldafterpartskip\afterpartskip 
+
+\newcommand\partepigraph[3][60pt]{
+\renewcommand{\afterpartskip}{
+\vskip#1
+\epigraph{#2}{#3}
+\vfil}
+}
+\newcommand\removeepigraph{
+  \let\afterpartskip\oldafterpartskip}
+%\usepackage{fancyhdr}
+%\pagestyle{fancy}
+%\setlength{\headheight}{9mm}
+%\fancyhf{}
+%\fancyhead[R]{\thepage}
+%\renewcommand{\headrulewidth}{0pt}
+
+%\lhead[\fancyplain{}]{}
+%\chead[\fancyplain{}]{}
+%\rhead[\fancyplain{}]{\cnvt{\thepage} -- \thepage}
+
+%\newcommand*{\cnvt}[1]{\the\numexpr#1-1\relax}
+
+%\fancypagestyle{chapter}{
+%\pagestyle{fancy}
+%\setlength{\headheight}{5mm}
+%\fancyhf{}
+%\fancyhead[R]{\thepage}
+%\renewcommand{\headrulewidth}{0pt}}
+
+
+\usepackage{footmisc}
+
+\renewcommand*\footnoterule{}
+%\fancyhf[RO]{\cnvt{\thepage} -- \thepage}
+%\fancyfoot{}
+%\renewcommand{\headrulewidth}{0pt}
+%\renewcommand{\footrulewidth}{0pt}}
+
+\usepackage{fontspec}
+
+%\usepackage{Formular}
+\newfontfamily\Formular{Formular-Regular}[
+BoldFont = Formular-Bold.otf]	
+
+%--------------------------------------------ALTERAR DISTÃNCIA ENTRE TÍTULO DO SUMÁRIO E CAPÍTULOS
+%\addtocontents{toc}{\vskip-15pt}
+%--------------------------------------------
+\usepackage{afterpage}
+
+\newcommand\blankpage{%
+    \null
+    \thispagestyle{empty}%
+    \addtocounter{page}{0}%
+    \newpage}
+
+
+
+%\usepackage{imakeidx} 
+%\makeindex[program=xindy, options=-C utf8 -L portuguese]
+%\newcommand\gobbleone[1]{}
+%\newcommand*{\seeonly}[2]{\ (\emph{\seename} #1)}
+%\newcommand*{\also}[2]{\emph{cf.} #1}
+%\newcommand{\Also}[2]{\emph{See also} #1}
+%\renewcommand\indexname{Índice onomástico}
+%\makeindex[intoc]
+
+\setcounter{tocdepth}{0}
+\setcounter{secnumdepth}{-2} 
+%\linespread{1.08}
+\usepackage{commands}
+
+\usepackage{setspace}
+
+\makeatletter
+\newenvironment{Parskip}{%
+   \par
+   \parskip=0.3\baselineskip \advance\parskip by 0pt plus 2pt
+   \parindent=\z@
+   \def\@listI{\leftmargin\leftmargini
+      \topsep\z@ \parsep\parskip \itemsep\z@}
+   \let\@listi\@listI
+   \@listi
+   \def\@listii{\leftmargin\leftmarginii
+      \labelwidth\leftmarginii\advance\labelwidth-\labelsep
+      \topsep\z@ \parsep\parskip \itemsep\z@}
+   \def\@listiii{\leftmargin\leftmarginiii
+       \labelwidth\leftmarginiii\advance\labelwidth-\labelsep
+       \topsep\z@ \parsep\parskip \itemsep\z@}
+   \partopsep=\z@
+}{\par}
+\makeatother
+
+\makeatletter
+\newenvironment{myParskip}{%
+   \par
+   \parskip=0.2\baselineskip \advance\parskip by 0pt plus 2pt
+   \parindent=\z@
+   \def\@listI{\leftmargin\leftmargini
+      \topsep\z@ \parsep\parskip \itemsep\z@}
+   \let\@listi\@listI
+   \@listi
+   \def\@listii{\leftmargin\leftmarginii
+      \labelwidth\leftmarginii\advance\labelwidth-\labelsep
+      \topsep\z@ \parsep\parskip \itemsep\z@}
+   \def\@listiii{\leftmargin\leftmarginiii
+       \labelwidth\leftmarginiii\advance\labelwidth-\labelsep
+       \topsep\z@ \parsep\parskip \itemsep\z@}
+   \partopsep=\z@
+}{\par}
+\makeatother
+
+\newcommand{\mystar}{{\fontfamily{lmr}\selectfont$\star$}}
+
+%\makeatletter
+%\renewcommand{\@chapapp}{}% Not necessary...
+%\newenvironment{chapquote}[2][2em]
+%  {\setlength{\@tempdima}{#1}%
+%   \def\chapquote@author{#2}%
+%   \parshape 1 \@tempdima \dimexpr\textwidth-2\@tempdima\relax%
+%   \itshape}
+%  {\par\scriptsize\hfill-- \chapquote@author\hspace*{\@tempdima}\par\bigskip}
+%\makeatother
+
+%\newcommand\Chapter[2]{\chapter
+%  [#1\hfil\hbox{}\protect\linebreak{\itshape#1}]%
+%  {#1\\[2ex]\Large\itshape#2}%
+%}
+
+\begin{document}
+
+\include{INPUTS}
+
+\printindex
+
+\end{document}
