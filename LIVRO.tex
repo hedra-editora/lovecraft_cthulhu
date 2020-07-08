@@ -14,6 +14,7 @@
 \usepackage{tabelas}
 \usepackage{versos}
 \usepackage{gitrevisioninfo}
+\usepackage{parallel}
 
 \newcommand{\forceindent}{\leavevmode{\parindent=1,4em\indent}}
 
@@ -24,6 +25,7 @@
 
 \usepackage{makeidx,hedraindex}  % cria índice
 \makeindex	
+
 
 %\counterwithin*{endnote}{part}
 %\counterwithin*{endnote}{chapter}
@@ -170,8 +172,16 @@ BoldFont = Formular-Bold.otf]
 
 \begin{document}
 
-\include{INPUTS}
+\input{INTRO}
 
-\printindex
+
+\begin{Parallel}[p]{}{} 
+\ParallelLText{\selectlanguage{english} \input{INGLES}} 
+\ParallelRText{\selectlanguage{brazilian} \input{ORIGINAIS}} %
+
+\renewcommand{\ParallelAtEnd}{\noindent{}\vspace{1cm}\Large{Notas}}
+\end{Parallel}
+
+%\printindex
 
 \end{document}
