@@ -26,6 +26,28 @@
 \usepackage{makeidx,hedraindex}  % cria índice
 \makeindex	
 
+\newcommand{\paragraphbr}[1]{\vfill\pagebreak\paragraph{#1}}
+\renewcommand\theparagraph{\Roman{paragraph}}
+\newcommand{\quebra}{\vfil\pagebreak}
+\newcommand{\est}{\vspace{10cm}}
+\newenvironment{mesma}%
+   {\par\samepage}%
+   {\par\pagebreak[0]}
+
+   \makeatletter
+\def\@endpart{\vfil%\newpage
+              \if@twoside
+               \if@openright
+                \null
+                \thispagestyle{empty}%
+                \newpage
+               \fi
+              \fi
+              \if@tempswa
+                \twocolumn
+              \fi}
+\makeatother 
+
 
 %\counterwithin*{endnote}{part}
 %\counterwithin*{endnote}{chapter}
