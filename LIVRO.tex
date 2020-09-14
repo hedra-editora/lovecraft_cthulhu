@@ -1,9 +1,9 @@
-\documentclass[semcabeco,showtrims,trimframe,12pt,conselho,spreadimages]{memoir}
+\documentclass[semcabeco,showtrims,12pt,conselho,spreadimages]{memoir}
 
 \usepackage[largepost]{hedraoptions} %% << %%%%%%%%%%%%%%%%
 \usepackage[baruch]{hedrastyles}
 \usepackage[xetex,chicagofootnotes]{tipografia}
-\usepackage[standart,sempontinhos]{toc}
+\usepackage[standart,compontinhos]{toc}
 \usepackage{hedraextra}
 \usepackage{penalidades}
 \usepackage{graficos}
@@ -38,20 +38,7 @@
    {\par\samepage}%
    {\par\pagebreak[0]}
 
-   %\makeatletter
-%\def\@endpart{\vfil%\newpage
-              %\if@twoside
-               %\if@openright
-                %\null
-                %\thispagestyle{empty}%
-                %\newpage
-               %\fi
-              %\fi
-              %\if@tempswa
-                %\twocolumn
-              %\fi}
-%\makeatother 
-
+   
 
 %\counterwithin*{endnote}{part}
 %\counterwithin*{endnote}{chapter}
@@ -113,6 +100,8 @@
 %\usepackage{Formular}
 \newfontfamily\Formular{Formular-Regular}[
 BoldFont = Formular-Bold.otf]	
+
+\newfontfamily\Brabo{FS Brabo Pro Regular}
 
 %--------------------------------------------ALTERAR DISTÃNCIA ENTRE TÍTULO DO SUMÁRIO E CAPÍTULOS
 %\addtocontents{toc}{\vskip-15pt}
@@ -200,7 +189,7 @@ BoldFont = Formular-Bold.otf]
 
 \begin{document}
 
-\input{INTRO}
+\include{INTRO}
 
 
 \begin{Parallel}[p]{}{} 
@@ -209,6 +198,8 @@ BoldFont = Formular-Bold.otf]
 %\renewcommand{\ParallelAtEnd}{\noindent{}\vspace{1cm}\Large{Notas}}
 \end{Parallel}
 
+\pagebreak
+\thispagestyle{empty}
 \movetooddpage
 \addcontentsline{toc}{chapter}{Notas}
 \theendnotes
