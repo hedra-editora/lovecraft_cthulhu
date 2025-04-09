@@ -1,205 +1,86 @@
-\documentclass[semcabeco,showtrims,12pt,conselho,spreadimages]{memoir}
+\documentclass[showtrims,		% Mostra as marcas de corte em cruz
+			   %trimframe,
+%			   openany		% Mostra as marcas de corte em linha, para conferência
+			   11pt				% 8pt, 9pt, 10pt, 11pt, 12pt, 14pt, 17pt, 20pt 
+			   ]{memoir}
+\usepackage[brazilian,
+			% english,
+			% italian,
+			% ngerman,
+			% french,
+			% russian,
+			% polutonikogreek
+			]{babel}
+\usepackage{anyfontsize}			    % para tamanhos de fontes maiores que \Huge 
+\usepackage{relsize}					% para aumentar ou diminuir fonte por pontos. Ex. \smaller[1]
+\usepackage{fontspec}					% para rodar fontes do sistema
+\usepackage[switch]{lineno} 			% para numerar linhas
+\usepackage{lipsum}						% para colocar textos lipsum
+\usepackage{alltt}						% para colocar espaços duplos. Ex: verso livre
+\usepackage{graphicx}					% para colocar imagens
+\usepackage{float}						% para flutuar imagens e tabelas 		
+\usepackage{lettrine}					% para capsulares
+\usepackage{comment}					% para comentar o código em bloco \begin{comment}...
+\usepackage{adforn}						% para adornos & glyphs
+\usepackage{xcolor}					 	% para texto colorido
+\usepackage[babel]{microtype}			% para ajustes finos na mancha
+\usepackage{enumerate,enumitem}			% para tipos diferentes de enumeração/formatação ver `edlab-extra.sty`
+\usepackage{url}					    % para citar sites \url
+\usepackage{marginnote}					% para notas laterais
+\usepackage{titlesec}					% para produzir os distanciamentos entre pontos no \dotfill
 
-\usepackage[largepost]{hedraoptions} %% << %%%%%%%%%%%%%%%%
-\usepackage[baruch]{hedrastyles}
-\usepackage[xetex,chicagofootnotes]{tipografia}
-\usepackage[standart,compontinhos]{toc}
-\usepackage{hedraextra}
-\usepackage{penalidades}
-\usepackage{graficos}
-\usepackage{hedralogo}
-\usepackage{hifensextras}
-\usepackage{fichatecnica}
-\usepackage[standart]{aparatos}
-\usepackage{tabelas}
-\usepackage{versos}
-\usepackage{gitrevisioninfo}
-\usepackage{parallel}
+%\usepackage{makeidx} 					% para índice remissivo
 
-\newcommand{\forceindent}{\leavevmode{\parindent=1,4em\indent}}
+\usepackage{edlab-penalties}
+\usepackage{edlab-git}
+\usepackage{edlab-toc}					% define sumário
+\usepackage{edlab-extra}				% define epígrafe, quote
+\usepackage[largepost]{edlab-margins}
+\usepackage[%semcabeco, 				% para remover cabeço, sobe mancha e mantem estilos
+			]{edlab-sections}			% define pagestyle (cabeço, rodapé e seções)
+\usepackage[%
+			% notasemlinha 			
+			% notalinhalonga
+			chicagofootnotes			% para notas com número e ponto cf. man. de Chicago
+			]{edlab-footnotes}
 
-\linespread{1.15}
-
+%\usepackage{parallel}
+\usepackage{reledmac}
+\usepackage{reledpar}
 
 \usepackage{endnotes}
 \renewcommand{\notesname}{Notas}
 
-\usepackage{makeidx,hedraindex}  % cria índice
-\makeindex	
+% Medidas (ver: memoir p.11 fig.2.3)
+\parindent=3ex			% Tamanho da indentação
+\parskip=0pt			% Entre parágrafos
+\marginparsep=1em		% Entre mancha e nota lateral 
+\marginparwidth=4em		% Tamanho da caixa de texto da nota laterial
 
-\newcommand{\paragraphbr}[1]{\vfill\pagebreak\paragraph{#1}}
-\renewcommand\theparagraph{\Roman{paragraph}}
-\newcommand{\quebra}{\vfil\pagebreak}
-\newcommand{\est}{\vspace{10cm}}
-\newenvironment{mesma}%
-   {\par\samepage}%
-   {\par\pagebreak[0]}
-
-   
-
-%\counterwithin*{endnote}{part}
-%\counterwithin*{endnote}{chapter}
-
-\let\latexchapter\chapter
-\makeatletter
-\renewcommand\enoteheading{%
-  \setcounter{secnumdepth}{-2}
-  \latexchapter*{\notesname\markboth{NOTAS}{}}
-  \mbox{}\par\vskip-\baselineskip
-  \let\@afterindentfalse\@afterindenttrue
-}
-\makeatother
-
-%%EPIGRÁFE EM PART
-\let\oldafterpartskip\afterpartskip 
-
-\newcommand\partepigraph[3][60pt]{
-\renewcommand{\afterpartskip}{
-\vskip#1
-\epigraph{#2}{#3}
-\vfil}
-}
-\newcommand\removeepigraph{
-  \let\afterpartskip\oldafterpartskip}
-%\usepackage{fancyhdr}
-%\pagestyle{fancy}
-%\setlength{\headheight}{9mm}
-%\fancyhf{}
-%\fancyhead[R]{\thepage}
-%\renewcommand{\headrulewidth}{0pt}
-
-%\lhead[\fancyplain{}]{}
-%\chead[\fancyplain{}]{}
-%\rhead[\fancyplain{}]{\cnvt{\thepage} -- \thepage}
-
-%\newcommand*{\cnvt}[1]{\the\numexpr#1-1\relax}
-
-%\fancypagestyle{chapter}{
-%\pagestyle{fancy}
-%\setlength{\headheight}{5mm}
-%\fancyhf{}
-%\fancyhead[R]{\thepage}
-%\renewcommand{\headrulewidth}{0pt}}
+% Fontes
+\newfontfamily\formular{Formular}
+\newfontfamily\formularlight{Formular Light}
+\newfontfamily\brabo{FS Brabo Pro Regular}
+\setmainfont[Ligatures=TeX,Numbers=OldStyle]{Minion Pro}
 
 
-\usepackage{footmisc}
+% Estilos
+\makeoddhead{baruch}{}{}{}
+\makeevenhead{baruch}{}{}{}
+\makeevenfoot{baruch}{}{\footnotesize\thepage}{}
+\makeoddfoot{baruch}{}{\footnotesize\thepage}{}
+\pagestyle{baruch}		
+\headstyles{baruch}
 
-\renewcommand*\footnoterule{}
-%\fancyhf[RO]{\cnvt{\thepage} -- \thepage}
-%\fancyfoot{}
-%\renewcommand{\headrulewidth}{0pt}
-%\renewcommand{\footrulewidth}{0pt}}
+% Testes
 
-\usepackage{fontspec}
-
-\newcommand{\italic}[1]{\fontspec[SmallCapsFeatures={FakeSlant=0.6}]{Formular-Italic}\textsc{#1}\fontspec[]{Formular-Italic}}
-
-%\usepackage{Formular}
-\newfontfamily\Formular{Formular-Regular}[
-BoldFont = Formular-Bold.otf]	
-
-\newfontfamily\Brabo{FS Brabo Pro Regular}
-
-%--------------------------------------------ALTERAR DISTÃNCIA ENTRE TÍTULO DO SUMÁRIO E CAPÍTULOS
-%\addtocontents{toc}{\vskip-15pt}
-%--------------------------------------------
-\usepackage{afterpage}
-
-\newcommand\blankpage{%
-    \null
-    \thispagestyle{empty}%
-    \addtocounter{page}{0}%
-    \newpage}
-
-
-
-%\usepackage{imakeidx} 
-%\makeindex[program=xindy, options=-C utf8 -L portuguese]
-%\newcommand\gobbleone[1]{}
-%\newcommand*{\seeonly}[2]{\ (\emph{\seename} #1)}
-%\newcommand*{\also}[2]{\emph{cf.} #1}
-%\newcommand{\Also}[2]{\emph{See also} #1}
-%\renewcommand\indexname{Índice onomástico}
-%\makeindex[intoc]
-
-\setcounter{tocdepth}{0}
-\setcounter{secnumdepth}{-2} 
-%\linespread{1.08}
-\usepackage{commands}
-
-\usepackage{setspace}
-
-\makeatletter
-\newenvironment{Parskip}{%
-   \par
-   \parskip=0.3\baselineskip \advance\parskip by 0pt plus 2pt
-   \parindent=\z@
-   \def\@listI{\leftmargin\leftmargini
-      \topsep\z@ \parsep\parskip \itemsep\z@}
-   \let\@listi\@listI
-   \@listi
-   \def\@listii{\leftmargin\leftmarginii
-      \labelwidth\leftmarginii\advance\labelwidth-\labelsep
-      \topsep\z@ \parsep\parskip \itemsep\z@}
-   \def\@listiii{\leftmargin\leftmarginiii
-       \labelwidth\leftmarginiii\advance\labelwidth-\labelsep
-       \topsep\z@ \parsep\parskip \itemsep\z@}
-   \partopsep=\z@
-}{\par}
-\makeatother
-
-\makeatletter
-\newenvironment{myParskip}{%
-   \par
-   \parskip=0.2\baselineskip \advance\parskip by 0pt plus 2pt
-   \parindent=\z@
-   \def\@listI{\leftmargin\leftmargini
-      \topsep\z@ \parsep\parskip \itemsep\z@}
-   \let\@listi\@listI
-   \@listi
-   \def\@listii{\leftmargin\leftmarginii
-      \labelwidth\leftmarginii\advance\labelwidth-\labelsep
-      \topsep\z@ \parsep\parskip \itemsep\z@}
-   \def\@listiii{\leftmargin\leftmarginiii
-       \labelwidth\leftmarginiii\advance\labelwidth-\labelsep
-       \topsep\z@ \parsep\parskip \itemsep\z@}
-   \partopsep=\z@
-}{\par}
-\makeatother
-
-\newcommand{\mystar}{{\fontfamily{lmr}\selectfont$\star$}}
-
-%\makeatletter
-%\renewcommand{\@chapapp}{}% Not necessary...
-%\newenvironment{chapquote}[2][2em]
-%  {\setlength{\@tempdima}{#1}%
-%   \def\chapquote@author{#2}%
-%   \parshape 1 \@tempdima \dimexpr\textwidth-2\@tempdima\relax%
-%   \itshape}
-%  {\par\scriptsize\hfill-- \chapquote@author\hspace*{\@tempdima}\par\bigskip}
-%\makeatother
-
-%\newcommand\Chapter[2]{\chapter
-%  [#1\hfil\hbox{}\protect\linebreak{\itshape#1}]%
-%  {#1\\[2ex]\Large\itshape#2}%
-%}
 
 \begin{document}
 
-\include{INTRO}
+
+%\input{MUSSUMIPSUM}  		% Teste da classe
+\include{INPUTS}
 
 
-\begin{Parallel}[p]{}{} 
-\ParallelLText{\selectlanguage{english} \input{INGLES}} 
-\ParallelRText{\selectlanguage{brazilian} \input{ORIGINAIS}} %
-%\renewcommand{\ParallelAtEnd}{\noindent{}\vspace{1cm}\Large{Notas}}
-\end{Parallel}
-
-\pagebreak
-\thispagestyle{empty}
-\movetooddpage
-\addcontentsline{toc}{chapter}{Notas}
-\theendnotes
-%\printindex
-
+\checkandfixthelayout
 \end{document}
