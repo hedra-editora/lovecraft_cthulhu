@@ -15,7 +15,7 @@
 % \subsubsection 	is level 3
 % \paragraph 		is level 4
 % \subparagraph 	is level 5
-\setcounter{secnumdepth}{-1}
+\setcounter{secnumdepth}{-2}
 \setcounter{tocdepth}{0}
 
 
@@ -29,10 +29,10 @@
 {\begingroup\mbox{}\pagestyle{empty}
 \pagestyle{empty} 
 % \renewcommand{\contentsname}{Índex} 	% Trocar nome do sumário para 'Índex'
-\ifodd\thepage\relax\else\blankpage\fi 	% Verifica se página é par e coloca página branca
+%\ifodd\thepage\relax\else\blankpage\fi 	% Verifica se página é par e coloca página branca
 \addtocontents{toc}{\protect\thispagestyle{empty}}
 \tableofcontents*\clearpage\endgroup}
-
+\blankpage
 
 \input{INTRO}
 
@@ -43,11 +43,11 @@
 % \ParallelRText{\selectlanguage{brazilian} \input{ORIGINAIS}} %
 % \end{Parallel}
 
-\pagebreak
-\thispagestyle{empty}
-\movetooddpage
-\addcontentsline{toc}{chapter}{Notas}
-\theendnotes
+% \pagebreak
+% \thispagestyle{empty}
+% \movetooddpage
+% \addcontentsline{toc}{chapter}{Notas}
+% \theendnotes
 
 \input{Y-publicidade}	   % [lista de livros publicados]
 \input{Z-colofon}		   % [colofon]
