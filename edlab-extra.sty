@@ -32,10 +32,10 @@
 \urlstyle{tt} % {same} mesma fonte; {sf} sem serifa 
 
 % Epigraph (memoir)
-\epigraphfontsize{\footnotesize}			% tamanho da fonte
-\setlength{\epigraphrule}{0pt}				% tira a linha
-% \setlength{\epigraphwidth}{.6\textwidth}	% aumenta o tamanho da epígra
-% \epigraphtextposition{flushright}			
+\epigraphfontsize{\footnotesize}            % tamanho da fonte
+\setlength{\epigraphrule}{0pt}              % tira a linha
+% \setlength{\epigraphwidth}{.6\textwidth}  % aumenta o tamanho da epígra
+% \epigraphtextposition{flushright}         
 % \epigraphtextposition{flushleft}
 % \epigraphsourceposition{flushright} 
 
@@ -74,50 +74,41 @@
   \end{list}%
 }
 
-\newcommand{\paragraphbr}[1]{\vfill\pagebreak\paragraph{#1}}
-\renewcommand\theparagraph{\Roman{paragraph}}
-\newcommand{\quebra}{\vfil\pagebreak}
-
-
-\renewcommand{\clearpage}{}
-
-
 % Comando para fazer subtítulo
-
 \newcommand{\subtitulo}[1]{\NoCaseChange{\textnormal{\break\Large\itshape#1}}}
-\newcommand{\autorcapitulo}[1]{\hfill
-  \begin{minipage}{.6\textwidth}
-  \begin{flushright}\MakeLowercase{{\scshape #1}}\end{flushright}
-  \end{minipage}
-\bigskip\par}
-
-% Definições de disposição de autores e subtítulos
-\newcommand{\tocquebratitautor}{, por}
-\newcommand{\chapterspecial}[3]{%
-  \chapter[#1\ifx#3\relax\else\emph{\tocquebratitautor{} #3}\fi]%
-      {#1\ifx#2\relax\else\subtitulo{#2}\fi}%
-  \ifx#3\relax\else\autorcapitulo{#3}\fi
-\markboth{#1}{#3}}
+\newcommand{\chapterspecial}[2]{%
+ \chapter[#1]%
+     {#1\ifx#2\relax\else\subtitulo{#2}\fi}%
+\markright{#1}}
 
 
-\makeatletter
-\def\@xfootnote[#1]{%
-  \protected@xdef\@thefnmark{#1}%
-  \@footnotemark\@footnotetext}
-\makeatother
+% bibliohedra 
+\RequirePackage{ifthen}
+\newcommand{\tit}[1]{\item[\MakeTextLowercase{\textsc{#1}}]}
+\newcommand{\titidem}{\item[\line(1,0){25}]}
 
+\newenvironment{bibliohedra}[1][bibliografia]{%
+    \frenchspacing\footnotesize
+  \ifthenelse{\equal{#1}{}}%
+        {\relax}{\section*{\MakeTextLowercase{#1}}\vspace{2ex}}
+    \begin{list}{}{
+        \setlength\leftmargin{4mm}  % identação do texto principal em
+                % relação à margem da 'página'
+        \setlength\rightmargin{0mm}
+        \setlength\labelwidth{4mm}  % tamanho "esperado" da caixa de rótulo
+                % define também o recuo usado
+    %
+    %   \setlength\listparindent{3mm} % tamanho da identação dos parágrafos
+                % dentro do ítem
+    %
+        \setlength\labelsep{0mm}  % espaço entre rótulo e descrição
+        \setlength\parsep{0mm}    % espaço entre parágrafos de um item
+        \setlength\itemsep{1mm}   % espaço entre items
+        \setlength\lineskip{0mm}  % espaçamento entre linhas
+    }
 
-\newcommand{\forceindent}{\leavevmode{\parindent=1,2em\indent}}
+  }%
+  {\end{list}}
 
-
-%%EPIGRÁFE EM PART
-\let\oldafterpartskip\afterpartskip 
-
-\newcommand\partepigraph[3][60pt]{
-\renewcommand{\afterpartskip}{
-\vskip#1
-\epigraph{#2}{#3}
-\vfil}
-}
-\newcommand\removeepigraph{
-  \let\afterpartskip\oldafterpartskip}
+  % Asterisc
+\newcommand{\asterisc}{\begin{center}\adforn{19}\end{center}}

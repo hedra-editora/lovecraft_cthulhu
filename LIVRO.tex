@@ -1,6 +1,5 @@
 \documentclass[showtrims,		% Mostra as marcas de corte em cruz
-			   %trimframe,
-%			   %openany		% Mostra as marcas de corte em linha, para conferência
+			   %trimframe,		% Mostra as marcas de corte em linha, para conferência
 			   11pt				% 8pt, 9pt, 10pt, 11pt, 12pt, 14pt, 17pt, 20pt 
 			   ]{memoir}
 \usepackage[brazilian,
@@ -47,10 +46,12 @@
 %\usepackage{parallel}
 %\usepackage{reledmac}
 %\usepackage{reledpar}
-\usepackage{edlab-ledmac}
+%\usepackage{edlab-ledmac}
 
 %\usepackage{endnotes}
 %\renewcommand{\notesname}{Notas}
+
+\babelprovide[transforms = hyphen.repeat]{portuguese}
 
 % Medidas (ver: memoir p.11 fig.2.3)
 \parindent=3ex			% Tamanho da indentação
