@@ -1,15 +1,9 @@
+% !TEX program = xelatex
 \documentclass[showtrims,		% Mostra as marcas de corte em cruz
 			   %trimframe,		% Mostra as marcas de corte em linha, para conferência
 			   11pt				% 8pt, 9pt, 10pt, 11pt, 12pt, 14pt, 17pt, 20pt 
 			   ]{memoir}
-\usepackage[brazilian,
-			% english,
-			% italian,
-			% ngerman,
-			% french,
-			% russian,
-			% polutonikogreek
-			]{babel}
+\usepackage[main=brazil]{babel}
 \usepackage{anyfontsize}			    % para tamanhos de fontes maiores que \Huge 
 \usepackage{relsize}					% para aumentar ou diminuir fonte por pontos. Ex. \smaller[1]
 \usepackage{fontspec}					% para rodar fontes do sistema
@@ -23,10 +17,10 @@
 \usepackage{adforn}						% para adornos & glyphs
 \usepackage{xcolor}					 	% para texto colorido
 \usepackage[babel]{microtype}			% para ajustes finos na mancha
-\usepackage{enumerate,enumitem}			% para tipos diferentes de enumeração/formatação ver `edlab-extra.sty`
+\usepackage{enumitem}			% para tipos diferentes de enumeração/formatação ver `edlab-extra.sty`
 \usepackage{url}					    % para citar sites \url
 \usepackage{marginnote}					% para notas laterais
-\usepackage{titlesec}					% para produzir os distanciamentos entre pontos no \dotfill
+
 
 %\usepackage{makeidx} 					% para índice remissivo
 
@@ -51,7 +45,7 @@
 %\usepackage{endnotes}
 %\renewcommand{\notesname}{Notas}
 
-\babelprovide[transforms = hyphen.repeat]{portuguese}
+
 
 % Medidas (ver: memoir p.11 fig.2.3)
 \parindent=3ex			% Tamanho da indentação
@@ -60,10 +54,37 @@
 \marginparwidth=4em		% Tamanho da caixa de texto da nota laterial
 
 % Fontes
-\newfontfamily\formular{Formular}
-\newfontfamily\formularlight{Formular Light}
-\newfontfamily\brabo{FS Brabo Pro Regular}
-\setmainfont[Ligatures=TeX,Numbers=OldStyle]{Minion Pro}
+\IfFontExistsTF{Formular}
+  {\newfontfamily\formular{Formular}}
+  {\newfontfamily\formular{Helvetica Neue}}
+\IfFontExistsTF{Formular Light}
+  {\newfontfamily\formularlight{Formular Light}}
+  {\newfontfamily\formularlight{Helvetica Neue Light}}
+\IfFontExistsTF{FS Brabo Pro Regular}
+  {\newfontfamily\brabo{FS Brabo Pro Regular}}
+  {\newfontfamily\brabo{Source Serif 4}}
+% Definição robusta de "Times New Roman" com vários fallbacks
+\IfFontExistsTF{Times New Roman}{
+  \newfontfamily\timesnewroman{"Times New Roman"}[Ligatures=TeX]
+}{
+  \IfFontExistsTF{TeX Gyre Termes}{
+    \newfontfamily\timesnewroman{TeX Gyre Termes}[Ligatures=TeX]
+  }{
+    \IfFontExistsTF{Times}{
+      \newfontfamily\timesnewroman{Times}[Ligatures=TeX]
+    }{
+      \IfFontExistsTF{Tinos}{
+        \newfontfamily\timesnewroman{Tinos}[Ligatures=TeX]
+      }{
+        % Último recurso: usa a fonte romana padrão do documento, sem erro
+        \let\timesnewroman\rmfamily
+      }
+    }
+  }
+}
+\IfFontExistsTF{Minion Pro}
+  {\setmainfont[Ligatures=TeX,Numbers=OldStyle]{Minion Pro}}
+  {\setmainfont[Ligatures=TeX,Numbers=OldStyle]{TeX Gyre Pagella}}
 
 
 % Estilos
