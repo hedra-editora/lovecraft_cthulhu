@@ -1,4 +1,4 @@
-% !TEX program = xelatex
+% !TEX program = lualatex
 \documentclass[showtrims,		% Mostra as marcas de corte em cruz
 			   %trimframe,		% Mostra as marcas de corte em linha, para conferência
 			   11pt				% 8pt, 9pt, 10pt, 11pt, 12pt, 14pt, 17pt, 20pt 
@@ -54,37 +54,11 @@
 \marginparwidth=4em		% Tamanho da caixa de texto da nota laterial
 
 % Fontes
-\IfFontExistsTF{Formular}
-  {\newfontfamily\formular{Formular}}
-  {\newfontfamily\formular{Helvetica Neue}}
-\IfFontExistsTF{Formular Light}
-  {\newfontfamily\formularlight{Formular Light}}
-  {\newfontfamily\formularlight{Helvetica Neue Light}}
-\IfFontExistsTF{FS Brabo Pro Regular}
-  {\newfontfamily\brabo{FS Brabo Pro Regular}}
-  {\newfontfamily\brabo{Source Serif 4}}
-% Definição robusta de "Times New Roman" com vários fallbacks
-\IfFontExistsTF{Times New Roman}{
-  \newfontfamily\timesnewroman{"Times New Roman"}[Ligatures=TeX]
-}{
-  \IfFontExistsTF{TeX Gyre Termes}{
-    \newfontfamily\timesnewroman{TeX Gyre Termes}[Ligatures=TeX]
-  }{
-    \IfFontExistsTF{Times}{
-      \newfontfamily\timesnewroman{Times}[Ligatures=TeX]
-    }{
-      \IfFontExistsTF{Tinos}{
-        \newfontfamily\timesnewroman{Tinos}[Ligatures=TeX]
-      }{
-        % Último recurso: usa a fonte romana padrão do documento, sem erro
-        \let\timesnewroman\rmfamily
-      }
-    }
-  }
-}
-\IfFontExistsTF{Minion Pro}
-  {\setmainfont[Ligatures=TeX,Numbers=OldStyle]{Minion Pro}}
-  {\setmainfont[Ligatures=TeX,Numbers=OldStyle]{TeX Gyre Pagella}}
+\newfontfamily\formular{Formular}
+\newfontfamily\formularlight{Formular Light}
+\newfontfamily\brabo{FS Brabo Pro Regular}
+\newfontfamily\timesnewroman{Times New Roman}[Ligatures=TeX]
+\setmainfont[Ligatures=TeX,Numbers=OldStyle]{Minion Pro}
 
 
 % Estilos
