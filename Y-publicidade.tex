@@ -1,11 +1,21 @@
 \pagebreak
-\blankpage
-%\blankAteven
+
+
+\blankAteven
 \pagestyle{empty}
 \begingroup
+\formular % usar a mesma família dos capítulos
 \fontsize{7}{8}\selectfont
+\color{black}
 
-{\large\textsc{coleção «hedra edições»}}
+
+\IfFileExists{img/hedra_edicoes_branco.png}{%
+  \vspace*{3mm}\noindent\includegraphics[width=.42\textwidth,keepaspectratio]{img/hedra_edicoes_branco.png}\par
+}{%
+  \IfFileExists{img/HEDRA_EDICOES_LOGOBRANCO.png}{%
+    \vspace*{3mm}\noindent\includegraphics[width=.42\textwidth,keepaspectratio]{img/HEDRA_EDICOES_LOGOBRANCO.png}\par
+  }{\large\textsc{hedra edições}}%
+}
 
 \begin{enumerate}
 \setlength\parskip{4.2pt}
@@ -156,7 +166,10 @@
 \item \textit{Viagem sentimental}, Laurence Sterne
 \end{enumerate}
 
-{\large\textsc{coleção «metabiblioteca»}}
+\medskip
+\IfFileExists{img/HEDRA_METABIBLIOTECA_LOGOBRANCO.png}{%
+  \vspace*{3mm}\noindent\includegraphics[width=.42\textwidth,keepaspectratio]{img/HEDRA_METABIBLIOTECA_LOGOBRANCO.png}\par
+}{\large\textsc{metabiblioteca}}
 
 \begin{enumerate}
 \setlength\parskip{4.2pt}
@@ -197,7 +210,9 @@
 \end{enumerate}
 
 \medskip
-{\large\textsc{coleção «que horas são?»}}
+\IfFileExists{img/HEDRA_QUE_HORAS_SAO_LOGOBRANCO.png}{%
+  \vspace*{3mm}\noindent\includegraphics[width=.42\textwidth,keepaspectratio]{img/HEDRA_QUE_HORAS_SAO_LOGOBRANCO.png}\par
+}{\large\textsc{que horas são?}}
 
 \begin{enumerate}
 \setlength\parskip{4.2pt}
@@ -225,7 +240,9 @@
 \end{enumerate}
 
 \medskip
-{\large\textsc{coleção «mundo indígena»}}
+\IfFileExists{img/HEDRA_MI_LOGOBRANCO.png}{%
+  \vspace*{3mm}\noindent\includegraphics[width=.42\textwidth,keepaspectratio]{img/HEDRA_MI_LOGOBRANCO.png}\par
+}{\large\textsc{mundo indígena}}
 
 \begin{enumerate}
 \setlength\parskip{4.2pt}
@@ -248,7 +265,9 @@
 \end{enumerate}
 
 \medskip
-{\large\textsc{coleção «ecopolítica»}}
+\IfFileExists{img/HEDRA_ECOPOLITICA_LOGOBRANCO.png}{%
+  \vspace*{3mm}\noindent\includegraphics[width=.42\textwidth,keepaspectratio]{img/HEDRA_ECOPOLITICA_LOGOBRANCO.png}\par
+}{\large\textsc{ecopolítica}}
 
 \begin{enumerate}
 \setlength\parskip{4.2pt}
@@ -288,6 +307,7 @@
 % \item \textit{Narrativa de William W.\,Brown, escravo fugitivo}, William Wells Brown
 % \item \textit{Nascidos na escravidão: depoimentos norte-americanos}, \textsc{wpa}
 % \end{enumerate}
-\blankpage
-\blankpage
-\pagebreak
+
+\endgroup % fecha o escopo da fonte Formular
+\nopagecolor
+\color{black}
