@@ -1,0 +1,1232 @@
+# O chamado de Cthulhu: Achado entre os papéis do falecido Francis Wayland Thurston, de Boston
+
+::: epigraph
+De tais grandes poderes ou seres talvez seja possível supor uma
+sobrevivência... uma sobrevivência de um período imensamente remoto
+quando... a consciência se manifestava, talvez, em formas e
+configurações desde há muito recolhidas, antes da maré da humanidade
+avançar... formas das quais só a poesia e as lendas agarraram uma
+memória fugidia e as chamaram deuses, monstros, criaturas míticas de
+todos os tipos e espécies...
+
+[algernon blackwood]{.smallcaps}
+:::
+
+## O horror em argila
+
+Teósofos teceram hipóteses sobre a espantosa grandeza do ciclo cósmico,
+em que o nosso mundo e a raça humana não formam senão incidentes
+passageiros. Aludiram a estranhas permanências em termos que gelariam o
+sangue se não se mascarassem de um insípido otimismo. Mas não veio deles
+o vislumbre singular de eras proibidas que me arrepiam quando me vêm ao
+pensamento, e que me apavoram quando me vêm em sonho. Esse vislumbre,
+como todos os terríveis vislumbres da verdade, faiscou-me numa
+recomposição acidental de coisas distantes --- nesse caso, um velho
+fragmento de jornal e as notas de um professor já falecido. Espero que
+ninguém mais chegue a essa recomposição; por certo, se eu viver, jamais
+oferecerei conscientemente um elo de tão odiosa cadeia. Penso que também
+o professor decidira manter silêncio sobre a parte que conhecia, e que
+teria destruído suas notas caso a morte súbita não o tivesse
+surpreendido.
+
+Meu conhecimento do assunto se iniciou no inverno de 1926--27, com a
+morte de meu tio-avô George Gammell Angell, professor emérito de línguas
+semíticas na Universidade Brown, em Providence, Rhode Island. O
+professor Angell era amplamente considerado uma autoridade em inscrições
+antigas, e os diretores dos mais prestigiosos museus recorriam a ele com
+frequência; de modo que seu falecimento à idade de noventa e dois anos
+deve ser lembrado por muitos. No meio local, o interesse foi
+intensificado pela obscuridade da causa da morte. O professor fora
+acometido de algo quando retornava do barco em Newport; tombou
+subitamente, segundo testemunhas, depois de levar um encontrão de um
+negro com aparência de marujo, que viera de um dos estranhos becos
+escuros na encosta íngreme, formando um atalho da beira-mar para a casa
+do falecido, na rua Williams. Os médicos foram incapazes de encontrar
+qualquer enfermidade discernível, mas concluíram, após debate
+tumultuado, que alguma obscura lesão cardíaca --- induzida pela vigorosa
+subida de uma colina tão abrupta, por um homem já tão idoso --- fora
+responsável por seu fim. No momento não vi razão para discordar daquela
+sentença, mas recentemente me sinto inclinado a desconfiar --- e a mais
+do que desconfiar.
+
+O baixo-relevo era um retângulo grosseiro com espessura de menos de dois
+centímetros, e com por volta de quinze centímetros de área; obviamente
+de origem moderna. Suas incisões, entretanto, eram distantes do moderno
+em atmosfera e sugestão; pois, apesar de os caprichos do cubismo e do
+futurismo serem muitos, e brutais, não reproduzem a regularidade
+críptica que se acha na escrita pré-histórica. E algum tipo de escrita o
+grosso daquelas incisões parecia de fato ser, embora minha memória, a
+despeito da muita familiaridade com os papéis e coleções do meu tio, não
+fosse de modo algum capaz de identificar a espécie em particular, ou de
+sequer supor suas mais remotas ligações.
+
+Logo acima do que parecia linguagem hieroglífica estava uma figura de
+caráter evidentemente ilustrativo, ainda que a execução subjetiva
+impedisse uma ideia muito clara de sua natureza. Parecia ser um tipo de
+monstro, ou símbolo representando monstro, que só uma fantasia mórbida
+poderia conceber. Se disser que minha imaginação algo extravagante
+extraía de lá as imagens simultâneas de um polvo, um dragão e uma
+caricatura humana, não serei infiel ao espírito da coisa. Uma cabeça
+carnuda, tentaculada, arrematava um corpo grotesco e escamoso de asas
+rudimentares; mas era o *esquema geral* do todo que o fazia
+escandalosamente assustador. Por trás da figura estava a sugestão vaga
+de um fundo arquitetônico ciclópico.[^1]
+
+A escrita acompanhando essa excentricidade era, com exceção de uma pilha
+de recortes de jornal, recente e da própria mão do professor Angell, sem
+a pretensão de estilo literário. O que parecia ser o documento principal
+se intitulava [culto de cthulhu]{.smallcaps} em caracteres
+cuidadosamente impressos para evitar a leitura errônea de uma palavra
+tão insólita.[^2] O manuscrito se dividia em duas seções, a primeira das
+quais se intitulava "1925 --- Sonho e trabalho de sonho de H. A. Wilcox,
+r. Thomas, 7, Providence, [r.i.]{.smallcaps}", e a segunda, "Relato do
+inspetor John R. Legrasse, r. Bienville, 121, New Orleans, La., no cong.
+da [a.a.s.]{.smallcaps} em 1908 --- notas s/ o mesmo & rel. do prof.
+Webb". Os outros papéis do manuscrito eram todos notas breves, algumas
+delas relatos de sonhos incomuns de diversas pessoas, outras, ainda,
+citações de revistas e livros teosóficos (em particular *Atlântida* e a
+*Lemúria perdida*, de W. Scott-Elliot),[^3] e o resto, comentários sobre
+as sociedades secretas e as seitas ocultas de longa história, com
+citações de passagens em obras de referência mitológica e antropológica
+como *O ramo dourado*, de Frazer e *O culto das bruxas na Europa
+Ocidental*, da srta. Murray.[^4] Os recortes em sua maioria aludiam a
+doenças mentais *outré* e a surtos de insanidade coletiva na primavera
+de 1925.
+
+A primeira metade do manuscrito principal contava uma história muito
+peculiar. Ao que parece, em primeiro de março de 1925 um jovem magro e
+lúgubre, de aspecto neurótico e exaltado, procurara o professor Angell
+trazendo um singularíssimo baixo-relevo de barro que então se encontrava
+sobremaneira úmido e fresco. Em seu cartão de visita vinha o nome de
+Henry Anthony Wilcox, e meu tio o identificara como o filho mais novo de
+uma ótima família que conhecia superficialmente, e que pouco antes
+estudara escultura na Escola de Design de Rhode Island e morava sozinho
+no edifício Fleur-de-Lys, próximo à instituição. Wilcox era um jovem
+precoce de conhecido gênio, mas de grande excentricidade, e desde a
+infância havia chamado a atenção por histórias estranhas e sonhos
+ímpares que tinha o hábito de contar. Chamava a si mesmo "psiquicamente
+hipersensível", mas a gente sisuda da antiga cidade comercial o
+descartava apenas como um "esquisito". Jamais se integrando aos de seu
+tipo, perdera gradualmente a visibilidade social e era agora conhecido
+só de um pequeno grupo de estetas de outras cidades. Até o Clube de Arte
+de Providence, ansioso por preservar seu conservadorismo, o considerava
+realmente um caso perdido.
+
+Na ocasião da visita, dizia o manuscrito do professor, o escultor
+abruptamente pediu que o anfitrião o beneficiasse com seu conhecimento
+arqueológico para identificar os hieróglifos no baixo-relevo. Falava
+numa maneira de sonho, afetada, o que sugeria altivez e simpatia
+distante; e meu tio mostrou-se algo incisivo na resposta, porque o
+notável frescor do tablete implicava afinidade com tudo, menos
+arqueologia. A réplica do jovem Wilcox, impressionando meu tio o
+suficiente para recordá-la e registrá-la *verbatim*, era de um matiz tão
+fantasticamente poético que coloria todo o seu modo de falar, e que
+desde então julguei muito característico dele. Disse, "É novo, de fato,
+pois o fiz ontem à noite em um sonho de estranhas cidades; e sonhos são
+mais antigos do que a inquietante Tiro, ou a contemplativa Esfinge, ou a
+Babilônia cingida de jardins".
+
+Foi quando começou aquele conto divagante que de súbito fisgou uma
+memória adormecida e ganhou o febril interesse do meu tio. Houvera um
+leve tremor de terra na outra noite, o mais significativo já sentido na
+Nova Inglaterra em alguns anos; e a imaginação de Wilcox fora agudamente
+afetada. Cidades ciclópicas de blocos titânicos e monolitos projetados
+aos céus, gotejando todas um lodo verde e sinistras de horror latente.
+Hieróglifos haviam coberto as muralhas e os pilares, e de um ponto
+indeterminado no fundo vinha uma voz que não era uma voz: uma sensação
+caótica que só a fantasia transmutaria em som, mas que tentava
+representar pela quase impronunciável mixórdia de letras "*Cthulhu
+fhtagn*".
+
+Essa mixórdia verbal era a chave para a recordação que excitara e
+perturbara o professor Angell. Questionou o escultor com minúcia
+científica; e estudou com intensidade quase frenética o baixo-relevo no
+qual o jovem havia estivera a trabalhar arrepiado e trajando apenas
+pijamas, quando o despertar se insinuou confusamente sobre ele. Meu tio
+culpara a idade avançada, disse Wilcox depois, pela lentidão em
+reconhecer tanto os hieróglifos quanto o plano pictórico. Muitas das
+suas questões pareceram enormemente fora de propósito ao visitante, em
+especial aquelas que tentavam conectá-lo a estranhos cultos e
+sociedades; e Wilcox não compreendia as repetidas promessas de silêncio
+que lhe eram oferecidas em troca da admissão de filiação a algum amplo
+grupo místico, ou religioso pagão. Quando o professor Angell se
+convenceu de que o escultor de fato ignorava qualquer culto ou sistema
+de tradição críptica, ele assediou seu visitante com pedidos sobre
+relatos futuros de sonhos. Isso deu frutos regulares, pois, passada a
+primeira entrevista, o manuscrito registra contatos diários do jovem,
+durante os quais relatava fragmentos alarmantes de imagens noturnas,
+cujo fardo era sempre alguma terrível paisagem ciclópica de rocha escura
+e gotejante, e uma voz ou inteligência subterrânea berrando
+monotonamente em enigmáticos impactos sensoriais, irregistráveis senão
+como mera algaravia. Os dois sons mais frequentemente repetidos eram os
+representados pelas palavras "*Cthulhu*" e "*R'lyeh*".
+
+Em 23 de março, o manuscrito continuava, Wilcox não apareceu; e buscas
+em seus aposentos revelaram que, acometido de um tipo obscuro de febre,
+haviam-no levado para a casa de sua família na rua Waterman. Gritara no
+meio da noite, acordando vários outros artistas no prédio, e daí
+manifestara apenas alternâncias de inconsciência e delírio. Meu tio
+imediatamente telefonou para a família, e daquele momento em diante
+manteve vigília estrita sobre o caso; chamava com frequência o
+consultório do dr. Tobey na rua Thayer, que lhe disseram ser o
+responsável. A mente febril do jovem, aparentemente, vivia em coisas
+estranhas, e o doutor estremecia, vez ou outra, quando ele falava delas.
+As coisas incluíam não apenas uma repetição do que havia sonhado antes,
+mas chegavam furiosamente a algo gigantesco "com quilômetros de altura"
+e que caminhava, ou arrastava-se em algum lugar. Em nenhum momento
+descreveu em detalhe esse ponto, mas palavras frenéticas e ocasionais,
+como as reproduzidas pelo dr. Tobey, convenceram o professor de que
+aquilo deveria ser idêntico à monstruosidade sem nome que buscara
+representar em sua escultura de sonho. Qualquer referência a esse ponto,
+acrescentava o doutor, era invariavelmente um prelúdio para o retorno do
+jovem à letargia. Sua temperatura, curiosamente, não ia muito além do
+comum, mas sua condição geral, por outro lado, sugeria antes febre
+verdadeira do que uma condição mental.
+
+Em 2 de abril, por volta das três da tarde, todos os traços da afecção
+de Wilcox cessaram subitamente. Sentou-se ereto na cama, surpreso de
+encontrar-se em casa, e completamente ignorante do que acontecera, em
+sonho ou realidade, desde a noite de 22 de março. Recebendo alta de seu
+médico, retornou a seus aposentos em três dias; mas para o professor
+Angell ele já não servia de assistência: todos os indícios de sonhos
+estranhos haviam desaparecido com a recuperação, e meu tio não manteve
+registro dos pensamentos noturnos após uma semana de relatos, inúteis e
+irrelevantes, de visões inteiramente comuns.
+
+Aqui se encerrava a primeira parte do manuscrito, mas referências a
+certas notas esparsas deram-me muito mais material para pensar ---
+tanto, na verdade, que apenas o arraigado ceticismo então formador da
+minha filosofia pode explicar minha contínua desconfiança com respeito
+ao artista. As notas em questão eram as que descreviam os sonhos de
+várias pessoas, cobrindo o mesmo período no qual o jovem Wilcox recebera
+suas estranhas visitações. Meu tio, ao que parece, instituíra rápido um
+conjunto prodigiosamente vasto de questões entre quase todos os amigos
+que podia questionar sem impertinência, pedindo-lhes relatórios noturnos
+de sonhos e as datas de quaisquer visões dignas de nota no passado
+recente. A recepção a esse pedido parece ter sido variada; mas, no
+mínimo, terá recebido mais respostas do que qualquer pessoa comum
+poderia lidar sem uma secretária. Essa correspondência original não foi
+preservada, mas suas notas formaram um compêndio farto e significativo.
+Gente mediana na sociedade e nos negócios --- o tradicional "sal da
+terra" da Nova Inglaterra --- forneceu um resultado quase inteiramente
+negativo, embora alguns casos esparsos de inquietas e disformes
+impressões noturnas apareçam aqui e ali, sempre entre 23 de março e 2 de
+abril --- o período de delírio do jovem Wilcox. Homens da ciência foram
+ligeiramente mais afetados, ainda que quatro casos de descrição vaga
+sugirissem relances fugidios de estranhas paisagens, e que um caso
+mencionasse o pavor de algo anormal.
+
+Foi dos artistas e dos poetas que vieram as respostas pertinentes, e
+estou certo de que o pânico teria se espalhado se pudessem ter comparado
+notas. Assim como estava, com a falta das cartas originais, tive em
+parte a suspeita de que o compilador fizera perguntas tendenciosas, ou
+de que teria editado a correspondência para corroboração do que, de modo
+latente, já estivesse decidido a ver. Por isso continuava a sentir que
+Wilcox, conhecendo de alguma forma os antigos dados em posse de meu tio,
+aplicava um truque no cientista veterano. Aquelas respostas de estetas
+contavam uma história perturbadora: de 28 de fevereiro a 2 de abril, uma
+larga proporção deles havia sonhado coisas muito bizarras, e os sonhos
+imensuravelmente mais fortes em intensidade aconteciam durante o período
+do delírio do escultor. Mais de um quarto dos que fizeram relatos
+descreveram cenas, e como que sons, não diferentes dos que Wilcox
+descrevera; e alguns dos sonhadores confessaram um medo agudo da
+gigantesca coisa sem nome, visível quase ao fim. Um caso, que a nota
+descreve com ênfase, era muito triste. O indivíduo, arquiteto bem
+conhecido, com inclinação para a teosofia e o ocultismo, tornou-se
+violentamente insano na data da crise do jovem Wilcox e faleceu muitos
+meses depois, após brados incessantes implorando para ser salvo de um
+fugitivo habitante do inferno. Se meu tio houvesse se referido aos casos
+por nome e não apenas por número, eu teria tentado corroborá-los com
+alguma investigação pessoal; mas, assim como estava, tive sucesso em
+rastrear apenas uns poucos. Todos esses, no entanto, tinham notas
+completas. Imaginava com frequência se os demais objetos dos
+questionários do professor se sentiam tão perplexos quanto essa porção
+deles. É bom que nenhuma explicação jamais lhes alcançará.
+
+Os recortes de jornais, como disse, abordavam casos de pânico, mania e
+excentricidade durante o período considerado. O professor Angell deve
+ter mantido todo um escritório para os recortes, porque o número de
+extratos era descomunal e as fontes se espalhavam pelo globo. Aqui se
+achava um suicida noturno em Londres, onde um homem dormindo solitário
+pulara de uma janela após um grito chocante. Ali, do mesmo modo, uma
+carta incoerente para o editor de um jornal na América do Sul, onde um
+fanático deduz um futuro lúgubre a partir das visões que tivera. Um
+despacho vindo da Califórnia descreve uma colônia teosófica onde todos
+vestiam robes brancos para um "evento glorioso" que jamais chega,
+enquanto itens vindos da Índia falam cautelosamente de uma séria
+agitação entre os nativos, perto do fim de março. Orgias vodu se
+multiplicam no Haiti, e postos africanos reportam murmurações
+agourentas. Oficiais americanos nas Filipinas acham certas tribos
+incômodas por volta do mesmo momento, e policiais em Nova York são
+atacados por levantinos histéricos na noite de 22 para 23 de março. No
+oeste da Irlanda também correm rumores aberrantes e lendas, e um pintor
+de temas fantásticos, chamado Ardois-Bonnot, expõe uma blasfema
+*Paisagem onírica* no salão de primavera em Paris, 1926. Tão numerosos
+são os problemas registrados nos asilos para insanos que só um milagre
+pode ter evitado que a comunidade médica notasse estranhos paralelismos
+e traçasse conclusões mistificantes. Um punhado bizarro de recortes, que
+seja dito; e hoje eu mal posso imaginar o nível de racionalidade rude
+com o qual o deixei de lado. Mas eu estava então convencido de que o
+jovem Wilcox sabia das questões antigas mencionadas pelo professor.
+
+## A narrativa do inspetor Legrasse
+
+As questões antigas que fizeram o sonho e o baixo-relevo do escultor tão
+significativos para o meu tio compunham o assunto da segunda metade de
+seu longo manuscrito. Já uma vez antes, parece, o professor Angell
+notara os contornos infernais da monstruosidade inominável, intrigara-se
+com os hieróglifos desconhecidos e ouvira as sílabas nefastas que apenas
+poderiam ser transcritas como "*Cthulhu*"; e tudo isso numa conexão tão
+horrível e tantalizante que não surpreende que o jovem Wilcox o tenha
+procurado com questões e pedidos por informação.
+
+A experiência mais antiga ocorrera em 1908, dezessete anos antes, quando
+a Sociedade Arqueológica Americana teve seu encontro anual em St. Louis.
+O professor Angell, como cabia a alguém de sua autoridade e de seus
+êxitos, tivera papel destacado em todas as deliberações; e foi um dos
+primeiros a serem abordados pelos muitos leigos que aproveitavam a
+oportunidade de fazer perguntas para conseguir respostas exatas, e de
+apresentar problemas para a solução de especialistas.
+
+O principal desses leigos, e logo o foco de interesse para o encontro
+todo, era um homem de meia-idade e aparência convencional que viajara
+desde New Orleans por certa informação especial que não poderia ser
+obtida de nenhuma fonte local. Seu nome era John Raymond Legrasse, e ele
+era, de profissão, inspetor da polícia. Trouxera consigo o assunto da
+visita, uma estatueta de pedra, grotesca e repulsiva, aparentemente
+muito antiga, cuja origem não tinha noção de como determinar. Não se
+deve supor que o inspetor Legrasse tivesse algum vago interesse em
+arqueologia. Ao contrário, seu desejo por esclarecimento era atiçado por
+considerações puramente profissionais. A estatueta, ídolo, fetiche ou o
+que quer que fosse, havia sido apreendida alguns meses antes nos
+pântanos arborizados ao sul de New Orleans durante uma batida em um
+suposto encontro vodu; e tão singulares e horrendos eram os ritos a ela
+relacionados que a polícia não teve como não perceber que esbarrara em
+um culto sombrio totalmente desconhecido, e infinitamente mais diabólico
+que o mais sombrio de todos os círculos de vodu africano. Sobre sua
+origem, a despeito das histórias erráticas e inacreditáveis extraídas de
+membros capturados, absolutamente nada se pôde descobrir; daí a
+ansiedade da polícia por qualquer repertório antiquário que pudesse
+ajudá-los a estabelecer o símbolo assustador, e a partir disso rastrear
+o culto até sua fonte.
+
+O inspetor Legrasse estava bem pouco preparado para a sensação que sua
+oferta causou. Um vislumbre da coisa fora o suficiente para lançar as
+pessoas lá reunidas em um estado de tenso excitamento, e não perderam
+tempo em se ajuntar ao lado dele para espiar a diminuta figura, cuja
+extrema estranheza e ainda o ar de genuína e abismal antiguidade
+sugeriam enfaticamente hipóteses arcaicas e não exploradas. Nenhuma
+escola de escultura reconhecível havia animado aquele terrível objeto,
+e, no entanto, séculos ou mesmo milhares de anos pareciam gravados na
+superfície baça e esverdeada da pedra irreconhecível.
+
+A figura, que finalmente passava de mão em mão para estudo próximo e
+cuidadoso, tinha entre dezoito e vinte centímetros de altura, e era de
+artesanato artístico requintado. Representava um monstro de contornos
+vagamente antropoides, mas com uma cabeça como que de polvo, cuja face
+era uma massa de tentáculos, o corpo, escamoso de aparência elástica,
+garras prodigiosas nos pés da frente e de trás, e longas asas estreitas
+nas costas. A coisa, que parecia infusa de malignidade abominável e
+antinatural, tinha corpulência algo inchada e se acocorava com
+perversidade num bloco retangular, ou pedestal, coberto de caracteres
+indecifráveis. A ponta das asas tocava a extremidade da parte de trás do
+bloco, o assento ocupava o meio, enquanto as garras longas e curvas das
+pernas traseiras, dobradas e agachadas, agarravam a borda dianteira e
+tomavam um quarto da distância até a base do pedestal. A cabeça do
+cefalópode se inclinava para a frente, de modo que a ponta dos
+tentáculos faciais resvalava na parte de cima das enormes patas
+dianteiras fincadas nos joelhos elevados da criatura. O aspecto completo
+sugeria, de modo anormal, algo vivo e sutilmente mais temível por sua
+origem de todo desconhecida. Sua vasta, pavorosa e incalculável idade,
+algo inequívoco; e ainda assim não apontava sequer uma ligação com
+quaisquer dos tipos conhecidos de arte pertencente à infância da
+civilização --- ou, a bem da verdade, com qualquer outro período.
+Totalmente único e à parte, mesmo seu material era um mistério; pois a
+pedra luzidia, verde-escura, mosqueada e estriada de dourado ou
+caracteres na base eram igualmente exasperantes; e nenhum dos membros
+presentes, a despeito de representarem metade do conhecimento
+especializado nesse campo em todo o mundo, conseguia formar nem mesmo
+uma noção de sua mais remota família linguística. Aquilo, como o tema e
+o material, pertencia a algo horrivelmente remoto e diverso da
+humanidade como a conhecemos; algo assustadoramente sugestivo de ciclos
+de vida antigos e profanos, nos quais o nosso mundo e os nossos
+conceitos não têm parte.
+
+E, enquanto os membros todos balançavam a cabeça e confessavam a derrota
+diante do dilema do inspetor, houve ainda assim naquela conferência um
+homem que suspeitou de uma bizarra familiaridade na forma monstruosa e
+na escrita, e que de imediato contou, com certa reserva, uma peculiar
+trivialidade de seu conhecimento. Essa pessoa foi o finado William
+Channing Webb, professor de antropologia da Universidade de Princeton e
+explorador de não pouca monta. O professor Webb havia tomado parte,
+quarenta e oito anos antes, em uma expedição à Groenlândia e à Islândia
+para buscar inscrições rúnicas que antes falhara em encontrar; e, lá no
+alto, na costa da Groenlândia Ocidental, encontrara uma tribo singular,
+ou culto de esquimós degenerados, cuja religião, uma forma curiosa de
+adoração do demônio, lhe deu calafrios por sua deliberada sede de sangue
+e pela repugnância. Era uma fé que outros esquimós conheciam pouco e que
+mencionavam sempre estremecidos, dizendo que aquilo vinha de eras
+horrivelmente antigas, de antes mesmo que o mundo tivesse se feito. Além
+de rituais inomináveis e sacrifícios humanos, havia certos rituais
+hereditários exóticos, dedicados a um demônio supremo mais antigo, ou
+*tornasuk*;[^5] e desse, o professor Webb tomara o cuidadoso registro
+fonético de um *angekok*, ou mago-sacerdote, expressando os sons em
+alfabeto romano tão bem quanto podia. Mas, no momento, era de
+importância capital o fetiche que aquele culto prezara, e em torno do
+qual dançavam quando a aurora saltou sobre os montes gelados. Era,
+declarou o professor, um baixo-relevo bem rústico, de pedra, abrangendo
+uma imagem horrenda e uns escritos crípticos. E, tanto quanto sabia, um
+paralelo tosco, em todas as características essenciais, daquela coisa
+bestial agora diante da conferência.
+
+Esses dados, recebidos com suspense e espanto pelos membros reunidos,
+provou ser duplamente estimulante para o inspetor Legrasse: começou de
+imediato a cobrir de perguntas o seu informante. Tendo anotado e copiado
+um rito oral entre os membros do culto que seus homens haviam prendido
+no pântano, ele rogou ao professor que lembrasse, o melhor que pudesse,
+as sílabas registradas entre os esquimós diabólicos. Daí se seguiu uma
+exaustiva comparação de detalhes, e um momento de silêncio reverente
+quando detetive e cientista concordaram sobre a identidade possível de
+uma frase comum aos dois ritos infernais, com mundos de distância entre
+si. O que, em substância, tanto os feiticeiros esquimós e os sacerdotes
+do pântano da Louisiana haviam cantado a seus ídolos aparentados era
+algo como isto --- as divisões entre palavras conjecturaram-se das
+pausas tradicionais na frase, tal como cantada em voz alta:\
+*Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn.*\
+Legrasse estava um ponto adiante do professor Webb, pois vários de seus
+prisioneiros mestiços haviam lhe repetido o que os celebrantes mais
+antigos lhes tinham dito significar as palavras. Esse texto, tal como
+estava, queria dizer mais ou menos: "Em sua morada em R'lyeh o morto
+Cthulhu aguarda sonhando."
+
+E logo, em resposta a um pedido geral e urgente, o inspetor Legrasse
+contou, do modo mais completo possível, sua experiência com os
+adoradores no pântano; história à qual posso ver que meu tio atribuía
+profunda importância. Sabia os sonhos mais selvagens dos criadores de
+mitos e dos teósofos, e revelava um grau de imaginação cósmica tão
+espantoso entre aqueles pardos e párias quanto se podia esperar.
+
+Em 1^o^ de novembro de 1907 chegaram à polícia de New Orleans chamados
+frenéticos da região do pântano e da lagoa, ao sul. Os ocupantes
+clandestinos lá, sobretudo uns descendentes primitivos, mas de boa
+índole, dos Lafitte,[^6] estavam transidos de horror por causa de algo
+desconhecido que os havia abordado no meio da noite. Era aparentemente
+vodu, mas vodu de um tipo bem mais terrível do que conheciam; e algumas
+de suas mulheres e crianças haviam desaparecido desde que o malévolo
+tambor começara o incessante batuque das profundezas da assombrada
+escuridão do bosque, onde nenhum dos moradores ousaria pisar. Havia
+gritos insanos e berros aflitos, cantos de gelar o sangue e flamas que
+dançavam demoníacas; e, acrescentava o apavorado mensageiro, as pessoas
+já não aguentavam mais aquilo.
+
+Então um destacamento de vinte policiais, enchendo duas carruagens e um
+automóvel, saiu naquela tarde com o temeroso ocupante como guia. Ao fim
+da via transitável eles desceram e chapinharam em silêncio por
+quilômetros no meio do bosque de ciprestes, onde o dia jamais chegou.
+Feias raízes e entrenós malignos que pendiam da barba-de-velho os
+assolavam, e de vez em quando uma pilha de pedras úmidas ou o fragmento
+de um muro pútrido intensificava, pelo indício de mórbida habitação, uma
+depressão que cada árvore malformada e toda ilhota de fungos
+combinava-se para criar. Adiante, o assentamento dos ocupantes: um
+amontoado miserável de barracas pairava à vista; e moradores histéricos
+corriam para fora a se aglomerar junto das lanternas que balançavam. O
+batucar abafado dos tambores agora se ouvia fraco e distante, muito
+distante; e um aulido azedo vinha a intervalos irregulares, com a
+mudança do vento. Um brilho avermelhado também se parecia filtrar
+através da pálida vegetação rasteira, para além das infinitas aleias da
+floresta noturna. Relutantes até mesmo em ficar a sós de novo, todos os
+acuados ocupantes se recusavam definitivamente a avançar um centímetro
+que fosse para o local de onde vinha aquela adoração profana, e então o
+inspetor Legrasse e seus dezenove colegas meteram-se sem guia nas negras
+arcadas do horror que lhes eram desconhecidas.
+
+A região que a polícia agora adentrava era tradicionalmente de má
+reputação, sobretudo incógnita e impenetrada por homens brancos. Havia
+lendas de um lago escondido, jamais vislumbrado por olhos mortais, onde
+vivia uma coisa pólipa, enorme, sem forma e branca, com olhos luminosos;
+e alguns dos ocupantes murmuravam que demônios com asas de morcego
+voavam das cavernas para a floresta, em adoração àquilo, à meia-noite.
+Diziam que a coisa estivera lá desde antes de D'Iberville, antes de La
+Salle,[^7] antes dos indígenas, e mesmo antes dos animais e pássaros
+bons do bosque. Um pesadelo vivo, e presenciá-lo seria a morte. Mas
+fazia os homens sonhar, e assim sabiam o suficiente para manter
+distância. Aquela orgia vodu estava, de fato, no exato limite da área
+repulsiva, mas mesmo assim sua localização era ruim o bastante; daí
+talvez por que o próprio lugar de adoração ter horrorizado os ocupantes
+mais do que os sons e incidentes ofensivos.
+
+Só poesia, ou loucura, poderia fazer justiça aos ruídos ouvidos pelos
+homens de Legrasse ao embrenharem-se mais e mais no negro atoleiro em
+direção à luminosidade vermelha e aos tambores abafados. Há qualidades
+vocais específicas dos humanos, e qualidades vocais específicas dos
+animais: e é terrível ouvir uma quando a fonte deveria fazer soar a
+outra. Fúria animal e licenciosidade orgíaca aqui se misturavam, em
+alturas demoníacas, com êxtases de uivos e guinchados que irrompiam e
+reverberavam pelos bosques noturnos como tempestades pestilentes, vindas
+dos abismos do inferno. De vez em quando o ululado menos rítmico cessava
+e, do que parecia um coro de vozes roucas, bem treinado, erguia-se num
+cantochão aquela frase horrenda, ou ritual:\
+*Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn.*\
+
+Talvez tenha sido só a imaginação, e talvez tenham sido só ecos o que
+induziu um dos homens, um espanhol suscetível, a supor que ouvia
+respostas antifonais ao ritual vindas de um ponto distante e sem luz,
+ainda mais fundo naquele bosque de antiga lenda e horror. Esse homem,
+Joseph D. Galvez, eu depois encontrei e questionei, e ele comprovou ser
+intrigantemente imaginativo. Chegou a ponto de sugerir um tênue bater de
+asas amplas, um relance de olhos brilhantes e um montanhoso maciço
+branco além das árvores mais remotas --- mas suponho que andasse ouvindo
+muita superstição nativa.
+
+Na verdade, a pausa horrorizada dos homens foi de duração
+comparativamente breve. O dever veio antes; e a despeito do fato de que
+talvez houvesse uma centena de celebrantes pardos na turba, a polícia
+confiava em suas armas de fogo e mergulhou com determinação na nauseante
+balbúrdia. Por cinco minutos o alvoroço e o caos resultantes foram
+indescritíveis. Atracaram-se selvagemente, tiros foram disparados e
+houve fugas; porém, ao fim, Legrasse foi capaz de contar uns quarenta e
+sete prisioneiros mal-encarados, a quem obrigou que se vestissem
+depressa e formassem uma fila em meio a duas colunas de policiais. Cinco
+dos adoradores estavam mortos, e os dois gravemente feridos foram
+levados embora em macas improvisadas por seus colegas prisioneiros. A
+imagem no monolito, é claro, foi removida cuidadosamente e apreendida
+por Legrasse.
+
+Examinados na delegacia após um percurso de muita tensão e cansaço,
+constatou-se que os prisioneiros eram uns tipos de extração muito baixa,
+mestiços e mentalmente aberrantes. A maioria vivia do mar, e um punhado
+de negros e mulatos, sobretudo das Índias Ocidentais, ou portugueses de
+Brava, das ilhas de Cabo Verde, dava um colorido de voduísmo ao culto
+heterogêneo. Mas, antes que se fizesse o interrogatório, tornou-se
+manifesto que estava envolvido algo muito mais profundo e antigo do que
+fetichismo negro. Degradadas e ignorantes como fossem, as criaturas
+mantinham consistência surpreendente na ideia central de sua fé
+asquerosa.
+
+Adoravam, assim o diziam, os Grandes Antigos, que viveram muitas eras
+antes que houvesse o homem, e vieram do céu ao mundo ainda jovem. Esses
+Antigos já se foram, para dentro da terra ou ao fundo do mar; mas os
+corpos mortos haviam contado os segredos em sonhos aos primeiros homens,
+que assim formaram um culto jamais extinto. Esse era o seu culto, e os
+prisioneiros disseram que sempre existira, e sempre existiria, escondido
+nos ermos distantes e nos lugares escuros de todo o mundo, até que o
+grande sacerdote Cthulhu se erguesse de sua escura morada na imponente
+cidade de R'lyeh sob as águas, e submetesse a terra novamente a seu
+jugo. Um dia faria o chamado, quando as estrelas estivessem prontas, e o
+culto secreto estaria sempre aguardando para liberá-lo.
+
+No ínterim, nada mais havia a ser dito. Havia um segredo que nem mesmo a
+tortura poderia extrair. A humanidade não se via absolutamente só entre
+as coisas conscientes da Terra, pois as formas se arrancam do escuro
+para visitar seus poucos fiéis. Mas não eram elas os Grandes Antigos.
+Homem algum vira os Grandes Antigos. O ídolo entalhado era o grande
+Cthulhu, mas ninguém saberia dizer se os outros eram precisamente como
+ele. Ninguém agora era capaz de ler a antiga escrita, mas as coisas eram
+passadas boca a boca. O ritual cantado não era o segredo --- esse jamais
+fora dito em voz alta, mas apenas em sussurros. O canto significava
+apenas isto:\
+"*Em sua morada em R'lyeh o morto Cthulhu aguarda sonhando.*"\
+Apenas dois dos prisioneiros foram considerados sãos o suficiente para
+serem enforcados, e o resto foi internado em várias instituições. Todos
+negaram participar dos assassinatos rituais e declararam que a matança
+fora feita pelos Asas Negras, que lhes vieram de seu imemorial ponto de
+encontro no bosque assombrado. Porém, a respeito daqueles aliados
+misteriosos, nenhum relato coerente se pôde extrair. O que a polícia de
+fato extraiu veio sobretudo de um mestiço tremendamente idoso chamado
+Castro, que alegava ter navegado em portos estranhos e falado com
+líderes imortais do culto nas montanhas da China.
+
+O velho Castro lembrava partes de uma lenda horrorosa que humilhava as
+especulações dos teósofos, e fazia o homem e o mundo parecerem de fato
+recentes e transitórios. Houve eras em que as outras Coisas dominavam a
+Terra, e Elas haviam feito grandes cidades. Resquícios d'Elas, lhe
+haviam dito os chineses imortais, podiam ser encontrados como rochas
+ciclópicas nas ilhas do Pacífico. Todas tinham morrido vastas épocas no
+tempo antes da chegada do homem, mas certas artes poderiam revivê-Las
+quando as estrelas retornassem à posição correta no ciclo da eternidade.
+Elas vinham, de fato, das estrelas, e traziam Suas imagens Consigo.
+
+Esses Grandes Antigos, Castro prosseguiu, não eram compostos
+inteiramente de carne e osso. Tinham forma --- pois não o provava aquela
+imagem estelar? ---, mas a forma não era feita de matéria. Quando as
+estrelas estivessem certas, Eles mergulhariam de mundo em mundo através
+do céu; porém, quando estivessem erradas, não poderiam viver. Mas, ainda
+que não mais vivessem, Eles nunca realmente morriam. Repousam todos em
+moradas de pedra em Sua grande cidade de R'lyeh, preservados pelos
+feitiços do poderoso Cthulhu para um ressurreição gloriosa quando as
+estrelas e a Terra outra vez estivessem prontas para Eles. Naquele
+momento, então, alguma força de fora deveria servir para liberar Seus
+corpos. Os feitiços que Os haviam preservado intactos da mesma maneira
+impediam-Nos de fazer um movimento inicial, e Eles podiam apenas
+repousar despertos no escuro e pensar, enquanto incontáveis milhões de
+anos se passavam. Sabiam tudo o que estava ocorrendo no universo, mas
+Seu modo de fala era o pensamento transmitido. Mesmo agora, Eles falavam
+em Suas tumbas. Quando, após infinidades de caos, os primeiros homens
+surgiram, os Grandes Antigos falaram aos sensitivos moldando seus
+sonhos; pois apenas assim Sua linguagem alcançava a mente carnal dos
+mamíferos.
+
+Então, sussurrou Castro, aqueles primeiros homens formaram o culto em
+torno de pequenos ídolos que os Grandes Antigos lhes mostraram; ídolos
+trazidos de estrelas escuras em eras turvas. Aquele culto jamais
+morreria antes que as estrelas se ajustassem de novo, e os sacerdotes
+secretos trariam o grande Cthulhu de Sua tumba para reviver Seus súditos
+e retomar Seu domínio da Terra. O momento seria fácil perceber, pois a
+humanidade se tornaria como os Grandes Antigos: livre e selvagem e além
+do bem e do mal, lançando as leis e a moral de lado, com todos os homens
+gritando e matando e se regozijando de prazer. Então os Grandes Antigos,
+liberados, lhes ensinariam novos modos de gritar e matar e regozijar-se
+de prazer, e toda a Terra se inflamaria em um holocausto de êxtase e
+liberdade. Enquanto isso, o culto, pelos ritos apropriados, deveria
+manter viva a memória daqueles costumes antigos e adumbrar a profecia de
+seu retorno.
+
+Em tempos distantes, homens escolhidos falaram por sonho com os Antigos
+em suas tumbas, mas algo acontecera. A grande cidade pétrea de R'lyeh,
+com seus monolitos e sepulcros, afundara sob as ondas; e as águas
+profundas, repletas de um mistério primevo através do qual nem sequer o
+pensamento pode passar, cortaram o intercâmbio espectral. Mas a memória
+não morre jamais, e os altos sacerdotes disseram que a cidade se
+ergueria novamente quando as estrelas estivessem certas. Daí saíram da
+terra os espíritos negros da terra, em bolor e sombra, e cheios de
+turvos rumores entreouvidos em cavernas sob o fundo esquecido do oceano.
+Deles, no entanto, o velho Castro não ousava falar muito. Interrompeu a
+fala de repente e persuasão ou sutileza alguma pôde obter mais naquele
+sentido. O *tamanho* dos Antigos, também, ele curiosamente declinara
+mencionar. Sobre o culto, disse pensar que o centro ficava em meio aos
+desertos inviáveis da Arábia, onde Irem, a Cidade dos Pilares,[^8] sonha
+escondida e intocada. Não estava ligado ao culto das bruxas da Europa, e
+era virtualmente desconhecido para além de seus membros. Livro algum
+jamais o mencionou, embora os chineses imortais tenham dito que havia
+duplos-sentidos no *Necronomicon*[^9] do árabe insano Abdul Alhazred,
+que os iniciados podiam ler como quisessem, em especial o controverso
+dístico:
+
+> Morto não está se eterno pode adormecer,\
+> E em estranhas eras mesmo a morte irá morrer.
+
+Legrasse, muito impressionado e não pouco perplexo, perguntara em vão a
+respeito das conexões históricas do culto. Castro aparentemente havia
+dito a verdade quando alegou que era de todo secreto. As autoridades na
+Universidade de Tulane não conseguiam lançar alguma luz, seja sobre o
+culto, seja sobre a imagem, e agora o detetive chegara às maiores
+autoridades no país e não pôde encontrar mais do que a história do
+professor Webb na Groenlândia.
+
+O interesse febril despertado na conferência por conta da narrativa de
+Legrasse, corroborada como fora pela estatueta, é ecoada na
+correspondência subsequente daqueles que compareceram ao evento, embora
+se encontrem notas escassas nas publicações formais da sociedade.
+Cautela é o primeiro cuidado dos que estão acostumados a se confrontar
+com ocasionais charlatanice e impostura. Legrasse emprestou por algum
+tempo a imagem ao professor Webb, mas com a morte deste ela lhe fora
+devolvida e permanece em sua possessão, onde a vi não faz muito. É de
+fato uma coisa terrível, e de afinidade indubitável com a escultura de
+sonho do jovem Wilcox.
+
+Não me surpreendeu que meu tio estivesse empolgado pela história do
+escultor, pois quais pensamentos não surgiriam após saber-se o que
+Legrasse descobrira do culto, e ouvindo de um jovem que *sonhara* não
+apenas a figura e os exatos hieróglifos da imagem achada no pântano e no
+diabólico tablete da Groenlândia, mas que tivera *em seus sonhos* ao
+menos três das palavras exatas da fórmula pronunciada tal e qual pelos
+esquimós diabolistas e aqueles vira-latas da Louisiana? O início
+imediato de uma investigação muito meticulosa pelo professor Angell era
+apenas natural, embora eu suspeitasse, reservadamente, que o jovem
+Wilcox ouvira sobre o culto de algum modo indireto, e que havia
+inventado uma série de sonhos para ampliar e continuar o mistério às
+custas do meu tio. As narrativas de sonho e os recortes compilados pelo
+professor eram, é claro, uma corroboração forte; mas a racionalidade da
+minha mente e a extravagância do assunto como um todo me levaram a
+adotar as conclusões mais sensatas. Portanto, após novamente estudar em
+detalhe o manuscrito, e correlacionar as notas teosóficas e
+antropológicas com a narrativa de Legrasse sobre o culto, viajei para
+Providence a fim de ver o escultor e lhe dar a reprimenda que julguei
+apropriada pelo abuso descarado de um homem culto e idoso.
+
+Wilcox ainda morava sozinho no edíficio Fleur-de-Lys, na rua Thomas, uma
+medonha imitação vitoriana da arquitetura bretã do século
+[xvii]{.smallcaps}, ostentando sua fachada de estuque em meio às casas
+coloniais charmosas na velha colina; e exatamente sob a sombra do melhor
+campanário georgiano da América eu o encontrei trabalhando em seus
+aposentos; e devo conceder que, pelos exemplos espalhados lá por toda
+parte, seu gênio é de fato profundo e autêntico. Em algum tempo se
+ouvirá falar dele, acredito, como um dos grandes decadentes; pois
+cristalizou em argila e um dia espelhará em mármore aqueles pesadelos e
+fantasias que Arthur Machen evoca em prosa, e Clark Ashton Smith[^10]
+torna visíveis em verso e pintura.
+
+Sombrio, frágil e algo descuidado com seu aspecto, voltou-se
+languidamente quando bati à sua porta e perguntou, sem se levantar, o
+que queria ali. Eu lhe disse quem era, e ele demonstrou algum interesse,
+pois meu tio havia despertado sua curiosidade ao sondar-lhe os estranhos
+sonhos, mas sem nunca explicar a razão para o estudo. Não ampliei seu
+conhecimento sobre o assunto, mas busquei pegá-lo com algum ardil. Em
+pouco tempo eu estava convencido de sua absoluta sinceridade, pois
+falava dos sonhos de um modo que não deixava dúvidas. Os sonhos e seu
+resíduo subconsciente haviam influenciado sua arte profundamente, e me
+mostrou uma estátua mórbida cujos contornos quase me fizeram estremecer
+com a potência de sua negra sugestão. Ele não se recordava de ter visto
+o original dessa coisa, com a exceção do próprio baixo-relevo de sonho,
+mas o traçado se formara insensivelmente sob suas mãos. Era, sem dúvida,
+a figura gigante a respeito da qual delirara. Deixou logo claro que nada
+sabia do culto obscuro, excetuando o que o catecismo incansável do meu
+tio lhe havia deixado; e novamente lutei para encontrar algum modo pelo
+qual tivesse recebido as bizarras impressões.
+
+Falava de seus sonhos de uma maneira estranhamente poética, fazendo-me
+ver com terrível vividez a úmida cidade ciclópica de rochas verdes e
+viscosas --- cuja *geometria*, ele notava estranhamente, estava *toda
+errada* --- e ouvir com apavorada expectativa o incessante chamado
+subterrâneo, em parte mental: "*Cthulhu fhtagn*", "*Cthulhu fhtagn*".
+Essas palavras faziam parte daquele temido ritual que dizia da vigília
+de sonho do morto Cthulhu em sua cripta de pedra em R'lyeh, e me senti
+abalado, a despeito das minhas crenças racionais. Wilcox, agora tinha
+certeza, ouvira sobre o culto de maneira casual, e logo o esquecera em
+meio à massa de suas leituras e imaginações igualmente bizarras. Depois,
+em virtude daquela força impressionante, encontrara expressão
+subconsciente nos sonhos, no baixo-relevo e na terrível estátua que eu
+agora contemplava; de modo que sua impostura com meu tio fora na verdade
+muito inocente. O jovem era um tipo em parte um pouco afetado, em parte
+mal-educado, de quem nunca pude gostar; mas estava agora suficientemente
+disposto a admitir tanto seu gênio quanto sua honestidade. Despedi-me
+amigavelmente e desejei-lhe todo o sucesso que seu talento promete.
+
+A questão do culto ainda continuou a me fascinar, e por vezes eu tinha
+visões de fama pessoal advinda de pesquisas sobre sua origem e conexões.
+Visitei New Orleans, falei com Legrasse e outros daquele grupo antigo de
+busca no pântano, vi a imagem apavorante e até mesmo alguns daqueles
+prisioneiros pardos que haviam sobrevivido. O velho Castro,
+infelizmente, morrera alguns anos antes. O que ouvi então, de modo tão
+gráfico e em primeira mão, embora não fosse mais do que uma confirmação
+detalhada do que meu tio havia escrito, instigou-me de novo; pois tinha
+certeza de estar no encalço de uma religião muito real, muito secreta e
+muito antiga, cuja descoberta faria de mim um antropólogo de destaque.
+Minha atitude ainda era de absoluto materialismo, *como gostaria que
+ainda fosse*, e descartava com uma perversidade quase inexplicável a
+coincidência das anotações de sonho e os recortes peculiares coletados
+pelo professor Angell.
+
+Uma coisa de que comecei a suspeitar e que temo agora saber: que a morte
+de meu tio tenha sido tudo menos natural. Ele tombou em uma rua estreita
+na colina, que subia de uma antiga zona portuária infestada de uns
+pardos estrangeiros, e depois de um empurrão descuidado de um marinheiro
+negro. Não esqueci do sangue mestiço e das buscas marinhas dos membros
+do culto na Louisiana, e não me surpreenderia se desvendasse métodos
+secretos e agulhas envenenadas tão implacáveis e de ciência tão antiga
+quanto as crenças e os ritos crípticos. Legrasse e seus homens, é
+verdade, foram deixados em paz; mas na Noruega certo marujo que viu
+coisas está morto. Não teriam as perquirições de meu tio, após encontrar
+os dados do escultor, chegado a ouvidos sinistros? Creio que o professor
+Angell morreu porque sabia demais, ou porque estava prestes a sabê-lo.
+Se o mesmo acontecerá comigo ainda está por se ver, porque agora também
+soube muito.
+
+## A loucura vinda do mar
+
+Se o céu um dia quiser conceder-me uma dádiva, será o apagamento total
+dos resultados de um mero acaso que fixou meu olho em certo jornal velho
+de forrar estante. Não era algo em que eu normalmente esbarraria durante
+um dia ordinário, pois se tratava de antigo exemplar de jornal
+australiano, o *Sydney Bulletin*, de 18 de abril de 1925. Escapara até
+mesmo ao escritório de recortes que, no momento daquela tiragem, andava
+coletando material avidamente para a pesquisa do meu tio.
+
+Eu havia em grande parte desistido das minhas investigações sobre aquilo
+que o professor Angell chamava o "Culto de Cthulhu" e estava visitando
+um amigo erudito, curador de um museu local e mineralogista destacado em
+Paterson, New Jersey. Um dia, ao examinar os espécimes da reserva
+dispostos preliminarmente nas estantes de estoque na sala dos fundos do
+museu, meu olho captou uma curiosa figura em um dos jornais velhos
+estendidos sob as pedras. Era o *Sydney Bulletin* que mencionei, porque
+meu amigo tem contatos em todos os pontos imagináveis no exterior; e a
+reprodução era um recorte de meio-tom de uma horrenda imagem de pedra,
+quase idêntica à que Legrasse encontrara no pântano.
+
+Ansiosamente desobstruindo a folha de seus preciosos itens, analisei a
+imagem em detalhe e fiquei desapontado em constatar que era pouco
+extensa. O que sugeria, entretanto, era de significado portentoso para
+minha empreitada pendente; e cuidadosamente rasguei o pedaço para ação
+imediata. Lia-se o seguinte:
+
+> [misterioso navio à deriva é encontrado no mar]{.smallcaps}
+>
+> Vigilant chega rebocando barco neozelandês armado e deserto.
+>
+> Um sobrevivente e um morto encontrados a bordo.
+>
+> Relato de batalha desesperada e de mortes no mar.
+>
+> Marujo resgatado recusa.
+>
+> Detalhar estranha experiência.
+>
+> Ídolo incomum encontrado em sua posse.
+>
+> Será instaurado inquérito.
+
+*Vigilant*, o cargueiro da Morrison Co., com destino a Valparaíso,
+aportou nesta manhã no cais de Darling Harbour, rebocando o barco a
+vapor, desabilitado, mas que viu batalha e continha muitas armas, de
+nome *Alert*, de Dunedin, [n. z.]{.smallcaps}, avistado em 12 de abril
+na latitude sul 34º 21', longitude oeste 152º 17', com um homem vivo e
+um morto a bordo.
+
+O *Vigilant* deixou Valparaíso em 25 de março, e em 2 de abril foi
+impulsionado muito ao sul da rota designada por tempestades
+excepcionalmente duras e ondas monstruosas. Em 12 de abril o navio
+perdido foi avistado e, embora aparentemente deserto, notou-se,
+abordado, que continha um sobrevivente em estado de semidelírio e um
+outro evidentemente morto há mais de uma semana. Aquele que estava vivo
+agarrava-se a um horrível ídolo de pedra, de origem desconhecida, com
+uns trinta centímetros de altura, sobre cuja natureza todas as
+autoridades da Universidade de Sydney, da Royal Society e do Museu na
+rua College professam completa perplexidade, e que o sobrevivente diz
+ter encontrado na cabine do barco, num pequenino altar entalhado de
+padrão comum.
+
+Esse homem, após recobrar os sentidos, contou uma história extremamente
+estranha de pirataria e carnificina. Chama-se Gustaf Johansen, norueguês
+de alguma inteligência, e era o segundo imediato da escuna de dois
+mastros *Emma*, de Auckland, que navegou para Callao em 20 de fevereiro
+com uma equipagem de onze homens. O *Emma*, ele diz, sofreu atraso e foi
+lançado bem ao sul de sua rota graças à grande tempestade de 1º de
+março, e a 22 de março, na latitude sul 49º 51', longitude oeste
+128º 34', encontrou o *Alert* operado por uma tripulação esquisita e
+mal-encarada de canacas e de miscigenados. Recebendo ordem direta de
+voltar, o capitão Collins recusou, e assim a estranha tripulação começou
+a disparar selvagemente e sem aviso na direção da escuna, com uma
+bateria de canhões de bronze especialmente pesada que fazia parte do
+equipamento do vapor. Os homens do *Emma* deram combate, diz o
+sobrevivente, e, apesar de a escuna começar a afundar com os disparos
+abaixo da linha de flutuação, eles conseguiram arremessá-la ao lado de
+seu inimigo e abordá-lo, atracando-se com a tripulação selvagem no
+convés do vapor, sendo forçados a matá-los todos, seu número sendo
+ligeiramente superior, por causa do modo aberrante e desesperado, ainda
+que confuso, com que lutavam.
+
+Três dos homens do *Emma*, incluindo o capitão Collins e o primeiro
+imediato Green, foram mortos; e os oito remanescentes, sob as ordens do
+segundo imediato Johansen, procederam à navegação do barco capturado,
+prosseguindo na direção original para ver se existia algum motivo para a
+ordem de voltar. No outro dia, ao que parece, levantaram e desembarcaram
+em uma ilha pequena, embora não se soubesse existir ilha alguma naquela
+parte do oceano; e seis dos homens morreram de alguma forma em terra
+firme, ainda que Johansen seja estranhamente reticente sobre essa parte
+de sua história e se concentre apenas na queda deles em um precipício
+rochoso. Mais tarde, aparentemente, ele e um companheiro embarcaram no
+vapor e tentaram manejá-lo, mas foram fustigados pela tempestade de 2 de
+abril. Daí até o momento do resgate no dia 12 o homem lembra pouco, e
+nem sequer rememora quando William Briden, seu companheiro, morreu. A
+morte de Briden não tem causa aparente e teria ocorrido por estresse ou
+exposição aos elementos. Informações por telegrama, vindas de Dunedin,
+registram que o *Alert* era bem conhecido lá como comerciante ilhéu e
+tinha má reputação na zona portuária. Era de propriedade de um grupo
+peculiar de miscigenados, cujos encontros frequentes e excursões
+noturnas aos bosques atraíram não pouca curiosidade; e havia zarpado com
+muita afobação logo depois da tempestade e dos tremores de terra de 1º
+de março. Nosso correspondente em Auckland atesta a excelente reputação
+do *Emma* e de sua tripulação, e Johansen é descrito como homem sóbrio e
+de valor. O almirantado vai instaurar um inquérito com relação a todo o
+ocorrido, a começar de amanhã, e no qual fará todo o esforço de induzir
+Johansen a falar com mais liberdade do que o fez até o momento.
+
+Isso foi tudo, além da figura com a imagem infernal; mas que sucessão de
+ideias precipitou em minha mente! Ali existiam compêndios de dados novos
+e inteiros sobre o Culto de Cthulhu, assim como evidência de que havia
+estranhos interesses tanto no mar como na terra. Qual motivo teria
+levado a tripulação híbrida a ordenar a volta do *Emma* quando navegavam
+por aí com seu ídolo horrendo? Qual seria a ilha desconhecida em que
+seis dos tripulantes do *Emma* morreram, e sobre a qual Johansen era tão
+sigiloso? O que a investigação do vice-almirantado desvendou, e o que se
+sabia do nocivo culto em Dunedin? E, o mais maravilhoso de tudo, que
+ligação profunda e além do natural era essa entre as datas, que conferia
+significância maligna e agora inegável ao variado desenrolar de
+acontecimentos, tão cuidadosamente anotado por meu tio?
+
+Em 1º de março --- para nós 28 de fevereiro, de acordo com a Linha
+Internacional de Datas ---, vieram o terremoto e a tempestade. Vindo de
+Dunedin, o *Alert* e sua perniciosa equipagem corriam ansiosamente, como
+que convocados de maneira irresistível, e do outro lado da Terra poetas
+e artistas haviam começado a sonhar com uma cidade ciclópica estranha,
+úmida, enquanto um jovem escultor moldava durante o sono a forma do
+temido Cthulhu. Em 23 de março a tripulação do *Emma* desembarcou numa
+ilha desconhecida e a deixou com seis homens mortos; naquela data os
+sonhos de homens sensitivos ganharam vividez amplificada e se turvaram
+com o terror da busca maligna de um monstro gigante, enquanto um
+arquiteto enlouquecia e um escultor repentinamente mergulhava em
+delírio! E quanto a essa tempestade do dia 2 de abril --- data na qual
+todos os sonhos da cidade úmida cessaram e Wilcox emergiu ileso do
+cativeiro de estranha febre? E quanto a tudo isso --- e àquelas pistas
+que deixou o velho Castro sobre os Grandes Antigos, nascidos das
+estrelas e submersos, e o seu reino porvir, seu culto fiel e *seu
+domínio sobre os sonhos*? Estaria eu cambaleando à beira de horrores
+cósmicos além da capacidade humana de suportar? Se sim, devem ser
+horrores apenas da mente, pois de algum modo o 2 de abril pusera um fim
+a quaisquer ameaças monstruosas que houvessem iniciado seu cerco à alma
+humana.
+
+Naquela noite, após um dia de arranjos e telegramas apressados,
+despedi-me de meu anfitrião e tomei um trem para São Francisco. Em menos
+de um mês estava em Dunedin, onde, entretanto, descobri que pouco se
+sabia dos estranhos membros de culto que haviam frequentado as velhas
+tavernas da costa. A escória da região dos portos era ordinária demais
+para merecer menção especial, embora houvesse uma vaga conversa sobre
+certa incursão em terra que um daqueles mestiços fizera, na qual uma
+tênue batucada e uma flama vermelha tinham sido notadas em colinas
+distantes. Em Auckland soube que Johansen retornara *com o cabelo loiro
+todo embranquecido* após um perfunctório e inconclusivo interrogatório
+em Sydney e que havia em seguida vendido seu chalé na rua West e viajado
+com a esposa para o antigo lar em Oslo. De sua alarmante experiência ele
+não diria a seus amigos mais do que contou aos oficiais do almirantado,
+e tudo o que puderam fazer foi me passar seu endereço em Oslo.
+
+Depois disso fui a Sydney e falei inutilmente com marujos e membros da
+corte do vice-almirantado. Vi o *Alert*, agora vendido e posto a uso
+comercial no Cais Circular, em Sydney Cove, mas nada ganhei com sua
+estrutura indiferente. A imagem acocorada com cabeça de choco, corpo de
+dragão, asas escamosas e pedestal coberto de hieróglifos foi conservada
+no Museu do Hyde Park; e eu a estudei bem e longamente, considerando-a
+coisa de incomum e nefasta habilidade, e do mesmo mistério absoluto, a
+mesma antiguidade terrível e sobrenatural estranheza de material que
+notara no espécime menor de Legrasse. Geólogos, disse-me o curador,
+haviam-na considerado um enigma abominável; porque garantiam que o mundo
+não tinha uma pedra como aquela. Então lembrei, num calafrio, daquilo
+que o velho Castro dissera a Legrasse sobre os Grandes Antigos primevos:
+"Eles vieram das estrelas e trouxeram Suas imagens Consigo".
+
+Abalado por uma revolução mental que jamais experimentara, estava
+resolvido a visitar o imediato Johansen em Oslo. Navegando desde
+Londres, reembarquei de uma vez para a capital norueguesa; e em um dia
+de outono saltei nos cais impecáveis à sombra do Egeberg.[^11] O
+endereço de Johansen, vim a descobrir, ficava na velha cidade do rei
+Harold Haardrada, que manteve vivo o nome de Oslo durante os séculos em
+que a cidade expandida se mascarava como "Christiana".[^12] Fiz o breve
+trajeto de táxi e, com o coração aos saltos, bati à porta de um edifício
+elegante e antigo, com fachada de estuque. Uma mulher de rosto triste e
+vestida de preto atendeu e me vi doído de decepção quando me disse em
+inglês hesitante que Gustaf Johansen já não existia.
+
+Não sobrevivera ao retorno, sua esposa me disse, pois os acontecimentos
+no mar em 1925 o haviam destruído. Ele não lhe contou mais do que havia
+dito ao público, mas deixara um longo manuscrito --- sobre "assuntos
+técnicos", em suas palavras --- redigido em inglês evidentemente para
+protegê-la do perigo de uma leitura casual. Durante uma caminhada por
+certa travessa estreita junto das docas de Gothenburg, um embrulho de
+papéis caindo da janela de um sótão o havia derrubado. Dois marinheiros
+lascares[^13] imediatamente o ajudaram a se levantar, mas morreu antes
+que a ambulância chegasse. Os médicos não puderam encontrar uma causa
+adequada para o óbito e atribuíram-no a problema cardíaco e a uma
+constituição debilitada.
+
+Senti então revolver nas minhas entranhas aquele terror escuro que não
+vai me deixar até que também chegue a minha hora; "acidentalmente" ou de
+outro modo. Persuadindo a viúva de que minha conexão com os "assuntos
+técnicos" era autorização suficiente para ter o manuscrito, levei comigo
+o documento e comecei a lê-lo no barco para Londres. Era uma coisa
+simplória, incoerente --- a tentativa de diário *a posteriori* por um
+marinheiro ingênuo --- e lutava por relembrar dia a dia aquela última
+viagem nefanda. Nem sequer posso tentar transcrevê-lo *ipsis litteris*
+em toda sua nebulosidade e redundância, mas farei um resumo suficiente
+para mostrar por que o som da água contra as laterais do navio se tornou
+tão insuportável para mim que tive de tapar os ouvidos com algodão.
+
+Johansen, graças a Deus, não entendeu muito, apesar de ter visto a
+cidade e a Coisa, mas eu jamais dormirei tranquilo novamente enquanto
+pensar sobre os horrores que espreitam sem cessar por trás da vida, em
+tempo e espaço, e naquelas profanas blasfêmias vindas de estrelas
+antigas e que sonham sob o mar, conhecidas e protegidas por um culto de
+pesadelo, ansioso e pronto para soltá-las no mundo assim que um outro
+terremoto lance sua monstruosa cidade de pedra de volta ao sol e ao ar.
+
+A viagem de Johansen começara assim como havia dito ao vice-almirantado.
+O *Emma*, com lastro, zarpou de Auckland no dia 20 de fevereiro e sofreu
+o impacto total da tempestade gerada pelo terremoto que deve ter lançado
+ao alto, do fundo do mar, os horrores que povoavam os sonhos dos homens.
+Retomado o controle, o barco seguia bem quando parou por causa do
+*Alert*, a 22 de maio, e pude sentir o desgosto do imediato ao escrever
+sobre o bombardeio e o naufrágio; daqueles amorenados pervertidos do
+culto, no *Alert*, fala com horror significativo. Havia uma qualidade
+conspicuamente abominável neles, que fez sua destruição soar quase como
+um dever, e Johansen mostra ingênua surpresa diante da acusação de
+desumanidade levantada contra o seu grupo nos procedimentos do tribunal
+de inquérito. Então, levados pela curiosidade a respeito do vapor
+capturado, sob o comando de Johansen, os homens avistam um grande pilar
+de pedra avultando das águas, e na latitude sul, 47º 9', longitude
+oeste, 126º 43', surge uma linha costeira feita de lama misturada a lodo
+e de construções ciclópicas cobertas por alga, o que não podia ser senão
+a substância tangível do supremo horror terrestre --- o pesadelo da
+cidade-cadáver de R'lyeh, edificada em eras imensuráveis além da
+História pelas formas repugnantes e vastas que escorreram das estrelas
+negras. Lá repousam o grande Cthulhu e suas hordas, escondidos nas
+criptas verdes, viscosas, enviando por fim, após ciclos incalculáveis,
+os pensamentos que espalharam medo nos sonhos dos sensitivos, e chamaram
+imperativamente os fiéis a vir em peregrinação para liberar e restaurar.
+Johansen nada suspeitava disso, mas Deus sabe que logo veria o bastante!
+
+Suponho que apenas o topo de uma montanha, a horrenda cidadela coroada
+de um monolito, onde o grande Cthulhu estava sepultado, tenha de fato
+emergido das águas. Quando penso na *extensão* do que possa estar sendo
+incubado naquelas profundezas, quase tenho o desejo de me matar na mesma
+hora. Johansen e seus homens se viram pasmados pela majestade cósmica
+dessa Babilônia gotejante de demônios antigos e devem ter adivinhado sem
+auxílio algum que aquilo não poderia ser deste nem de qualquer outro
+planeta saudável. O pasmo diante do tamanho inacreditável dos blocos
+rochosos esverdeados, diante da altura vertiginosa do grande monolito
+esculpido, diante da alarmante identidade entre as estátuas colossais,
+os baixos-relevos e a esquisita imagem achada no altar do *Alert*, é
+fortemente visível em cada linha da descrição apavorada do imediato.
+
+Sem saber como é o futurismo, Johansen alcançou algo muito semelhante
+quando falou da cidade; pois em vez de descrever uma construção ou uma
+estrutura definida qualquer, ele se dedica apenas a impressões gerais de
+ângulos vastos e superfícies de pedra --- superfícies grandes demais
+para pertencer a qualquer coisa correta ou própria deste mundo, e ímpias
+em suas imagens horríveis e hieróglifos. Menciono o que diz de *ângulos*
+porque sugere algo que Wilcox me contara de seus sonhos pavorosos. Ele
+me dissera que a *geometria* do lugar-de-sonho que via era anormal, não
+euclidiana, e odiosamente recendente a esferas e dimensões separadas da
+nossa. E agora um marujo de poucas letras sentia a mesma coisa ao
+contemplar a terrível realidade.
+
+Johansen e seus homens desembarcaram em um barranco lamacento e
+enviesado naquela monstruosa Acrópole e escalaram às deslizadas os
+titânicos blocos viscosos que não poderiam jamais ser uma escada para
+mortais. Até mesmo o sol no firmamento parecia distorcido quando visto
+através dos miasmas polarizantes exalando-se daquela perversão
+encharcada de mar, e um suspense e uma ameaça turvos espreitavam
+maliciosamente naqueles ângulos de elusiva insanidade de pedra talhada,
+onde outro relance mostrava côncavo o que fora antes convexo.
+
+Algo muito semelhante ao pavor tomou todos os exploradores antes que se
+visse qualquer coisa de mais definido do que rocha e lodo e algas. Todos
+teriam fugido se não temessem o desprezo dos companheiros e davam buscas
+sem empenho --- e em vão, como se provou --- atrás de algum souvenir que
+pudessem carregar consigo.
+
+Foi Rodriguez,[^14] o português, quem escalou o pé do monolito e gritou
+anunciando o que descobrira. Os restantes o seguiram, e olhavam com
+curiosidade para a imensa porta entalhada com o baixo-relevo agora já
+familiar do molusco-dragão. Era, disse Johansen, como uma enorme porta
+de celeiro; e todos sentiram que fosse porta por causa do lintel ornado,
+do umbral e dos batentes à volta, embora não pudessem decidir se jazia
+reta como a de um alçapão ou oblíqua como porta externa de porão. Como
+Wilcox teria dito, a geometria do lugar era toda equívoca. Não se podia
+ter certeza se o mar e o chão eram horizontais, daí a posição relativa
+de todo o resto parecer espectralmente variável.
+
+Briden empurrou a pedra em diversos locais, sem resultado. E então
+Donovan apalpou cuidadoso em torno da beirada, apertando, assim, cada
+ponto em separado. Escalou interminavelmente ao longo do portal --- isto
+é, pode-se dizer *escalar* se a coisa afinal de contas não era
+horizontal ---, e os homens sideravam como diabos uma porta podia ser
+tão vasta. Então, aos poucos e suavemente, o painel de um acre começou a
+ceder para dentro no topo, e eles notaram que era balanceado.
+
+Donovan deslizou, ou de algum modo impeliu-se, ao longo do batente ou
+para baixo, juntando-se a seus companheiros, e todos observaram o
+estranho recuo do monstruoso portal entalhado. Nessa fantasia de
+distorção prismática a coisa se movia de um modo anômalo, diagonal,
+fazendo com que as regras da matéria e da perspectiva parecessem de todo
+abaladas.
+
+A abertura era negra, de uma escuridão quase material. A tenebrosidade
+tinha realmente uma *qualidade positiva*, pois obscurecia certas partes
+dos muros internos que se teriam revelado, e que se expeliam como fumaça
+de seu aprisionamento de eras, visivelmente obscurecendo o sol,
+recolhendo-se furtivo no céu encolhido e minguante diante do bater de
+asas membranosas. O odor exalado das funduras agora reabertas era
+intolerável, e em pouco Hawkins, de ouvidos alerta, pensou ouvir um som
+repulsivo, espirrado lá do fundo. Todos ouviram, e todos ainda ouviam
+quando, diante dos olhos, a Coisa alastrou-se salivando e, no tatear,
+espremeu Sua verde imensidade gelatinosa através do umbral negro, em
+direção ao ar maculado daquela cidade venenosa de loucura.
+
+A caligrafia do pobre Johansen quase se desfez quando escreveu isso; dos
+seis homens que nunca alcançaram o navio julga que dois pereceram do
+puro susto daquele instante amaldiçoado. A Coisa não pode ser descrita
+--- não há língua para abismos de tamanha demência ululante e imemorial,
+tão insólitas contradições de toda matéria, força, ordem cósmica. Uma
+montanha caminhava ou se arrastava. Deus! Quem se surpreende que ao
+redor do mundo um grande arquiteto tenha enlouquecido e que o pobre
+Wilcox tenha desandado em febre naquele instante telepático? A Coisa dos
+ídolos, a cria verde e viscosa das estrelas, despertara para clamar seu
+direito. As estrelas estavam certas de novo, e o que um culto
+antiquíssimo falhara em conseguir de propósito um bando de marinheiros
+inocentes havia feito por acidente. Após vigintilhões de anos o grande
+Cthulhu estava livre uma vez mais, e faminto por deleite.
+
+Três homens foram varridos pelas garras flácidas antes que pudessem se
+mover: que Deus lhes dê paz, se é que há paz neste universo. Eram eles:
+Donovan, Guerrera e Ångstrom. Parker escorregou na direção do barco,
+enquanto os outros três mergulhavam desesperados pelas visões infinitas
+de rocha incrustada de verde, e Johansen jura que ele foi engolido por
+um ângulo na estrutura que não deveria estar ali; um ângulo agudo, mas
+que se comportava como obtuso. Portanto, apenas Briden e Johansen
+alcançaram o barco e se apressaram em direção ao *Alert* enquanto a
+montanhosa monstruosidade defluía pelas pedras limosas e hesitava
+debatendo-se à margem das águas.
+
+O vapor não havia se apagado por completo, a despeito de terem ido todos
+para a praia; e pôr o *Alert* em curso custou o trabalho de alguns
+momentos de pressa febril, de um lado para o outro, entre o leme e as
+máquinas. Lentamente, em meio aos horrores distorcidos daquela cena
+indescritível, começou a sacudir as águas letais; enquanto, na estrutura
+daquela praia bestial que não era desta terra, a Coisa titânica vinda
+das estrelas babava e bramia como Polifemo amaldiçoando o barco de
+Odisseu em fuga. Então, mais ousado do que o famoso ciclope, o grande
+Cthulhu deslizou untuoso para dentro d'água e se pôs a persegui-los
+erguendo as ondas com vastas braçadas de potência cósmica. Briden olhou
+para trás e ficou louco, gargalhando estridente, e seguiu gargalhando a
+intervalos até que a morte o encontrou uma noite na cabine, enquanto
+Johansen perambulava em delírio.
+
+Mas Johansen não havia definhado, ainda. Sabendo que a Coisa certamente
+apanharia o *Alert* antes que o vapor estivesse no máximo, tomou uma
+resolução desesperada; e, ligando as máquinas em velocidade máxima, saiu
+como um raio pelo convés e inverteu a roda do leme. Formou-se um
+poderoso turbilhão espumante naquela salmoura perniciosa, e enquanto o
+vapor fumava cada vez mais alto, o bravo norueguês levou sua nave a um
+choque frontal contra o predador gelatinoso que se erguia acima da
+escuma impura como a popa de um galeão demoníaco. A medonha cabeça de
+molusco com seus tentáculos contorcidos se agigantou diante do gurupés
+do barco robusto, mas Johansen seguiu implacável. Houve um estouro como
+o de uma bexiga que explodisse, uma repulsiva limosidade de peixe-lua
+fendido, um fedor como o de mil sepulcros abertos, e um som que o
+cronista não ousaria pôr no papel. Por um instante o navio foi aviltado
+com uma nuvem verde, acre e cegante, e depois apenas um ebulir venenoso
+atrás da popa; onde --- Deus nas alturas! --- a dispersa plasticidade
+daquela inominável cria celeste enevoadamente se *recombinava* em sua
+odiosa forma original, ao passo que sua distância se ampliava a cada
+segundo, pois o *Alert* ganhava o ímpeto de seu vapor crescente.
+
+Isso foi tudo. Depois Johansen apenas cismava a respeito do ídolo na
+cabine e cuidava das questões de alimentação para si e para o
+gargalhante maníaco a seu lado. Ele não tentou navegar após a fuga
+ousada, pois aquela reação subtraíra algo de sua alma. Chegou então a
+tempestade de 2 de abril, e as nuvens se fecharam sobre sua consciência:
+uma sensação de vórtice espectral pelos líquidos golfos do infinito, de
+viagens vertiginosas através de universos oscilantes na cauda de um
+cometa, e de mergulhos histéricos a partir das profundezas da lua e da
+lua novamente às profundezas, tudo abalado por um coro escarnecedor de
+deuses ancestrais distorcidos e burlescos e de maliciosos diabretes do
+Tártaro, verdes e com asas de morcego.
+
+Em meio a esse sonho chegou o resgate --- o *Vigilant*, e a corte do
+vice-Almirantado, as ruas de Dunedin, e a longa viagem de volta para a
+velha casa junto do Egberg. Ele não poderia dizer nada --- pensariam que
+enlouqueceu. Escreveria sobre o que havia conhecido antes que viesse a
+morte, mas sua esposa não poderia suspeitar. A morte seria uma bênção se
+pudesse ao menos apagar todas as suas memórias.
+
+Esse foi o documento que li e que pus agora na caixa de latão ao lado do
+baixo-relevo e dos papéis do professor Angell. Com ela irá este meu
+registro --- o teste de minha própria sanidade, onde se acha recomposto
+o que espero jamais se recomponha de novo. Encarei tudo aquilo que o
+universo guarda de horror, e mesmo os céus da primavera e as flores do
+verão nada mais podem ser que veneno para mim. Mas não creio que minha
+vida seja longa. Assim como meu tio se foi, como o pobre Johansen se
+foi, também eu irei. Eu sei demais, e o culto ainda vive.
+
+Cthulhu ainda vive também, eu suponho, novamente naquele precipício de
+pedra que o escudou desde que o sol era jovem. Sua maldita cidade está
+outra vez nas profundezas, pois o *Vigilant* navegou sobre o local após
+a tempestade de abril; mas seus ministros em terra ainda uivam e saltam
+e matam à volta de monolitos encabeçados por ídolos em lugares desertos.
+Deve ter ficado preso nos escolhos do naufrágio quando no fundo de seu
+abismo negro, ou o mundo já agora gritaria de terror e tremor. Quem sabe
+qual será o final? O que se ergueu deve afundar, e o que afundou ainda
+voltará a se erguer. A abominação aguarda e sonha nas profundezas, e a
+ruína se espalha pelas instáveis cidades dos homens. Virá a hora --- mas
+não devo e não posso pensar! Farei uma prece para que, se não sobreviver
+a este manuscrito, meus executores testamentários ponham a cautela antes
+da audácia e que isto não chegue ainda a outros olhos.
+
+[^1]: Tipo de construção feito de rochas apoiadas umas nas outras, sem
+    material de juntura.
+
+[^2]: Efetivamente insólita. Sobre ela, Lovecraft escreveu em carta de
+    1934 a Duane Rimel, também autor de fantasia e horror, que "deveria
+    representar uma tentativa humana desajeitada de fixar a fonética de
+    uma palavra *absolutamente não humana*. O nome da entidade infernal
+    foi inventada por seres cujos órgãos vocais não eram como os do
+    homem, daí não haver relação com o equipamento humano para fala
+    \[...\] O som efetivo --- tanto quanto os órgãos humanos poderiam
+    imitá-lo ou as letras humanas poderiam registrá-lo --- deve ser algo
+    como *Khlûl'hloo*, com a primeira sílaba pronunciada guturalmente e
+    espessa. O *u* é como aquele em *full*; e a primeira sílaba não é
+    sonoramente diferente de *klul*, uma vez que *h* representa a
+    aspereza gutural. A segunda sílaba não é muito pronunciada --- o som
+    *l*, mudo" ([lovecraft]{.smallcaps}, H. P. "Notes". In: *Tales*.
+    Nova York: The Library of America, 2005, p. 830).
+
+[^3]: *The Story of Atlantis* (1896) e *The Lost Lemuria* (1904), de
+    William Scott-Elliot, teósofo inglês.
+
+[^4]: *The Golden Bough* (os doze volumes foram publicados entre
+    1906--15), obra monumental de James George Frazer, antropólogo e
+    folclorista escocês, e *The Witch-Cult in Western Europe* (1921), de
+    Margaret Alice Murray, egiptóloga, antropóloga, folclorista,
+    arqueóloga e historiadora anglo-indiana.
+
+[^5]: "Os groenlandeses não fazem preces nem sacrifícios, e não praticam
+    rito algum; eles creem, não obstante, na existência de certos seres
+    sobrenaturais. O principal e mais poderoso desses seres é o
+    *Torngarsuk*, invocado sobretudo pelos pescadores, e que eles por
+    vezes representam sob a forma de um urso, por vezes sob a de um
+    homem com um só braço, por vezes, enfim, sob a forma de uma
+    grandíssima criatura humana como um dos dedos da mão"
+    ([plancy]{.smallcaps}, J. Collin de. *Dictionnaire infernal*. 6. ed.
+    Paris: Henri Plon, 1863, p. 661).
+
+[^6]: Jean e Pierre Lafitte, piratas franceses que, no começo do século
+    [xix]{.smallcaps}, se estabeleceram na Louisiana.
+
+[^7]: Pierre Le Moyne d'Iberville, soldado, explorador e administrador
+    colonial, o francês d'Iberville foi um dos fundadores de La
+    Luoisiane, agora a Louisiana; René-Robert Cavalier, Sieur de La
+    Salle, explorador e comerciante de peles que expedicionou pelo rio
+    Mississippi.
+
+[^8]: Cidade perdida mencionada no Corão.
+
+[^9]: *Necronomicon* é o título de um grimório fictício, daquele autor
+    árabe fictício, ambos inventados por Lovecraft. O nome original em
+    árabe seria *Al Azif*, que propõe o ruído dos insetos à noite como o
+    ruído da voz dos demônios. O livro foi famosamente usado na trilogia
+    de filmes de horror sobrenatural de Sam Raimi, *Evil Dead* \[Uma
+    noite alucinante, 1981--1992\], mas é referido lá como antigo livro
+    sumério. Raimi, além disso, usou na abertura do filme a sonoplastia
+    de insetos para efeito perturbador, assim como William Friedkin o
+    fez em *O exorcista* (1973).
+
+[^10]: Arthur Machen, escritor e místico galês, cuja fama literária no
+    meio fantástico se dá especialmente pela novela *O grande deus Pã*
+    (1894), admirada por Lovecraft e também por Stephen King, que a
+    considera "talvez a melhor história de horror da língua inglesa";
+    Clark Ashton Smith, escritor e ilustrador estadunidense: seu
+    universo visual tem muita semelhança com o tipo de imagem construído
+    por Lovecraft, mas também (e talvez sobretudo) seu estilo de
+    escrita. Seus poemas em verso e prosa trazem títulos como "Eidolon",
+    "The Dream-God's Realm", "The Abyss Triumphant" e "The Abomination
+    of Desolation". Este último, por exemplo, começa da seguinte
+    maneira: "Do deserto de Soom se diz que jaz no extremo inexplorável
+    do mundo, entre as terras pouco conhecidas e as que sequer se
+    conjecturou. É temida pelos viajantes, por suas areias nuas e
+    moventes, sem oásis, e rumores dizem que um estranho horror reside
+    ali".
+
+[^11]: Castelo próximo da região portuária em Oslo, mandado construir
+    por Einar Westye Egeberg. Também o nome de uma geleira na
+    Antárctica.
+
+[^12]: Grafado "Christiana" no original inglês de Lovecraft. Em 1624 a
+    cidade conhecida como Oslo foi renomeada *Christiania* em homenagem
+    ao rei Christian [iv]{.smallcaps}, após um incêndio devastador. Em
+    1877 a grafia foi trocada por *Kristania* e, em 1925, a cidade mais
+    ampla incorporou a antiga região de Oslo, e foi assim renomeada.
+
+[^13]: Nativo das Índias Orientais.
+
+[^14]: Mantém-se a grafia do nome como Lovecraft o escreveu, à
+    espanhola.
