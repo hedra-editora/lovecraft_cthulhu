@@ -1,0 +1,89 @@
+INSTRUÇÕES DE IMPRESSÃO DO ADOBE INDESIGN PARA RELATÓRIO DE PRESTADOR DE SERVIÇOS
+
+NOME DA PUBLICAÇÃO: LOVE_CHAMADO_AJUST11.indd
+
+DATA DO PACOTE: 25/04/2025 13:28
+Data de criação: 25/04/2025
+Data de modificação: 25/04/2025
+
+INFORMAÇÕES PARA CONTATO
+
+Nome da empresa: 
+Contato: 
+Endereço: 
+
+
+
+
+
+Telefone: 
+Fax: 
+E-mail: 
+
+INSTRUÇÕES ESPECIAIS E OUTRAS NOTAS
+
+
+
+
+
+
+Plug-ins externos 0
+Objetos não opacos:Na página1, 2, AJT
+
+FONTES
+3 Fontes usadas; 0 Ausentes, 0 Incorporados(as), 0 Incompletos(as) , 0 Protegidos(as)
+
+Fontes empacotadas
+- Nome: Formular-Bold; Tipo: OpenType Type 1, Status: OK
+- Nome: PTMono-Bold; Tipo: TrueType, Status: OK
+- Nome: TimesNewRomanPSMT; Tipo: OpenType TrueType, Status: OK
+
+
+CORES E TINTAS
+4 Tintas de escala; 0 Tintas especiais
+
+- Nome e tipo: Ciano de escala; Ângulo: 75,000; Linhas/polegada: 70,000
+- Nome e tipo: Magenta de escala; Ângulo: 15,000; Linhas/polegada: 70,000
+- Nome e tipo: Amarelo de escala; Ângulo: 0,000; Linhas/polegada: 70,000
+- Nome e tipo: Preto de escala; Ângulo: 45,000; Linhas/polegada: 70,000
+
+
+VÍNCULOS E IMAGENS
+(Somente vínculos ausentes e incorporados)
+Vínculos e imagens: 9 Vínculos encontrados; 0 Modificados(as), 0 Ausentes 0 Não acessível
+Imagens: 0 Incorporados(as), 9 usam espaço de cor RGB
+
+
+CONFIGURAÇÕES DE IMPRESSÃO
+PPD: Independente do dispositivo, (Arquivo PostScript®)
+Imprimindo em: Arquivo de prova de prelo
+Número de cópias: 1
+Páginas espelhadas: Não
+Páginas pares/ímpares: Ambas
+Páginas: Tudo
+Prova: Não
+Lado a lado: Nenhum(a)
+Escala: 100%, 100%
+Posição da página: Superior esquerda
+Camadas de impressão: Camadas visíveis e imprimíveis
+Marcas da impressora: Nenhum(a)
+Sangria: 0 mm, 0 mm, 0 mm, 0 mm
+Cor: CMYK composto
+Modo de trapping: Nenhum(a)
+Enviar dados de imagem: Tudo
+Substituição de imagem OPI/DCS: Não
+Tamanho da página: Personalizar: 511 mm x 210 mm
+Dimensões do papel: 0 mm x 0 mm
+Orientação: Horizontal
+Negativo: Não
+Modo de virar: Desativado
+
+
+LISTA DO PACOTE DE ARQUIVOS
+
+1. LOVE_CHAMADO_AJUST11.indd; tipo: Publicação do Adobe InDesign; tamanho: 2524K
+2. LOVE_CHAMADO_AJUST11.idml; tipo: Documento de marcação do InDesign; tamanho: 65K
+3. LOVE_CHAMADO_AJUST11.pdf; tipo: Documento do Adobe Acrobat; tamanho: 2514K
+4. Formular-Bold.otf; tipo: Arquivo de fonte; tamanho: 146K
+5. PTMono.ttc; tipo: Arquivo de fonte; tamanho: 308K
+6. Times New Roman.ttf; tipo: Arquivo de fonte; tamanho: 814K
