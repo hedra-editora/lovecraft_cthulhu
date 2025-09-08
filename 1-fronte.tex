@@ -36,25 +36,38 @@
 
 \begin{tikzpicture}[remember picture,overlay]
 
-\node at (4.6,-8.5)
-  {\includegraphics[width=\paperwidth]{img/cthulhu-p1.pdf}};
+\node at (3.8,-8.5)
+  {\includegraphics[height=1.03\paperheight]{img/cthulhu-p1.pdf}};
 \end{tikzpicture}
                     
 \endgroup
 \vfill
 \pagebreak
 
-\begingroup\thispagestyle{empty}
+%\begingroup\thispagestyle{empty}
 
-\begin{tikzpicture}[remember picture,overlay]
+%\begin{tikzpicture}[remember picture,overlay]
 
-\node at (4.6,-8.5)
-  {\includegraphics[width=\paperwidth]{img/cthulhu4.pdf}};
-\end{tikzpicture}
+%\node at (4.6,-8.5)
+%  {\includegraphics[height=1.03\paperheight]{img/cthulhu4.pdf}};
+%\end{tikzpicture}
                     
-\endgroup
-\vfill
-\pagebreak
+%\endgroup
+%\vfill
+
+\clearpage
+\thispagestyle{empty}
+\AddToShipoutPicture*{%
+  \AtPageCenter{%
+    \makebox(0,0){%
+      \includegraphics[width=\paperwidth,
+                       height=\paperheight,
+                       keepaspectratio]{img/cthulhu4.pdf}%
+    }%
+  }%
+}
+\null\clearpage % força a emissão da página e evita “vazar” para a próxima
+%\pagebreak
 
 \begingroup\thispagestyle{empty}\vspace*{.05\textheight} 
 
@@ -73,13 +86,4 @@
 	\includegraphics[width=.3\textwidth]{img/hedra-audio-qr.png}
 \end{flushleft}
 
-%\hspace*{-6.5mm}
-
-%\endgroup
-%\vfill
-%\begin{flushleft}
-%    \includegraphics[width=.3\textwidth]{img/cthulhu_qr.pdf}\\
-%    \vspace{-4mm}
-%    \includegraphics[width=.289\textwidth]{img/hedra-audio_logo.png}
-%\end{flushleft}
 \pagebreak

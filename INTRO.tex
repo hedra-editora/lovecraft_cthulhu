@@ -1,17 +1,26 @@
-\pagebreak
+%\pagebreak
 
-\begingroup\thispagestyle{empty}
+%\begingroup\thispagestyle{empty}
 
-\begin{tikzpicture}[remember picture,overlay]
+%\begin{tikzpicture}[remember picture,overlay]
+%\node at (4.6,-8.5)
+%  {\includegraphics[width=\paperwidth]{img/cthulhu1.pdf}};
+%\end{tikzpicture}
 
-\node at (4.6,-8.5)
-  {\includegraphics[width=\paperwidth]{img/cthulhu1.pdf}};
-\end{tikzpicture}
-                    
-\endgroup
-\vfill
+\clearpage
+\thispagestyle{empty}
+\AddToShipoutPicture*{%
+  \AtPageCenter{%
+    \makebox(0,0){%
+      \includegraphics[width=\paperwidth,
+                       height=\paperheight,
+                       keepaspectratio]{img/cthulhu1.pdf}%
+    }%
+  }%
+}
+\null\clearpage % força a emissão da página e evita “vazar” para a próxima
 
-\pagebreak
+%\pagebreak
 
 \hyphenation{baseada}
 \hyphenation{dread-ful}

@@ -347,18 +347,18 @@ seja dito; e hoje eu mal posso imaginar o nível de racionalidade rude
 com o qual o deixei de lado. Mas eu estava então convencido de que o jovem
 Wilcox sabia das questões antigas mencionadas pelo professor.
 
-\pagebreak
-
-\begingroup\thispagestyle{empty}
-
-\begin{tikzpicture}[remember picture,overlay]
-
-\node at (4.6,-8.5)
-  {\includegraphics[width=\textwidth]{img/cthulhu2.pdf}};
-\end{tikzpicture}
-                    
-\endgroup
-\vfill
+\clearpage
+\thispagestyle{empty}
+\AddToShipoutPicture*{%
+  \AtPageCenter{%
+    \makebox(0,0){%
+      \includegraphics[width=\paperwidth,
+                       height=\paperheight,
+                       keepaspectratio]{img/cthulhu2_modified.pdf}%
+    }%
+  }%
+}
+\null\clearpage % força a emissão da página e evita “vazar” para a próxima
 
 \chapter{A narrativa do inspetor Legrasse}
 
@@ -929,7 +929,7 @@ imediata. Lia-se o seguinte:
 
 \smallskip
 
-Vigilant chega rebocando barco neozelandês armado e deserto.\\
+\noindent Vigilant chega rebocando barco neozelandês armado e deserto.\\
 Um sobrevivente e um morto encontrados a bordo.\\
 Relato de batalha desesperada e de mortes no mar.\\
 Marujo resgatado recusa.\\
@@ -1328,18 +1328,18 @@ que, se não sobreviver a este manuscrito, meus executores testamentários
 ponham a cautela antes da audácia e que isto não chegue ainda a outros
 olhos.
 
-\pagebreak
-
-\begingroup\thispagestyle{empty}
-
-\begin{tikzpicture}[remember picture,overlay]
-
-\node at (4.6,-8.5)
-  {\includegraphics[width=\paperwidth]{img/cthulhu-pfinal.pdf}};
-\end{tikzpicture}
-                    
-\endgroup
-\vfill
+\clearpage
+\thispagestyle{empty}
+\AddToShipoutPicture*{%
+  \AtPageCenter{%
+    \makebox(0,0){%
+      \includegraphics[width=\paperwidth,
+                       height=\paperheight,
+                       keepaspectratio]{img/cthulhu-pfinal.pdf}%
+    }%
+  }%
+}
+\null\clearpage % força a emissão da página e evita “vazar” para a próxima
 
 \pagebreak
 
@@ -1349,7 +1349,7 @@ olhos.
 
 As imagens reunidas neste livro, compostas por manuscritos e obras gráficas 
 de autoria ou relacionadas a H.\,P. Lovecraft, integram o acervo da \emph{Howard P. 
-Lovecraft Collection}, conservado na John Hay Library, Brown University Library, 
+Lovecraft Collection}, conservado na Brown University Library, 
 em Providence, Rhode Island.
 
 \bigskip
@@ -1373,15 +1373,28 @@ em Providence, Rhode Island.
 
 \pagebreak
 
-\begingroup\thispagestyle{empty}
+%\begingroup\thispagestyle{empty}
 
-\begin{tikzpicture}[remember picture,overlay]
+%\begin{tikzpicture}[remember picture,overlay]
 
-\node at (4.6,-8.5)
-  {\includegraphics[width=\paperwidth]{img/cthulhu5.pdf}};
-\end{tikzpicture}
+%\node at (4.6,-8.5)
+%  {\includegraphics[width=\paperwidth]{img/cthulhu5.pdf}};
+%\end{tikzpicture}
                     
-\endgroup
-\vfill
+%\endgroup
+%\vfill
+
+\clearpage
+\thispagestyle{empty}
+\AddToShipoutPicture*{%
+  \AtPageCenter{%
+    \makebox(0,0){%
+      \includegraphics[width=\paperwidth,
+                       height=\paperheight,
+                       keepaspectratio]{img/cthulhu5.pdf}%
+    }%
+  }%
+}
+\null\clearpage % força a emissão da página e evita “vazar” para a próxima
 
 \pagebreak
