@@ -1,0 +1,91 @@
+---
+# ==============================================================================
+# 1. DADOS BIBLIOGRÁFICOS (DUBLIN CORE)
+# Estes campos são mapeados automaticamente para o OPF do EPUB.
+# ==============================================================================
+
+# IMPORTANTE: O script edlab_epub3.py sobrescreve estes campos automaticamente
+# usando o conteúdo do LaTeX. Mantenha formato "chave: valor".
+title: "O chamado de Cthulhu"
+subtitle: "Subtítulo (opcional)"
+author: "Autor Provisório"
+publisher: "Editora Hedra"
+# rights: (removido para evitar duplicação na title page)
+# date: (removido para evitar duplicação na title page)
+
+# Idioma (IETF BCP 47) - Define o idioma global do livro
+lang: pt-BR
+
+# Identificador Único (ISBN ou UUID)
+# O Pandoc usa isso como dc:identifier
+identifier: "ISBN:978-85-000-0000-0"
+
+# Categorização (Mapeado para dc:subject)
+subject: "Literatura Brasileira / Romance"
+tags: [Literatura, Ficção, Brasileiro, Hedra]
+
+# Descrição (Sinopse) - Mapeado para dc:description
+description: "**O chamado de Cthulhu** (1928) apresenta a figura mais popular de Lovecraft, centro da série sobre os Grandes Antigos, as gigantescas e incompreensíveis criaturas anteriores a esta Terra. É a cristalização, numa imagem, de um tipo específico de t..."
+
+
+
+
+
+
+
+
+# Sinopse completa (referência interna - não vai para o EPUB)
+description-full: "**O chamado de Cthulhu** (1928) apresenta a figura mais popular de Lovecraft, centro da série sobre os Grandes Antigos, as gigantescas e incompreensíveis criaturas anteriores a esta Terra. É a cristalização, numa imagem, de um tipo específico de terror chamado \"cósmico\": mas um cósmico íntimo e literário. Em seu Cthulhu, um monstro que dorme no fundo do mar --- verde, sombrio, doentio, descomunal e de dimensões inqualificáveis ---, o autor procedeu a uma metamorfose do próprio Kraken, monstro marinho e cefalópode da mitologia escandinava, para encontrar um código de seus próprios horrores: mas que funcionou bem, porque o verdadeiro mergulho no medo de um é o mergulho no medo de todos. Um dos grandes clássicos de horror do século <span class=\"smallcaps\">xx</span>, O chamado de Cthulhu permite um desconcertante passeio pelo universo macabro de um dos grandes mestres do horror."
+
+
+# Colaboradores (Tradutores, ilustradores, etc.)
+# Mapeado para dc:contributor
+contributor: "Nome do Tradutor (tradução)"
+
+# ==============================================================================
+# 2. CONFIGURAÇÕES DO EPUB (PANDOC)
+# ==============================================================================
+
+# Capa (Caminho relativo à raiz da compilação)
+# O script edlab_epub3.py tenta verificar se esse arquivo existe.
+# cover-image: (removido, arquivo não encontrado)
+
+# Metadados Técnicos de Publicação
+type: "Book"
+format: "EPUB3"
+page-progression-direction: ltr  # ltr (left-to-right) ou rtl
+
+# Sumário (Table of Contents)
+toc: true
+toc-title: "Sumário"
+toc-depth: 2             # 1=capítulos, 2=subseções
+
+# ==============================================================================
+# 3. ACESSIBILIDADE (SCHEMA.ORG)
+# Boas práticas modernas para EPUB3
+# ==============================================================================
+accessMode: textual
+accessibilityFeature: [structuralNavigation, tableOfContents, alternativeText]
+accessibilityHazard: none
+accessibilitySummary: "Esta publicação está estruturada logicamente com marcação semântica."
+
+# ==============================================================================
+# 4. CONFIGURAÇÕES INTERNAS DO PANDOC
+# ==============================================================================
+
+# Cria divs <section> ao redor dos capítulos
+section-divs: true
+
+# Prefixos para referências cruzadas automáticas
+linkReferences: true
+figureTitle: "Figura"
+tableTitle: "Tabela"
+eqnPrefix: "Equação"
+
+# ==============================================================================
+# 5. CONFIGURAÇÕES PARA OUTROS FORMATOS (Se reutilizar para PDF)
+# ==============================================================================
+# papersize: a5
+# mainfont: "Minion Pro"
+# fontsize: 11pt
+---

@@ -1,0 +1,720 @@
+/* 
+   EDLAB EPUB3 - Classic Literature Style
+   CSS minimalista e profissional para literatura clássica e não-ficção.
+   Baseado nas melhores práticas da IDPF, DAISY e Readium.
+   
+   PRINCÍPIOS:
+   - Conteúdo separado de apresentação
+   - Tipografia limpa e legível
+   - Sem decorações que possam conflitar com temas do leitor
+   - Acessibilidade primeiro
+*/
+
+/* ===== 1. RESET E BASE ===== */
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.65;
+  /* Não definimos font-family para permitir escolha do usuário */
+  /* Não definimos color ou background para suportar Dark Mode nativo */
+  orphans: 2;
+  widows: 2;
+}
+
+/* ===== 2. TÍTULOS ===== */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: left;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  line-height: 1.3;
+  font-weight: bold;
+  color: inherit;
+  page-break-after: avoid;
+}
+
+h1 {
+  font-size: 2em;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  hyphens: none;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  /* NÃO usa page-break-before aqui - causa páginas em branco */
+  /* Page breaks são controlados por section classes específicas */
+}
+
+h2 {
+  font-size: 1.6em;
+  hyphens: none;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+}
+
+h3 {
+  font-size: 1.4em;
+  hyphens: none;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+h5 {
+  font-size: 1.1em;
+  font-variant: small-caps;
+  font-weight: normal;
+}
+
+h6 {
+  font-size: 1em;
+}
+
+/* Página de Título */
+h1.title {
+  text-align: center;
+  margin-top: 25vh;
+  font-size: 2.2em;
+}
+
+p.subtitle,
+h2.subtitle {
+  text-align: center;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 1.2em;
+  margin-top: 0.5em;
+}
+
+p.author,
+h2.author {
+  text-align: center;
+  font-weight: normal;
+  font-size: 1.3em;
+  margin-top: 1.5em;
+}
+
+p.date,
+h3.date {
+  text-align: center;
+  font-weight: normal;
+  font-size: 0.95em;
+  margin-top: 2em;
+}
+
+/* ===== 3. PARÁGRAFOS ===== */
+p {
+  margin-bottom: 0;
+  text-indent: 1.5em;
+  text-align: justify;
+}
+
+/* Primeiro parágrafo após título: sem indentação */
+h1+p,
+h2+p,
+h3+p,
+h4+p,
+h5+p,
+h6+p,
+blockquote+p,
+aside+p {
+  text-indent: 0;
+}
+
+/* ===== REFERÊNCIAS BIBLIOGRÁFICAS ===== */
+/* Remove indentação das entradas bibliográficas */
+section[id*="referências"] p,
+section[id*="referencias"] p,
+section[id*="bibliography"] p,
+.referencias p,
+.references p {
+  text-indent: 0;
+  margin-bottom: 1em;
+}
+
+/* ===== 4. CITAÇÕES EM BLOCO (BLOCKQUOTE) ===== */
+/* 
+   ESTILO CLÁSSICO: 
+   - Apenas indentação lateral (sem barra, sem itálico forçado)
+   - Menor tamanho de fonte para diferenciação sutil
+   - Preserva itálico/negrito do conteúdo original
+*/
+blockquote {
+  margin: 1.5em 2em;
+  padding: 0;
+  /* Sem bordas decorativas */
+  font-size: 0.95em;
+  /* Sem font-style: italic - preserva formatação original */
+}
+
+blockquote p {
+  text-indent: 0;
+  margin-bottom: 0.8em;
+}
+
+blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+/* ===== 5. CÓDIGO ===== */
+code {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.9em;
+}
+
+pre {
+  white-space: pre-wrap;
+  padding: 1em;
+  font-size: 0.85em;
+  overflow-x: auto;
+  margin: 1.5em 0;
+}
+
+/* ===== 5.5. TABELAS ===== */
+table,
+.comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5em 0;
+  font-size: 0.9em;
+  page-break-inside: avoid;
+}
+
+table caption,
+.comparison-table caption {
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  text-align: left;
+}
+
+table th,
+table td,
+.comparison-table th,
+.comparison-table td {
+  padding: 0.6em;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid #ccc;
+}
+
+table th,
+.comparison-table th {
+  font-weight: bold;
+  border-bottom: 2px solid #333;
+}
+
+table tr:last-child td,
+.comparison-table tr:last-child td {
+  border-bottom: 2px solid #333;
+}
+
+/* ===== 6. IMAGENS E FIGURAS ===== */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.5em auto;
+  max-height: 90vh;
+}
+
+figure {
+  margin: 1.5em 0;
+  padding: 0;
+  text-align: center;
+  page-break-inside: avoid;
+}
+
+/* ===== 6a. PÁGINA DE CAPA ===== */
+/* 
+   A capa deve ocupar exatamente 100% da viewport
+   sem duplicação e sem quebras de página extras
+*/
+body#cover {
+  margin: 0;
+  padding: 0;
+}
+
+#cover-image {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#cover-image img {
+  max-width: 100%;
+  max-height: 100vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  margin: 0;
+}
+
+/* Esconde o SVG duplicado gerado pelo Pandoc */
+#cover-image svg {
+  display: none;
+}
+
+figcaption,
+.caption,
+p.caption {
+  font-size: 0.85em;
+  text-align: center;
+  margin-top: 0.5em;
+  line-height: 1.4;
+}
+
+/* ===== 7. NOTAS DE RODAPÉ ===== */
+a.footnoteRef,
+a.footnote-ref,
+sup a {
+  vertical-align: super;
+  font-size: 0.75em;
+  text-decoration: none;
+  line-height: 0;
+}
+
+section.footnotes,
+.footnotes {
+  margin-top: 3em;
+  padding-top: 1em;
+  font-size: 0.9em;
+}
+
+/* Esconde a linha horizontal antes das notas de rodapé */
+section.footnotes hr,
+.footnotes hr {
+  display: none;
+}
+
+/* ===== 8. NAVEGAÇÃO / TOC ===== */
+/* Namespace para seletores epub: */
+@namespace epub "http://www.idpf.org/2007/ops";
+
+nav[epub|type="toc"],
+nav#toc,
+nav {
+  padding: 0.5em;
+}
+
+/* Remove TODA numeração automática de listas no TOC */
+/* Seletores abrangentes para garantir compatibilidade */
+nav ol,
+nav ul,
+nav[epub|type="toc"] ol,
+nav#toc ol,
+ol.toc,
+ol.toc ol,
+#toc ol,
+#toc ul {
+  list-style: none !important;
+  list-style-type: none !important;
+  padding: 0 !important;
+  padding-left: 0 !important;
+  margin: 0;
+  margin-left: 0;
+  counter-reset: none !important;
+}
+
+/* Sublistas (subseções) - indentação */
+ol.toc ol,
+nav ol ol,
+#toc ol ol {
+  padding-left: 1.5em !important;
+}
+
+nav li,
+nav[epub|type="toc"] li,
+nav#toc li,
+ol.toc li,
+#toc li {
+  margin-bottom: 0.6em;
+  list-style: none !important;
+  list-style-type: none !important;
+}
+
+nav a,
+nav[epub|type="toc"] a,
+nav#toc a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Espaçamento entre seções do TOC */
+/* Front matter (Rosto, Créditos, Sobre o livro) - sem numeração */
+.toc-frontmatter {
+  font-size: 0.9em;
+}
+
+/* Último item antes de nova seção - adiciona espaço abaixo */
+.toc-section-end {
+  margin-bottom: 1.5em !important;
+}
+
+/* Primeiro item de nova seção - adiciona espaço acima */
+.toc-section-start {
+  margin-top: 1.5em !important;
+}
+
+/* CSS counter removido - era conflitante com numeração do ol */
+
+/* ===== 9. CLASSES UTILITÁRIAS ===== */
+
+/* Alinhamentos */
+.flushright {
+  text-align: right;
+  margin-left: 25%;
+}
+
+.center {
+  text-align: center;
+}
+
+.flushleft {
+  text-align: left;
+}
+
+/* Epígrafe */
+div.epigraph {
+  margin: 2em 0 2em 35%;
+  text-align: right;
+  font-size: 0.92em;
+}
+
+div.epigraph p {
+  text-indent: 0;
+}
+
+div.epigraph .author,
+div.epigraph p.author {
+  margin-top: 0.5em;
+  font-style: normal;
+  font-size: 0.9em;
+}
+
+/* Versos/Poesia */
+div.verse {
+  margin: 1.5em 2em;
+  white-space: pre-wrap;
+}
+
+/* Small Caps */
+/* Múltiplas abordagens para garantir compatibilidade: */
+/* 1. font-variant-caps (moderno) */
+/* 2. font-variant: small-caps (legacy) */
+/* 3. letter-spacing para melhor legibilidade */
+.smallcaps,
+span.smallcaps {
+  font-variant: small-caps;
+  font-variant-caps: small-caps;
+  font-weight: inherit;
+  /* Herda do pai (bold em títulos, normal em texto) */
+  letter-spacing: 0.03em;
+  /* Evita que o texto seja tratado como em itálico */
+  font-style: normal;
+}
+
+/* Garante smallcaps em notas de rodapé (Apple Books issue) */
+aside.footnote .smallcaps,
+aside.footnote span.smallcaps,
+section.footnotes .smallcaps,
+.footnotes .smallcaps {
+  font-variant: small-caps;
+  font-variant-caps: small-caps;
+}
+
+span.versal {
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+/* ===== 10. DIDASCÁLIA ===== */
+/* 
+   Texto introdutório isolado antes de \part.
+   Estilo clássico: página própria, texto na parte inferior,
+   sem decorações visuais.
+*/
+aside.didascalia,
+section.didascalia {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 70vh;
+  padding: 2em 0;
+  margin: 0;
+  page-break-before: always;
+  /* SEM page-break-after para evitar páginas em branco */
+}
+
+aside.didascalia p,
+section.didascalia p {
+  text-indent: 0;
+  line-height: 1.7;
+  text-align: justify;
+}
+
+aside.didascalia strong,
+section.didascalia strong {
+  font-weight: bold;
+}
+
+/* ===== 11. ACESSIBILIDADE ===== */
+/* Foco visível para navegação por teclado */
+a:focus {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+/* Esconder visualmente mas manter acessível */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Esconder completamente títulos estruturais (usado em Créditos) */
+/* IMPORTANTE: Aplicar apenas a h1, não a sections ou outros elementos */
+h1.hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ===== 12. PARTES (h1.part-title) ===== */
+/* 
+   Títulos de Parte: centralizados no meio da página
+   Derivados de \part do LaTeX
+   Ocupa uma página inteira, texto centralizado horizontal e verticalmente
+*/
+
+/* O h1 com classe part-title é tratado como página de título de parte */
+h1.part-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 85vh;
+  font-size: 2.2em;
+  font-weight: bold;
+  font-variant: normal;
+  text-transform: none;
+  margin: 0;
+  padding: 2em 1em;
+  page-break-before: always;
+  /* SEM page-break-after para evitar página em branco */
+  hyphens: none;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+}
+
+/* Fallback: section que contém apenas h1.part-title */
+section:has(> h1.part-title) {
+  display: block;
+  min-height: 0;
+  padding: 0;
+  margin: 0;
+}
+
+/* A section.part-title recebe apenas quebra de página */
+section.part-title {
+  page-break-before: always;
+}
+
+/* Elementos filhos da section.part-title resetam para normal */
+section.part-title>section,
+section.part-title section,
+section.part-title p,
+section.part-title blockquote,
+section.part-title table,
+section.part-title li {
+  font-variant: normal;
+  text-align: justify;
+}
+
+/* ===== 12a. ROSTO (página de título) ===== */
+section.rosto,
+.rosto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  text-align: center;
+  padding: 2em;
+  /* SEM page-break-before - é a primeira página */
+}
+
+/* Remove indentação de todos os parágrafos na página de rosto */
+.rosto p,
+section.rosto p {
+  text-indent: 0;
+  text-align: center;
+  margin: 0.3em 0;
+}
+
+.rosto-titulo {
+  margin-top: 10vh;
+  text-align: center;
+}
+
+.rosto-titulo strong {
+  font-size: 1.8em;
+  font-weight: bold;
+  display: block;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.rosto-titulo em {
+  font-size: 1em;
+  font-style: italic;
+  display: block;
+  margin-top: 0.5em;
+  text-align: center;
+}
+
+.rosto-autor {
+  font-size: 1em;
+  margin-top: 2em;
+  text-align: center;
+}
+
+.rosto-contribuidor {
+  font-size: 0.85em;
+  margin-top: 2em;
+  text-align: center;
+}
+
+.rosto-editora {
+  font-size: 0.95em;
+  margin-top: auto;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+.rosto-editora img,
+img.logo-editora {
+  max-height: 1em;
+  max-width: 4em;
+  width: auto;
+  height: auto;
+  margin: 0 auto 0.3em auto;
+  display: block;
+}
+
+/* Dark mode: inverte logo preto para branco */
+@media (prefers-color-scheme: dark) {
+
+  .rosto-editora img,
+  img.logo-editora {
+    filter: invert(1);
+  }
+}
+
+/* ===== 12b. PRETAS (sinopse/bios) ===== */
+section.pretas,
+.pretas {
+  font-size: 0.9em;
+  line-height: 1.6;
+  padding: 2em 1em;
+  /* SEM page-break - segue diretamente após créditos */
+}
+
+.pretas p {
+  text-indent: 0;
+  text-align: justify;
+  margin-bottom: 1em;
+}
+
+/* ===== 12c. CRÉDITOS ===== */
+section.creditos,
+.creditos {
+  font-size: 0.75em;
+  line-height: 1.5;
+  padding: 2em 1em;
+  /* SEM page-break - segue diretamente após rosto */
+}
+
+.creditos p {
+  text-indent: 0;
+  text-align: left;
+  margin-bottom: 0.3em;
+}
+
+/* ===== 13. COLOFON DIGITAL ===== */
+/* 
+   Colofon para edições digitais.
+   Posicionado na parte inferior da página.
+*/
+.colofon-digital,
+section.colofon-digital {
+  /* SEM page-break-before - segue naturalmente após o conteúdo */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  /* Posiciona no fim da página */
+  min-height: 85vh;
+  text-align: center;
+  padding: 2em;
+  font-size: 0.85em;
+  line-height: 1.6;
+}
+
+.colofon-digital p,
+.colofon-digital .colofon-text {
+  text-indent: 0;
+  text-align: center;
+  margin-bottom: 1em;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  hyphens: none;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+}
+
+.colofon-digital .ornament,
+p.ornament {
+  font-size: 1.5em;
+  margin-top: 1.5em;
+  text-align: center;
+}
+
+/* Estilo legado para compatibilidade */
+
+/* Estilo para Títulos de Partes */
+.part-title {
+    text-align: center;
+    page-break-before: always;
+    margin-top: 20%;
+    font-variant: small-caps;
+}
+
+/* Autor do capítulo */
+.chapter-author {
+    text-align: right;
+    font-variant: small-caps;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}

@@ -1,0 +1,47 @@
+<!-- Metadados de Acessibilidade para EPUB (EPUB Accessibility 1.1 / EPUB 3.3) -->
+<!-- Este fragmento será mesclado no <metadata> do package.opf pelo Pandoc -->
+
+<!-- Declaração explícita de charset (força leitores a usar UTF-8) -->
+<meta property="dcterms:charset">UTF-8</meta>
+
+
+<!-- Conformidade declarada (WCAG 2.1 AA, via EPUB A11Y spec) -->
+<meta property="http://purl.org/dc/terms/conformsTo">http://www.idpf.org/epub/a11y/accessibility-20170105.html#wcag-aa</meta>
+
+<!-- Modos de acesso (obra textual com imagens ilustrativas) -->
+<meta property="http://schema.org/accessMode">textual</meta>
+<meta property="http://schema.org/accessMode">visual</meta>
+
+<!-- Modos suficientes (leitura textual é suficiente com tecnologia assistiva) -->
+<meta property="http://schema.org/accessModeSufficient">textual</meta>
+
+<!-- Funcionalidades de acessibilidade presentes -->
+<meta property="http://schema.org/accessibilityFeature">tableOfContents</meta>
+<meta property="http://schema.org/accessibilityFeature">readingOrder</meta>
+<meta property="http://schema.org/accessibilityFeature">structuralNavigation</meta>
+<meta property="http://schema.org/accessibilityFeature">displayTransformability</meta>
+<!-- Caso use MathML (ex.: --mathml no Pandoc) -->
+<meta property="http://schema.org/accessibilityFeature">MathML</meta>
+<!-- Caso todas as imagens tenham texto alternativo adequado -->
+<meta property="http://schema.org/accessibilityFeature">alternativeText</meta>
+
+<!-- Perigos de acessibilidade: nenhum -->
+<meta property="http://schema.org/accessibilityHazard">none</meta>
+
+<!-- Resumo de acessibilidade (edite com a realidade do livro) -->
+<meta property="http://schema.org/accessibilitySummary">
+Este EPUB foi produzido com navegação estruturada (sumário, landmarks),
+sem cores/fundos fixos, com MathML e imagens com texto alternativo.
+Compatível com leitores de tela; o conteúdo textual é suficiente para compreensão.
+</meta>
+
+<!-- (Opcional) Certificação -->
+<!-- Preencha se houver avaliação externa (por ex. relatório ACE revisado) -->
+<!--
+<meta property="http://www.idpf.org/epub/a11y/#certifiedBy">Nome da Organização</meta>
+<meta property="http://www.idpf.org/epub/a11y/#certifierCredential">Critérios/Programa</meta>
+<meta property="http://www.idpf.org/epub/a11y/#certifierReport">URL-do-Relatorio</meta>
+-->
+
+<!-- IMPORTANTE: Verifique se todas as imagens no livro possuem texto alternativo adequado. Se não, remova a declaração 'alternativeText' ou adicione os textos alternativos. -->
+<!-- Lembre-se de personalizar o 'accessibilitySummary' para refletir as características de acessibilidade *reais* deste livro. -->
