@@ -2,17 +2,19 @@
 
 *Achado entre os papéis do falecido Francis Wayland Thurston, de Boston*
 
-De tais grandes poderes ou seres talvez seja possível supor uma
-sobrevivência… uma sobrevivência de um período imensamente remoto
-quando… a consciência se manifestava, talvez, em formas e configurações
-desde há muito recolhidas, antes da maré da humanidade avançar… formas
-das quais só a poesia e as lendas agarraram uma memória fugidia e as
-chamaram deuses, monstros, criaturas míticas de todos os tipos e
-espécies…
+<div class="epigraph epigraph-page">
+<p>De tais grandes poderes ou seres talvez seja
+possível supor uma sobrevivência… uma sobrevivência de um período
+imensamente remoto quando… a consciência se manifestava, talvez, em
+formas e configurações desde há muito recolhidas, antes da maré da
+humanidade avançar… formas das quais só a poesia e as lendas agarraram
+uma memória fugidia e as chamaram deuses, monstros, criaturas míticas de
+todos os tipos e espécies…</p>
+<p class="attribution"><span class="smallcaps">algernon blackwood</span>[^1]</p>
+</div>
 
-<span class="smallcaps">algernon blackwood</span>
 
-# O horror em argila
+## O horror em argila
 
 A coisa mais misericordiosa do mundo é, penso, a inabilidade da mente
 humana em correlacionar todas as suas partes. Vivemos numa plácida ilha
@@ -96,13 +98,13 @@ caricatura humana, não serei infiel ao espírito da coisa. Uma cabeça
 carnuda, tentaculada, arrematava um corpo grotesco e escamoso de asas
 rudimentares; mas era o *esquema geral* do todo que o fazia
 escandalosamente assustador. Por trás da figura estava a sugestão vaga
-de um fundo arquitetônico ciclópico.[^1]
+de um fundo arquitetônico ciclópico.[^2]
 
 A escrita acompanhando essa excentricidade era, com exceção de uma pilha
 de recortes de jornal, recente e da própria mão do professor Angell, sem
 a pretensão de estilo literário. O que parecia ser o documento principal
 se intitulava <span class="smallcaps">culto de cthulhu</span> em caracteres cuidadosamente
-impressos para evitar a leitura errônea de uma palavra tão insólita.[^2]
+impressos para evitar a leitura errônea de uma palavra tão insólita.[^3]
 O manuscrito se dividia em duas seções, a primeira das quais se
 intitulava "1925 — Sonho e trabalho de sonho de H. A. Wilcox, r. Thomas,
 7, Providence, <span class="smallcaps">r.i.</span>", e a segunda, "Relato do inspetor John R.
@@ -111,11 +113,11 @@ Legrasse, r. Bienville, 121, New Orleans, La., no cong. da
 outros papéis do manuscrito eram todos notas breves, algumas delas
 relatos de sonhos incomuns de diversas pessoas, outras, ainda, citações
 de revistas e livros teosóficos (em particular *Atlântida* e a *Lemúria
-perdida*, de W. Scott-Elliot),[^3] e o resto, comentários sobre as
+perdida*, de W. Scott-Elliot),[^4] e o resto, comentários sobre as
 sociedades secretas e as seitas ocultas de longa história, com citações
 de passagens em obras de referência mitológica e antropológica como *O
 ramo dourado*, de Frazer e *O culto das bruxas na Europa Ocidental*, da
-srta. Murray.[^4] Os recortes em sua maioria aludiam a doenças mentais
+srta. Murray.[^5] Os recortes em sua maioria aludiam a doenças mentais
 *outré* e a surtos de insanidade coletiva na primavera de 1925.
 
 A primeira metade do manuscrito principal contava uma história muito
@@ -294,7 +296,7 @@ seja dito; e hoje eu mal posso imaginar o nível de racionalidade rude
 com o qual o deixei de lado. Mas eu estava então convencido de que o
 jovem Wilcox sabia das questões antigas mencionadas pelo professor.
 
-# A narrativa do inspetor Legrasse
+## A narrativa do inspetor Legrasse
 
 As questões antigas que fizeram o sonho e o baixo-relevo do escultor tão
 significativos para o meu tio compunham o assunto da segunda metade de
@@ -394,7 +396,7 @@ mencionavam sempre estremecidos, dizendo que aquilo vinha de eras
 horrivelmente antigas, de antes mesmo que o mundo tivesse se feito. Além
 de rituais inomináveis e sacrifícios humanos, havia certos rituais
 hereditários exóticos, dedicados a um demônio supremo mais antigo, ou
-*tornasuk*;[^5] e desse, o professor Webb tomara o cuidadoso registro
+*tornasuk*;[^6] e desse, o professor Webb tomara o cuidadoso registro
 fonético de um *angekok*, ou mago-sacerdote, expressando os sons em
 alfabeto romano tão bem quanto podia. Mas, no momento, era de
 importância capital o fetiche que aquele culto prezara, e em torno do
@@ -436,7 +438,7 @@ espantoso entre aqueles pardos e párias quanto se podia esperar.
 Em 1<sup>o</sup> de novembro de 1907 chegaram à polícia de New Orleans
 chamados frenéticos da região do pântano e da lagoa, ao sul. Os
 ocupantes clandestinos lá, sobretudo uns descendentes primitivos, mas de
-boa índole, dos Lafitte,[^6] estavam transidos de horror por causa de
+boa índole, dos Lafitte,[^7] estavam transidos de horror por causa de
 algo desconhecido que os havia abordado no meio da noite. Era
 aparentemente vodu, mas vodu de um tipo bem mais terrível do que
 conheciam; e algumas de suas mulheres e crianças haviam desaparecido
@@ -474,7 +476,7 @@ vivia uma coisa pólipa, enorme, sem forma e branca, com olhos luminosos;
 e alguns dos ocupantes murmuravam que demônios com asas de morcego
 voavam das cavernas para a floresta, em adoração àquilo, à meia-noite.
 Diziam que a coisa estivera lá desde antes de D’Iberville, antes de La
-Salle,[^7] antes dos indígenas, e mesmo antes dos animais e pássaros
+Salle,[^8] antes dos indígenas, e mesmo antes dos animais e pássaros
 bons do bosque. Um pesadelo vivo, e presenciá-lo seria a morte. Mas
 fazia os homens sonhar, e assim sabiam o suficiente para manter
 distância. Aquela orgia vodu estava, de fato, no exato limite da área
@@ -505,7 +507,7 @@ desmaiou, e todos ficaram ali tremendo e quase hipnotizados de horror.
 Em uma clareira natural do pântano ficava uma ilha gramada, com cerca de
 um acre de extensão, sem árvores e toleravelmente seca. Nela agora
 saltava e se contorcia uma horda de anormalidade humana que só poderia
-ser descrita como algo que um Sime ou um Angarola[^8] pintaria.
+ser descrita como algo que um Sime ou um Angarola[^9] pintaria.
 Desprovidas de roupa, essas crias híbridas estavam zurrando, mugindo e
 se retorcendo em volta de uma fogueira monstruosa em forma de anel, no
 centro da qual, revelado por fendas ocasionais na cortina de fogo, havia
@@ -646,13 +648,13 @@ Deles, no entanto, o velho Castro não ousava falar muito. Interrompeu a
 fala de repente e persuasão ou sutileza alguma pôde obter mais naquele
 sentido. O *tamanho* dos Antigos, também, ele curiosamente declinara
 mencionar. Sobre o culto, disse pensar que o centro ficava em meio aos
-desertos inviáveis da Arábia, onde Irem, a Cidade dos Pilares,[^9] sonha
-escondida e intocada. Não estava ligado ao culto das bruxas da Europa, e
-era virtualmente desconhecido para além de seus membros. Livro algum
-jamais o mencionou, embora os chineses imortais tenham dito que havia
-duplos-sentidos no *Necronomicon*[^10] do árabe insano Abdul Alhazred,
-que os iniciados podiam ler como quisessem, em especial o controverso
-dístico:
+desertos inviáveis da Arábia, onde Irem, a Cidade dos Pilares,[^10]
+sonha escondida e intocada. Não estava ligado ao culto das bruxas da
+Europa, e era virtualmente desconhecido para além de seus membros. Livro
+algum jamais o mencionou, embora os chineses imortais tenham dito que
+havia duplos-sentidos no *Necronomicon*[^11] do árabe insano Abdul
+Alhazred, que os iniciados podiam ler como quisessem, em especial o
+controverso dístico:
 
 > *Morto não está se eterno pode adormecer,  
 > E em estranhas eras mesmo a morte irá morrer.*
@@ -705,7 +707,7 @@ devo conceder que, pelos exemplos espalhados lá por toda parte, seu
 gênio é de fato profundo e autêntico. Em algum tempo se ouvirá falar
 dele, acredito, como um dos grandes decadentes; pois cristalizou em
 argila e um dia espelhará em mármore aqueles pesadelos e fantasias que
-Arthur Machen evoca em prosa, e Clark Ashton Smith[^11] torna visíveis
+Arthur Machen evoca em prosa, e Clark Ashton Smith[^12] torna visíveis
 em verso e pintura.
 
 Sombrio, frágil e algo descuidado com seu aspecto, voltou-se
@@ -774,7 +776,7 @@ Angell morreu porque sabia demais, ou porque estava prestes a sabê-lo.
 Se o mesmo acontecerá comigo ainda está por se ver, porque agora também
 soube muito.
 
-# A loucura vinda do mar
+## A loucura vinda do mar
 
 Se o céu um dia quiser conceder-me uma dádiva, será o apagamento total
 dos resultados de um mero acaso que fixou meu olho em certo jornal velho
@@ -943,10 +945,10 @@ que o velho Castro dissera a Legrasse sobre os Grandes Antigos primevos:
 Abalado por uma revolução mental que jamais experimentara, estava
 resolvido a visitar o imediato Johansen em Oslo. Navegando desde
 Londres, reembarquei de uma vez para a capital norueguesa; e em um dia
-de outono saltei nos cais impecáveis à sombra do Egeberg.[^12] O
+de outono saltei nos cais impecáveis à sombra do Egeberg.[^13] O
 endereço de Johansen, vim a descobrir, ficava na velha cidade do rei
 Harold Haardrada, que manteve vivo o nome de Oslo durante os séculos em
-que a cidade expandida se mascarava como "Christiana".[^13] Fiz o breve
+que a cidade expandida se mascarava como "Christiana".[^14] Fiz o breve
 trajeto de táxi e, com o coração aos saltos, bati à porta de um edifício
 elegante e antigo, com fachada de estuque. Uma mulher de rosto triste e
 vestida de preto atendeu e me vi doído de decepção quando me disse em
@@ -959,7 +961,7 @@ técnicos", em suas palavras — redigido em inglês evidentemente para
 protegê-la do perigo de uma leitura casual. Durante uma caminhada por
 certa travessa estreita junto das docas de Gothenburg, um embrulho de
 papéis caindo da janela de um sótão o havia derrubado. Dois marinheiros
-lascares[^14] imediatamente o ajudaram a se levantar, mas morreu antes
+lascares[^15] imediatamente o ajudaram a se levantar, mas morreu antes
 que a ambulância chegasse. Os médicos não puderam encontrar uma causa
 adequada para o óbito e atribuíram-no a problema cardíaco e a uma
 constituição debilitada.
@@ -1049,7 +1051,7 @@ teriam fugido se não temessem o desprezo dos companheiros e davam buscas
 sem empenho — e em vão, como se provou — atrás de algum souvenir que
 pudessem carregar consigo.
 
-Foi Rodriguez,[^15] o português, quem escalou o pé do monolito e gritou
+Foi Rodriguez,[^16] o português, quem escalou o pé do monolito e gritou
 anunciando o que descobrira. Os restantes o seguiram, e olhavam com
 curiosidade para a imensa porta entalhada com o baixo-relevo agora já
 familiar do molusco-dragão. Era, disse Johansen, como uma enorme porta
@@ -1214,10 +1216,16 @@ p\. 80
 p\. 82  
 *Cthulhu*, vista posterior, desenho a lápis, 1934.
 
-[^1]: Tipo de construção feito de rochas apoiadas umas nas outras, sem
+[^1]: A citação de abertura vem do romance *O Centauro* (1911), de
+    Algernon Blackwood. Lovecraft terá se baseado no estilo de Blackwood
+    em criar expectativa e encerrar a narrativa no ápice de uma
+    revelação, como acontece em *O Centauro*. \[Todas as notas desta
+    edição são de autoria do tradutor.\]
+
+[^2]: Tipo de construção feito de rochas apoiadas umas nas outras, sem
     material de juntura.
 
-[^2]: Efetivamente insólita. Sobre ela, Lovecraft escreveu em carta de
+[^3]: Efetivamente insólita. Sobre ela, Lovecraft escreveu em carta de
     1934 a Duane Rimel, também autor de fantasia e horror, que "deveria
     representar uma tentativa humana desajeitada de fixar a fonética de
     uma palavra *absolutamente não humana*. O nome da entidade infernal
@@ -1232,16 +1240,16 @@ p\. 82
     *l*, mudo" (<span class="smallcaps">lovecraft</span>, H. P. "Notes". In: *Tales*. Nova
     York: The Library of America, 2005, p. 830).
 
-[^3]: *The Story of Atlantis* (1896) e *The Lost Lemuria* (1904), de
+[^4]: *The Story of Atlantis* (1896) e *The Lost Lemuria* (1904), de
     William Scott-Elliot, teósofo inglês.
 
-[^4]: *The Golden Bough* (os doze volumes foram publicados entre
+[^5]: *The Golden Bough* (os doze volumes foram publicados entre
     1906–15), obra monumental de James George Frazer, antropólogo e
     folclorista escocês, e *The Witch-Cult in Western Europe* (1921), de
     Margaret Alice Murray, egiptóloga, antropóloga, folclorista,
     arqueóloga e historiadora anglo-indiana.
 
-[^5]: "Os groenlandeses não fazem preces nem sacrifícios, e não praticam
+[^6]: "Os groenlandeses não fazem preces nem sacrifícios, e não praticam
     rito algum; eles creem, não obstante, na existência de certos seres
     sobrenaturais. O principal e mais poderoso desses seres é o
     *Torngarsuk*, invocado sobretudo pelos pescadores, e que eles por
@@ -1251,24 +1259,24 @@ p\. 82
     (<span class="smallcaps">plancy</span>, J. Collin de. *Dictionnaire infernal*. 6. ed.
     Paris: Henri Plon, 1863, p. 661).
 
-[^6]: Jean e Pierre Lafitte, piratas franceses que, no começo do século
+[^7]: Jean e Pierre Lafitte, piratas franceses que, no começo do século
     <span class="smallcaps">xix</span>, se estabeleceram na Louisiana.
 
-[^7]: Pierre Le Moyne d’Iberville, soldado, explorador e administrador
+[^8]: Pierre Le Moyne d’Iberville, soldado, explorador e administrador
     colonial, o francês d’Iberville foi um dos fundadores de La
     Luoisiane, agora a Louisiana; René-Robert Cavalier, Sieur de La
     Salle, explorador e comerciante de peles que expedicionou pelo rio
     Mississippi.
 
-[^8]: Sidney Herbert Sime, artista inglês, conhecido por suas
+[^9]: Sidney Herbert Sime, artista inglês, conhecido por suas
     ilustrações das obras fantásticas de Lord Dunsany; Anthony Angarola,
     artista estadunidense que ilustrou, por exemplo, *A Kingdom of Evil,
     a Continuation of the Journal of Fantazius Mallare* (1924), de Ben
     Hecht.
 
-[^9]: Cidade perdida mencionada no Corão.
+[^10]: Cidade perdida mencionada no Corão.
 
-[^10]: *Necronomicon* é o título de um grimório fictício, daquele autor
+[^11]: *Necronomicon* é o título de um grimório fictício, daquele autor
     árabe fictício, ambos inventados por Lovecraft. O nome original em
     árabe seria *Al Azif*, que propõe o ruído dos insetos à noite como o
     ruído da voz dos demônios. O livro foi famosamente usado na trilogia
@@ -1278,7 +1286,7 @@ p\. 82
     de insetos para efeito perturbador, assim como William Friedkin o
     fez em *O exorcista* (1973).
 
-[^11]: Arthur Machen, escritor e místico galês, cuja fama literária no
+[^12]: Arthur Machen, escritor e místico galês, cuja fama literária no
     meio fantástico se dá especialmente pela novela *O grande deus Pã*
     (1894), admirada por Lovecraft e também por Stephen King, que a
     considera "talvez a melhor história de horror da língua inglesa";
@@ -1294,17 +1302,17 @@ p\. 82
     moventes, sem oásis, e rumores dizem que um estranho horror reside
     ali".
 
-[^12]: Castelo próximo da região portuária em Oslo, mandado construir
+[^13]: Castelo próximo da região portuária em Oslo, mandado construir
     por Einar Westye Egeberg. Também o nome de uma geleira na
     Antárctica.
 
-[^13]: Grafado "Christiana" no original inglês de Lovecraft. Em 1624 a
+[^14]: Grafado "Christiana" no original inglês de Lovecraft. Em 1624 a
     cidade conhecida como Oslo foi renomeada *Christiania* em homenagem
     ao rei Christian <span class="smallcaps">iv</span>, após um incêndio devastador. Em 1877 a
     grafia foi trocada por *Kristania* e, em 1925, a cidade mais ampla
     incorporou a antiga região de Oslo, e foi assim renomeada.
 
-[^14]: Nativo das Índias Orientais.
+[^15]: Nativo das Índias Orientais.
 
-[^15]: Mantém-se a grafia do nome como Lovecraft o escreveu, à
+[^16]: Mantém-se a grafia do nome como Lovecraft o escreveu, à
     espanhola.

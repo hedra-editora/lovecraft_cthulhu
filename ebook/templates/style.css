@@ -718,3 +718,27 @@ p.ornament {
     margin-top: 1em;
     margin-bottom: 2em;
 }
+
+/* Epígrafe */
+.epigraph {
+    margin: 2em 0 2em 2em;
+    text-align: right;
+}
+.epigraph-page {
+    page-break-before: always;
+    page-break-after: always;
+    margin-top: 30%;
+    margin-bottom: 20%;
+}
+/* Espaçamento no Sumário e Iconografia */
+li.toc-section-start {
+    margin-top: 1.5em !important;
+    list-style: none;
+}
+.epigraph .attribution {
+    text-align: right;
+    font-style: normal;
+    font-variant: small-caps;
+    margin-top: 0.5em;
+    font-size: 0.9em;
+}

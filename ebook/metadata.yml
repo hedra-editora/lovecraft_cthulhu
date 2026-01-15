@@ -18,7 +18,7 @@ lang: pt-BR
 
 # Identificador Único (ISBN ou UUID)
 # O Pandoc usa isso como dc:identifier
-identifier: "ISBN:978-85-000-0000-0"
+identifier: "ISBN:978-85-7715-999-4"
 
 # Categorização (Mapeado para dc:subject)
 subject: "Literatura Brasileira / Romance"
@@ -26,6 +26,18 @@ tags: [Literatura, Ficção, Brasileiro, Hedra]
 
 # Descrição (Sinopse) - Mapeado para dc:description
 description: "**O chamado de Cthulhu** (1928) apresenta a figura mais popular de Lovecraft, centro da série sobre os Grandes Antigos, as gigantescas e incompreensíveis criaturas anteriores a esta Terra. É a cristalização, numa imagem, de um tipo específico de t..."
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
