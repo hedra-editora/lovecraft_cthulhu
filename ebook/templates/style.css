@@ -487,9 +487,11 @@ a:focus {
   border: 0;
 }
 
-/* Esconder completamente títulos estruturais (usado em Créditos) */
-/* IMPORTANTE: Aplicar apenas a h1, não a sections ou outros elementos */
-h1.hidden {
+/* Esconder completamente títulos estruturais (usado em Rosto e Créditos) */
+/* IMPORTANTE: Aplicar a h1, h2, h3 para cobrir todos os casos */
+h1.hidden,
+h2.hidden,
+h3.hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -607,7 +609,7 @@ section.rosto p {
 }
 
 .rosto-editora {
-  font-size: 0.95em;
+  font-size: 0.75em;
   margin-top: auto;
   margin-bottom: 2em;
   text-align: center;
@@ -638,7 +640,8 @@ section.pretas,
   font-size: 0.9em;
   line-height: 1.6;
   padding: 2em 1em;
-  /* SEM page-break - segue diretamente após créditos */
+  page-break-before: always;
+  /* Pretas em página própria, após créditos */
 }
 
 .pretas p {
@@ -653,7 +656,8 @@ section.creditos,
   font-size: 0.75em;
   line-height: 1.5;
   padding: 2em 1em;
-  /* SEM page-break - segue diretamente após rosto */
+  page-break-before: always;
+  /* Créditos em página própria, após rosto */
 }
 
 .creditos p {

@@ -8,7 +8,7 @@
 # usando o conteúdo do LaTeX. Mantenha formato "chave: valor".
 title: "O chamado de Cthulhu"
 subtitle: "Subtítulo (opcional)"
-author: "Autor Provisório"
+author: "H. P. Lovecraft"
 publisher: "Editora Hedra"
 # rights: (removido para evitar duplicação na title page)
 # date: (removido para evitar duplicação na title page)
@@ -25,7 +25,7 @@ subject: "Literatura Brasileira / Romance"
 tags: [Literatura, Ficção, Brasileiro, Hedra]
 
 # Descrição (Sinopse) - Mapeado para dc:description
-description: "**O chamado de Cthulhu** (1928) apresenta a figura mais popular de Lovecraft, centro da série sobre os Grandes Antigos, as gigantescas e incompreensíveis criaturas anteriores a esta Terra. É a cristalização, numa imagem, de um tipo específico de t..."
+description: "**O chamado de Cthulhu** (1928) apresenta a figura mais popular de Lovecraft, centro da série sobre os Grandes Antigos, as gigantescas e incompreensíveis criaturas anteriores a esta Terra."
 
 
 
