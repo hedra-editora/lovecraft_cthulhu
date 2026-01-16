@@ -60,7 +60,7 @@ contributor: "Nome do Tradutor (tradução)"
 
 # Capa (Caminho relativo à raiz da compilação)
 # O script edlab_epub3.py tenta verificar se esse arquivo existe.
-# cover-image: (removido, arquivo não encontrado)
+cover-image: "images/cover.png"
 
 # Metadados Técnicos de Publicação
 type: "Book"

@@ -35,6 +35,7 @@ São Paulo, 2026
 <section id="créditos" class="creditos" epub:type="copyright-page">
 
 **edição brasileira ©** Hedra 2026  
+**tradução ©** Dirceu Villa  
 
 **edição** Jorge Sallum e Luan Maitan  
 **coedição** Suzana Salama  

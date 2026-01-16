@@ -1189,32 +1189,6 @@ não devo e não posso pensar! Farei uma prece para que, se não sobreviver
 a este manuscrito, meus executores testamentários ponham a cautela antes
 da audácia e que isto não chegue ainda a outros olhos.
 
-# Iconografia
-
-As imagens reunidas neste livro, compostas por manuscritos e obras
-gráficas de autoria ou relacionadas a H. P. Lovecraft, integram o acervo
-da *Howard P. Lovecraft Collection*, conservado na Brown University
-Library, em Providence, Rhode Island.
-
-p\. 1  
-*The Call of Cthulhu*, primeira página do datiloscrito, 1926.
-
-p\. 2  
-*Cthulhu*, vista frontal, desenho a lápis, 1934.
-
-p\. 8  
-*Cthulhu*, vista de perfil, desenho a lápis, 1934, com inscrição
-dedicada a R. H. Barlow.
-
-p\. 50  
-*Cthulhu*, linoleogravura de R. H. Barlow, em carta de Lovecraft a
-Robert Bloch, c. 1930.
-
-p\. 80  
-*The Call of Cthulhu*, última página do datiloscrito, 1926.
-
-p\. 82  
-*Cthulhu*, vista posterior, desenho a lápis, 1934.
 
 [^1]: A citação de abertura vem do romance *O Centauro* (1911), de
     Algernon Blackwood. Lovecraft terá se baseado no estilo de Blackwood
