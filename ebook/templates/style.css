@@ -38,32 +38,51 @@ h6 {
 }
 
 h1 {
-  font-size: 2em;
-  margin-top: 2em;
-  margin-bottom: 1em;
+  font-size: 1.45em;
+  margin-top: 1.5em;
+  margin-bottom: 0.8em;
   hyphens: none;
   -webkit-hyphens: none;
   -moz-hyphens: none;
-  /* NÃO usa page-break-before aqui - causa páginas em branco */
-  /* Page breaks são controlados por section classes específicas */
+  page-break-before: always;
 }
 
 h2 {
-  font-size: 1.6em;
+  font-size: 1.2em;
+  /* Reduzido para fluir melhor nos paratextos comparado a h1 (1.45) */
+  margin-top: 1.2em;
+  margin-bottom: 0.6em;
   hyphens: none;
   -webkit-hyphens: none;
   -moz-hyphens: none;
+  page-break-before: auto;
+  /* Garante que h2 flua com o texto e não quebre a página */
 }
 
+/* Seções do impresso (\section/\subsection, edlab-sections.sty):
+   \centering\scshape\MakeTextLowercase — centradas, em versalete INTEGRAL
+   e minúsculas. O text-transform reproduz o \MakeTextLowercase: sem ele,
+   títulos como "Resposta de orides fontela à revista «marie claire»"
+   saíam em versal+versalete, com nomes próprios aparentando minúsculas. */
 h3 {
-  font-size: 1.4em;
+  font-size: 1.05em;
+  text-align: center;
+  font-weight: normal;
+  font-variant: small-caps;
+  text-transform: lowercase;
+  letter-spacing: 0.04em;
   hyphens: none;
   -webkit-hyphens: none;
   -moz-hyphens: none;
 }
 
 h4 {
-  font-size: 1.2em;
+  font-size: 0.95em;
+  text-align: center;
+  font-weight: normal;
+  font-variant: small-caps;
+  text-transform: lowercase;
+  letter-spacing: 0.04em;
 }
 
 h5 {
@@ -110,6 +129,7 @@ h3.date {
 
 /* ===== 3. PARÁGRAFOS ===== */
 p {
+  margin-top: 0;
   margin-bottom: 0;
   text-indent: 1.5em;
   text-align: justify;
@@ -123,8 +143,76 @@ h4+p,
 h5+p,
 h6+p,
 blockquote+p,
-aside+p {
+aside+p,
+div.chapter-author+p,
+div.argumento+p,
+div.epigraph+p,
+p.subtitle+p {
   text-indent: 0;
+}
+
+/* Versalete upright dentro de itálico: \emph{\textsc{x}} aninhado noutro
+   \emph (ex.: a sigla fhc num título de obra) — o emph interno DESLIGA o
+   itálico no impresso. */
+span.upright,
+span.upright .smallcaps,
+span.smallcaps.upright {
+  font-style: normal;
+}
+
+/* \noindent explícito no LaTeX: parágrafo sem recuo */
+p.noindent {
+  text-indent: 0;
+}
+
+/* Pergunta de entrevista (\noindent\textit{}): sem recuo + margem em cima,
+   criando o espaço entre um bloco pergunta/resposta e o seguinte. */
+p.entrevista-pergunta {
+  text-indent: 0;
+  margin-top: 1.4em;
+}
+
+/* Argumento de capítulo ({argumento} do impresso): bio do entrevistador e
+   proveniência do texto, no verso da página de título do capítulo. No EPUB,
+   bloco menor e destacado entre a abertura e o texto da entrevista. */
+div.argumento {
+  font-size: 0.85em;
+  margin: 2em 0 2.5em;
+  padding: 0.8em 0;
+  border-top: 1px solid currentColor;
+  border-bottom: 1px solid currentColor;
+}
+
+div.argumento p {
+  text-indent: 0;
+  margin: 0 0 0.6em;
+  text-align: justify;
+}
+
+div.argumento p:last-child {
+  margin-bottom: 0;
+}
+
+/* Entrada da lista bibliohedra (\tit do impresso): corpo menor
+   (\footnotesize) e recuo francês, uma entrada por parágrafo.
+   JUSTIFICADA como no impresso (a bibliohedra segue a mancha justificada). */
+p.bib-entry {
+  font-size: 0.85em;
+  margin: 0 0 0.5em 1.4em;
+  text-indent: -1.4em;
+  text-align: justify;
+}
+
+/* Endereços eletrônicos: quebram em qualquer ponto SEM hífen de
+   translineação (ABNT — um hífen inserido na quebra se confundiria com
+   hífen do próprio endereço). */
+a.url,
+span.url {
+  hyphens: none;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  word-break: break-all;
+  overflow-wrap: anywhere;
 }
 
 /* ===== REFERÊNCIAS BIBLIOGRÁFICAS ===== */
@@ -146,7 +234,7 @@ section[id*="bibliography"] p,
    - Preserva itálico/negrito do conteúdo original
 */
 blockquote {
-  margin: 1.5em 2em;
+  margin: 1.5em 0;
   padding: 0;
   /* Sem bordas decorativas */
   font-size: 0.95em;
@@ -177,13 +265,31 @@ pre {
 }
 
 /* ===== 5.5. TABELAS ===== */
+/* Corpo reduzido (0.8em): tabelas de dados densas estouravam a largura
+   nos leitores pequenos */
 table,
 .comparison-table {
   width: 100%;
   border-collapse: collapse;
   margin: 1.5em 0;
-  font-size: 0.9em;
+  font-size: 0.8em;
   page-break-inside: avoid;
+}
+
+/* Divisor de seção "* * *" (\asterisc do impresso).
+   !important + regra para <p> interno: leitores (Apple Books) forçam
+   justificação nos parágrafos por cima do CSS do editor. */
+div.asterisc,
+p.asterisc {
+  text-align: center !important;
+  text-indent: 0 !important;
+  margin: 1.4em 0;
+  letter-spacing: 0.2em;
+}
+
+.asterisc p {
+  text-align: center !important;
+  text-indent: 0 !important;
 }
 
 table caption,
@@ -207,6 +313,14 @@ table th,
 .comparison-table th {
   font-weight: bold;
   border-bottom: 2px solid #333;
+}
+
+/* Nota abaixo da tabela (\parbox do impresso: "*Número de casados...") */
+p.table-note {
+  font-size: 0.8em;
+  text-indent: 0;
+  text-align: left;
+  margin: 0.4em 0 1.2em 0;
 }
 
 table tr:last-child td,
@@ -264,13 +378,53 @@ body#cover {
   display: none;
 }
 
+/* ===== FIGURAS ===== */
+figure {
+  margin: 1.5em 0;
+  padding: 0;
+  text-align: center;
+  page-break-inside: avoid;
+}
+
+figure img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
 figcaption,
 .caption,
 p.caption {
   font-size: 0.85em;
   text-align: center;
-  margin-top: 0.5em;
+  margin-top: 0.75em;
   line-height: 1.4;
+  color: #555;
+  font-style: normal;
+  padding: 0 1em;
+}
+
+/* ===== 6b. QR CODES ===== */
+/* Bloco central com rótulo; tamanho fixo (140px escaneia bem da tela) */
+.qrcode {
+  text-align: center;
+  margin: 1.5em 0;
+  page-break-inside: avoid;
+}
+
+.qrcode .qr-label,
+.qrcode p.qr-label {
+  text-indent: 0;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+.qrcode img {
+  width: 140px;
+  height: 140px;
+  margin: 0 auto;
+  display: block;
 }
 
 /* ===== 7. NOTAS DE RODAPÉ ===== */
@@ -337,7 +491,7 @@ nav[epub|type="toc"] li,
 nav#toc li,
 ol.toc li,
 #toc li {
-  margin-bottom: 0.6em;
+  margin-bottom: 0.35em;
   list-style: none !important;
   list-style-type: none !important;
 }
@@ -357,12 +511,19 @@ nav#toc a {
 
 /* Último item antes de nova seção - adiciona espaço abaixo */
 .toc-section-end {
-  margin-bottom: 1.5em !important;
+  margin-bottom: 1.4em !important;
 }
 
 /* Primeiro item de nova seção - adiciona espaço acima */
 .toc-section-start {
-  margin-top: 1.5em !important;
+  margin-top: 1.4em !important;
+}
+
+/* Entrada de PARTE no sumário: respiro acima do grupo.
+   Junto com itens uniformes (0.35em) e o respiro pós-frontmatter
+   (.toc-section-end), é o ÚNICO espaçamento diferenciado do sumário. */
+li.toc-part {
+  margin-top: 1.4em !important;
 }
 
 /* CSS counter removido - era conflitante com numeração do ol */
@@ -372,7 +533,9 @@ nav#toc a {
 /* Alinhamentos */
 .flushright {
   text-align: right;
-  margin-left: 25%;
+  margin-left: 40%;
+  font-size: 0.85em;
+  margin-top: 2em;
 }
 
 .center {
@@ -383,28 +546,116 @@ nav#toc a {
   text-align: left;
 }
 
-/* Epígrafe */
+/* Epígrafe (genérica em texto) */
 div.epigraph {
-  margin: 2em 0 2em 35%;
+  margin: 2em 0 2em 30%;
   text-align: right;
-  font-size: 0.92em;
+  font-size: 0.85em;
 }
 
-div.epigraph p {
-  text-indent: 0;
+div.epigraph p,
+div.epigraph div {
+  text-indent: 0 !important;
 }
 
 div.epigraph .author,
-div.epigraph p.author {
+div.epigraph p.author,
+div.epigraph p.attribution {
   margin-top: 0.5em;
   font-style: normal;
   font-size: 0.9em;
 }
 
+div.epigraph p.attribution {
+  font-variant: small-caps;
+}
+
+/* ===== Epígrafe de página inteira ===== */
+/* Bloco à direita, texto alinhado à ESQUERDA dentro do bloco, itálico,
+   centralizado verticalmente. Recuo de 25% (~75% de largura, próximo do
+   \epigraphwidth .8\textwidth usado nos impressos): 45% espremia os versos
+   e forçava quebras que não existem no livro. */
+.epigrafe-page,
+section.epigrafe-page {
+  page-break-before: always;
+  page-break-after: auto;
+  margin-top: 10em; /* fallback sem flex */
+  margin-left: 25%;
+  text-align: left;
+}
+
+@supports (display: flex) {
+  .epigrafe-page,
+  section.epigrafe-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* centro vertical, como \vspace*{\fill} */
+    min-height: 90vh;
+    margin-top: 0;
+  }
+}
+
+.epigrafe-page div.epigraph,
+.epigrafe-page .epigraph-full {
+  margin: 0;
+  text-align: left;
+  font-style: italic; /* \itshape do impresso */
+}
+
+/* O p { text-align: justify } genérico vence a HERANÇA do alinhamento
+   da section — é preciso declarar explicitamente nos filhos. */
+.epigrafe-page p,
+.epigrafe-page div {
+  text-indent: 0;
+  text-align: left;
+}
+
+.epigrafe-page .attribution,
+.epigraph-full .attribution {
+  text-align: left; /* alinhada com os versos, como no impresso */
+  font-style: normal;
+  font-variant: small-caps;
+  margin-top: 1em;
+}
+
+/* ===== Dedicatória de página inteira ===== */
+/* Impresso: \vspace*{\fill} + \hfill texto + \vspace*{\fill} —
+   texto à DIREITA, centralizado verticalmente. */
+section.dedicatoria {
+  page-break-before: always;
+  page-break-after: auto;
+  margin-top: 10em; /* fallback sem flex */
+  font-size: 0.85em;
+  text-align: right;
+  margin-left: 35%;
+}
+
+@supports (display: flex) {
+  section.dedicatoria {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* centro vertical (era flex-end = pé da página) */
+    min-height: 90vh;
+    margin-top: 0;
+  }
+}
+
+section.dedicatoria p {
+  margin: 0.5em 0;
+  text-indent: 0;
+  text-align: right; /* vence o p { text-align: justify } genérico */
+}
+
+section.dedicatoria .ornament {
+  text-align: center;
+  margin: 1em 0;
+  font-size: 1.2em;
+}
+
 /* Versos/Poesia */
 div.verse {
   margin: 1.5em 2em;
-  white-space: pre-wrap;
+  white-space: normal;
 }
 
 /* Small Caps */
@@ -557,14 +808,12 @@ section.part-title li {
 /* ===== 12a. ROSTO (página de título) ===== */
 section.rosto,
 .rosto {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 90vh;
   text-align: center;
-  padding: 2em;
-  /* SEM page-break-before - é a primeira página */
+  padding: 2em 1em;
+  /* Layout simples, SEM flex/min-height:98vh. Em leitores paginados
+     (Thorium/Readium) o 98vh + flex empurrava o bloco da editora
+     (logo + cidade/ano) para a página SEGUINTE à do rosto. O
+     empilhamento natural mantém tudo — logo inclusive — numa página só. */
 }
 
 /* Remove indentação de todos os parágrafos na página de rosto */
@@ -576,7 +825,7 @@ section.rosto p {
 }
 
 .rosto-titulo {
-  margin-top: 10vh;
+  margin-top: 3em;
   text-align: center;
 }
 
@@ -608,31 +857,34 @@ section.rosto p {
   text-align: center;
 }
 
+.rosto-spacer {
+  height: 3em;
+}
+
 .rosto-editora {
   font-size: 0.75em;
-  margin-top: auto;
   margin-bottom: 2em;
   text-align: center;
 }
 
+/* Tamanho FIXO em px (não max-*): vários leitores ignoram max-width/max-height
+   em imagens e caem no tamanho intrínseco do arquivo (690×230 no logo atual),
+   fazendo o logo escalar com a tela. O <img> também leva width/height="108/36"
+   como atributos, fallback para leitores que descartam o CSS do editor. */
 .rosto-editora img,
 img.logo-editora {
-  max-height: 1em;
-  max-width: 4em;
-  width: auto;
-  height: auto;
-  margin: 0 auto 0.3em auto;
+  width: 108px;
+  height: 36px;
+  margin: 0 auto 0.5em auto;
   display: block;
 }
 
-/* Dark mode: inverte logo preto para branco */
-@media (prefers-color-scheme: dark) {
-
-  .rosto-editora img,
-  img.logo-editora {
-    filter: invert(1);
-  }
-}
+/* NOTA: removido o invert via @media (prefers-color-scheme: dark). Leitores EPUB
+   (Thorium/Readium) controlam o próprio tema, independentemente do
+   prefers-color-scheme do SISTEMA. Quando o SO está em dark mode mas o leitor
+   renderiza em fundo claro (tema dia/sépia), o invert deixava o logo preto
+   BRANCO — invisível no fundo claro (era exatamente o bug do "logo não aparece").
+   O logo preto sobre transparente aparece corretamente no fundo claro. */
 
 /* ===== 12b. PRETAS (sinopse/bios) ===== */
 section.pretas,
@@ -707,6 +959,203 @@ p.ornament {
 
 /* Estilo legado para compatibilidade */
 
+/* ===== 14. REFERÊNCIAS BIBLIOGRÁFICAS ===== */
+/* H2 dentro de seção de referências: tamanho reduzido */
+h2.ref-subheading {
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  text-align: left;
+  page-break-after: avoid;
+}
+
+/* Reseta font-weight normal para o conteúdo da section (Pandoc aplica classe à section também) */
+section.ref-subheading {
+  font-weight: normal;
+}
+
+section.ref-subheading p {
+  font-weight: normal;
+}
+
+/* ==========================================================================
+   FORMATAÇÃO DE POESIA (Ambiente Verse) — Arquitetura KF8-safe (sem flexbox
+   nem position:absolute nas estruturas críticas de verso)
+   ========================================================================== */
+
+/* --- Estrutura de Poema -------------------------------------------------- */
+
+/* Estrofe: agrupa versos de uma mesma estrofe */
+.estrofe { margin: 2em 0; }
+/* Espaçadores verticais de \smallskip/\medskip/\bigskip (alturas distintas).
+   <p> com &#160; (o Pandoc descarta <div> vazios); altura via font-size. */
+.vspace-small { font-size: 0.6em; margin: 0; line-height: 1; }
+.vspace-medium { font-size: 1.1em; margin: 0; line-height: 1; }
+.vspace-big { font-size: 1.8em; margin: 0; line-height: 1; }
+
+/* Verso: linha individual de poema (sem p/br) */
+.verso { margin: 0; padding: 0; }
+
+/* --- Tática do Bloco de Medida (\phantom + \llap) ------------------------ */
+
+/* Container inline que assume a largura exata da string de referência */
+.bloco-medida {
+  display: inline-block;
+  max-width: 100%;
+  text-align: left;
+}
+
+/* Fio-guia invisível que força a largura do bloco-medida:
+   height:0 + overflow:hidden preserva a largura sem ocupar espaço vertical */
+.guia-invisivel {
+  display: block;
+  height: 0;
+  overflow: hidden;
+  color: transparent;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  user-select: none;
+  line-height: 0;
+}
+
+/* Texto alinhado à direita dentro do bloco-medida (substitui .poem-llap) */
+.right {
+  text-align: right;
+  display: block;
+}
+
+/* --- Espaçamento Distribuído (\hfill) — tabela CSS nativa ---------------- */
+
+/* Linha bipartida: texto à esquerda e à direita (\hfill / makebox) */
+.linha-distribuida {
+  display: table;
+  width: 100%;
+  text-indent: 0;
+}
+.celula-esq {
+  display: table-cell;
+  text-align: left;
+  vertical-align: bottom;
+}
+.celula-centro {
+  display: table-cell;
+  text-align: center;
+  vertical-align: bottom;
+}
+.celula-dir {
+  display: table-cell;
+  text-align: right;
+  vertical-align: bottom;
+}
+
+/* --- Texto Fantasma (\phantom isolado) ----------------------------------- */
+/* aria-hidden cuida da acessibilidade; visibility:hidden preserva espaço */
+.poem-phantom {
+  visibility: hidden;
+}
+
+/* --- Classes utilitárias de gap e bloco ---------------------------------- */
+
+/* Gaps exatos baseados em em/ex/cm do LaTeX */
+.poem-gap {
+  display: inline-block;
+}
+
+/* Linha pontilhada: \makebox[X]{\dotfill} */
+.poem-dotfill {
+  display: inline-block;
+  border-bottom: 1.5px dotted currentColor;
+  vertical-align: bottom;
+  margin-bottom: 0.1em;
+}
+
+/* Rótulos alinhados (usado para inícios de estrofe paralelos) */
+.poem-label {
+  display: inline-block;
+  min-width: 4em;
+  text-align: left;
+}
+
+/* Alinhamentos de bloco do \makebox[\linewidth] */
+.poem-center {
+  display: block;
+  text-align: center;
+  width: 100%;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.poem-left {
+  display: block;
+  text-align: left;
+  width: 100%;
+}
+
+/* --- Bibliografia -------------------------------------------------------- */
+section[id*="bibliografia"] p,
+section[id*="referencias"] p {
+  text-indent: 0;
+  margin-bottom: 1em;
+}
+
+/* --- Falso frontispício textual (1-fronte.tex sem imagem) ---------------- */
+.falso-rosto {
+  margin-top: 12vh;
+  text-align: left;
+}
+
+.falso-rosto-titulo {
+  font-size: 1.8em;
+  font-weight: bold;
+  text-indent: 0;
+  line-height: 1.2;
+}
+
+.falso-rosto-autor {
+  font-size: 1.15em;
+  text-indent: 0;
+  margin-top: 0.6em;
+}
+
+.falso-rosto-qr {
+  margin-top: 3em;
+  text-indent: 0;
+}
+
+/* --- Capítulo-numeral romano (ex-\section*{I} do catálogo antigo) -------- */
+h1.chapter-numeral,
+h2.chapter-numeral,
+h3.chapter-numeral {
+  text-align: center;
+  font-weight: normal;
+  font-variant: small-caps;
+  text-transform: lowercase;
+  letter-spacing: 0.06em;
+  font-size: 1.3em;
+}
+
+/* --- Seções promovidas pelo reordenador de headings ----------------------
+   \section/\subsection do impresso saem em versalete minúsculo centralizado
+   (setsecheadstyle/setsubsecheadstyle com \scshape\MakeTextLowercase em
+   todos os livros da casa). O corretor de sequência de headings pode
+   promover h3/h4 a h2 — a classe levelN da section preserva o nível
+   ORIGINAL, então o desenho segue o do impresso mesmo promovido. */
+section.level3 > h2,
+section.level4 > h2,
+section.level4 > h3,
+section.level5 > h2,
+section.level5 > h3,
+section.level5 > h4 {
+  text-align: center;
+  font-weight: normal;
+  font-variant: small-caps;
+  text-transform: lowercase;
+  letter-spacing: 0.04em;
+  font-size: 1.05em;
+}
+
+
 /* Estilo para Títulos de Partes */
 .part-title {
     text-align: center;
@@ -719,6 +1168,7 @@ p.ornament {
 .chapter-author {
     text-align: right;
     font-variant: small-caps;
+    text-transform: lowercase;
     margin-top: 1em;
     margin-bottom: 2em;
 }
@@ -729,14 +1179,16 @@ p.ornament {
     text-align: right;
 }
 .epigraph-page {
-    page-break-before: always;
-    page-break-after: always;
-    margin-top: 30%;
-    margin-bottom: 20%;
+    margin: 0;
+    text-align: left;
 }
 /* Espaçamento no Sumário e Iconografia */
 li.toc-section-start {
-    margin-top: 1.5em !important;
+    margin-top: 1.4em !important;
+    list-style: none;
+}
+li.toc-part {
+    margin-top: 1.4em !important;
     list-style: none;
 }
 .epigraph .attribution {
@@ -746,3 +1198,174 @@ li.toc-section-start {
     margin-top: 0.5em;
     font-size: 0.9em;
 }
+
+/* Dedicatória */
+.dedicatoria {
+    page-break-before: always;
+    page-break-after: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 90vh;
+    font-size: 0.85em;
+    text-align: right;
+    margin-left: 35%;
+    text-indent: 0;
+}
+.dedicatoria p {
+    margin: 0.5em 0;
+    text-indent: 0;
+    text-align: right;
+}
+.dedicatoria .ornament {
+    text-align: center;
+    margin: 1em 0;
+    font-size: 1.2em;
+}
+
+/* Epígrafe de Página Inteira */
+.epigrafe-page {
+    page-break-before: always;
+    page-break-after: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 90vh;
+    margin-left: 25%;
+    margin-top: 0;
+    padding-right: 0;
+    text-align: left;
+}
+.epigrafe-page .epigraph {
+    margin: 0;
+}
+.epigraph-full + .epigraph-full {
+    margin-top: 2em;
+}
+.epigraph-quote-block {
+    display: inline-block;
+    text-align: left;
+}
+.epigraph-quote-block .attribution {
+    text-align: left;
+    font-variant: small-caps;
+    margin-top: 0.3em;
+    font-style: normal;
+}
+
+/* Imagens e Legendas */
+figure {
+    margin: 2em 0;
+    text-align: center;
+    page-break-inside: avoid;
+}
+figure img {
+    max-width: 100%;
+    max-height: 90vh;
+    height: auto;
+    object-fit: contain;
+    margin: 0 auto;
+    display: block;
+}
+figcaption {
+    margin-top: 1.5em;
+    font-size: 0.9em;
+    line-height: 1.5;
+    text-align: center;
+    font-style: italic;
+    font-variant: normal;
+}
+
+/* Foto Falso Frontispício */
+.frontispicio-image-page {
+    page-break-before: always;
+    page-break-after: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
+    margin: 0;
+    padding: 0;
+}
+.full-page-figure {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+img.full-page-image {
+    max-height: 95vh;
+}
+.epigraph-full {
+    text-align: left;
+    font-style: italic;
+    font-size: 0.85em;
+    line-height: 1.6;
+    text-indent: 0;
+}
+.epigraph-full p, .epigrafe-page p, .epigraph-full div, .epigrafe-page div {
+    text-indent: 0;
+    text-align: left;
+}
+.epigraph-full .attribution {
+    margin-top: 1em;
+    text-align: left;
+    font-style: normal;
+    font-variant: small-caps;
+}
+.epigraph-full .attribution .smallcaps {
+    font-variant: small-caps;
+}
+
+/* Nova arquitetura HTML/CSS para e-readers antigos (KF8/Kindle) */
+.estrofe { margin: 2em 0; }
+.verso { margin: 0; padding: 0; }
+.vspace-small { font-size: 0.6em; margin: 0; line-height: 1; }
+.vspace-medium { font-size: 1.1em; margin: 0; line-height: 1; }
+.vspace-big { font-size: 1.8em; margin: 0; line-height: 1; }
+p.noindent { text-indent: 0; }
+p.entrevista-pergunta { text-indent: 0; margin-top: 1.4em; }
+.bloco-medida { display: inline-block; max-width: 100%; text-align: left; }
+.guia-invisivel {
+    display: block; height: 0; overflow: hidden;
+    color: transparent; white-space: nowrap;
+    -webkit-user-select: none; user-select: none; line-height: 0;
+}
+.right { text-align: right; display: block; }
+.linha-distribuida { display: table; width: 100%; text-indent: 0; }
+.celula-esq { display: table-cell; text-align: left; vertical-align: bottom; }
+.celula-centro { display: table-cell; text-align: center; vertical-align: bottom; }
+.celula-dir { display: table-cell; text-align: right; vertical-align: bottom; }
+section[id*='bibliografia'] p,
+section[id*='referencias'] p { text-indent: 0; margin-bottom: 1em; }
+
+/* Ficha Catalográfica (CIP) */
+.ficha-catalografica {
+    max-width: 35em;
+    margin: 2em 0;
+    font-size: 0.85em;
+    line-height: 1.4;
+    text-align: left;
+    hyphens: none;
+    -webkit-hyphens: none;
+}
+.ficha-catalografica p {
+    margin: 0 0 0.85em 0;
+    text-indent: 0;
+    text-align: left;
+}
+.ficha-cabecalho p { margin: 0; }
+.sc { font-variant: small-caps; text-transform: lowercase; }
+.ficha-linha {
+    border: none;
+    border-top: 1px solid currentColor;
+    margin: 0.6em 0 0.9em 0;
+}
+.ficha-recuo { padding-left: 0; }
+.ficha-hfill {
+    display: table;
+    width: 100%;
+    margin: 0;
+}
+.ficha-hfill > span:first-child { display: table-cell; text-align: left; }
+.ficha-hfill > span:last-child { display: table-cell; text-align: right; white-space: nowrap; }

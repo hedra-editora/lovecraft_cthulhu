@@ -8,7 +8,7 @@
 # usando o conteúdo do LaTeX. Mantenha formato "chave: valor".
 title: "O chamado de Cthulhu"
 subtitle: "Subtítulo (opcional)"
-author: "H. P. Lovecraft"
+author: "H. P. Lovecraft"
 publisher: "Editora Hedra"
 # rights: (removido para evitar duplicação na title page)
 # date: (removido para evitar duplicação na title page)
@@ -21,8 +21,8 @@ lang: pt-BR
 identifier: "ISBN:978-85-7715-999-4"
 
 # Categorização (Mapeado para dc:subject)
-subject: "Literatura Brasileira / Romance"
-tags: [Literatura, Ficção, Brasileiro, Hedra]
+subject: "Literatura americana / Ficção / Terror"
+tags: ["Literatura americana", "Ficção", "Terror"]
 
 # Descrição (Sinopse) - Mapeado para dc:description
 description: "**O chamado de Cthulhu** (1928) apresenta a figura mais popular de Lovecraft, centro da série sobre os Grandes Antigos, as gigantescas e incompreensíveis criaturas anteriores a esta Terra."
@@ -47,12 +47,12 @@ description: "**O chamado de Cthulhu** (1928) apresenta a figura mais popular de
 
 
 # Sinopse completa (referência interna - não vai para o EPUB)
-description-full: "**O chamado de Cthulhu** (1928) apresenta a figura mais popular de Lovecraft, centro da série sobre os Grandes Antigos, as gigantescas e incompreensíveis criaturas anteriores a esta Terra. É a cristalização, numa imagem, de um tipo específico de terror chamado \"cósmico\": mas um cósmico íntimo e literário. Em seu Cthulhu, um monstro que dorme no fundo do mar --- verde, sombrio, doentio, descomunal e de dimensões inqualificáveis ---, o autor procedeu a uma metamorfose do próprio Kraken, monstro marinho e cefalópode da mitologia escandinava, para encontrar um código de seus próprios horrores: mas que funcionou bem, porque o verdadeiro mergulho no medo de um é o mergulho no medo de todos. Um dos grandes clássicos de horror do século <span class=\"smallcaps\">xx</span>, O chamado de Cthulhu permite um desconcertante passeio pelo universo macabro de um dos grandes mestres do horror."
+description-full: "**O chamado de Cthulhu** (1928) apresenta a figura mais popular de Lovecraft, centro da série sobre os Grandes Antigos, as gigantescas e incompreensíveis criaturas anteriores a esta Terra. É a cristalização, numa imagem, de um tipo específico de terror chamado \"cósmico\": mas um cósmico íntimo e literário. Em seu Cthulhu, um monstro que dorme no fundo do mar — verde, sombrio, doentio, descomunal e de dimensões inqualificáveis —, o autor procedeu a uma metamorfose do próprio Kraken, monstro marinho e cefalópode da mitologia escandinava, para encontrar um código de seus próprios horrores: mas que funcionou bem, porque o verdadeiro mergulho no medo de um é o mergulho no medo de todos. Um dos grandes clássicos de horror do século <span class=\"smallcaps\">xx</span>, *O chamado de Cthulhu* permite um desconcertante passeio pelo universo macabro de um dos grandes mestres do horror."
 
 
 # Colaboradores (Tradutores, ilustradores, etc.)
 # Mapeado para dc:contributor
-contributor: "Nome do Tradutor (tradução)"
+contributor: "Dirceu Villa (tradução e introdução)"
 
 # ==============================================================================
 # 2. CONFIGURAÇÕES DO EPUB (PANDOC)
