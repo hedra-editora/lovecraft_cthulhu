@@ -422,8 +422,22 @@ p.caption {
 
 .qrcode img {
   width: 140px;
-  height: 140px;
+  height: auto;
+  max-width: 50%;
   margin: 0 auto;
+  display: block;
+}
+
+/* Rede de segurança: QR reconhecido pelo nome do arquivo. Pega o
+   \includegraphics solto (colofon, abertura de livro) que o Pandoc converte
+   sem classe nenhuma e que sairia no tamanho natural da imagem. */
+img[src*="qrcode"],
+img[src*="qr-code"],
+img[src*="qr_code"] {
+  width: 140px;
+  height: auto;
+  max-width: 50%;
+  margin: 1.5em auto;
   display: block;
 }
 
@@ -1100,9 +1114,15 @@ section[id*="referencias"] p {
 }
 
 /* --- Falso frontispício textual (1-fronte.tex sem imagem) ---------------- */
+/* Coluna flex para que o QR do pé possa ser empurrado com margin-top: auto,
+   como o \vfill do impresso faz entre o autor e o QR. */
 .falso-rosto {
   margin-top: 12vh;
   text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 80vh;
 }
 
 .falso-rosto-titulo {
@@ -1118,9 +1138,30 @@ section[id*="referencias"] p {
   margin-top: 0.6em;
 }
 
+/* O QR do falso rosto reproduz o impresso: pé da página, à esquerda
+   (dumont_baloes e tolstoi_morte trazem os dois \vfill + \begin{flushleft}).
+   O que muda em relação ao impresso é só o TAMANHO — .3\textwidth em tela
+   vira um QR enorme; 140 px escaneia bem. O `margin-top: auto` faz o papel
+   do \vfill dentro do flex; o padding-top é o respiro para o leitor que
+   ignorar o flex e deixar o QR logo abaixo do autor. */
 .falso-rosto-qr {
-  margin-top: 3em;
+  padding-top: 3em;
+  margin-top: auto;
   text-indent: 0;
+  text-align: left;
+}
+
+.falso-rosto-qr img {
+  width: 140px;
+  height: auto;
+  max-width: 50%;
+  margin: 0;
+  display: block;
+}
+
+/* Falso rosto que só traz o QR: mesmo lugar, sem título acima. */
+.falso-rosto-so-qr {
+  text-align: left;
 }
 
 /* --- Capítulo-numeral romano (ex-\section*{I} do catálogo antigo) -------- */

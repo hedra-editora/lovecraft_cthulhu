@@ -1,22 +1,29 @@
-**O chamado de Cthulhu**
+# O chamado de Cthulhu {.part-title}
 
-Achado entre os papéis do falecido Francis Wayland Thurston, de Boston
+*Achado entre os papéis do falecido Francis Wayland Thurston, de Boston*
 
 
-<div class="epigraph">
+## Epígrafe {.unnumbered .unlisted .hidden}
 
-De tais grandes poderes ou seres talvez seja possível
-supor uma sobrevivência… uma sobrevivência de um período imensamente
-remoto quando… a consciência se manifestava, talvez, em formas e
-configurações desde há muito recolhidas, antes da maré da humanidade
-avançar… formas das quais só a poesia e as lendas agarraram uma memória
-fugidia e as chamaram deuses, monstros, criaturas míticas de todos os
-tipos e espécies…
+<section id="epigrafe" class="epigrafe-page" epub:type="epigraph">
+
+<div class="epigraph epigraph-full">
+
+De tais grandes poderes ou seres talvez seja
+possível supor uma sobrevivência… uma sobrevivência de um período
+imensamente remoto quando… a consciência se manifestava, talvez, em
+formas e configurações desde há muito recolhidas, antes da maré da
+humanidade avançar… formas das quais só a poesia e as lendas agarraram
+uma memória fugidia e as chamaram deuses, monstros, criaturas míticas de
+todos os tipos e espécies…
+
 <p class="attribution"><span class="smallcaps">algernon blackwood</span>[^texto_1]</p>
 </div>
 
+</section>
 
-# O horror em argila
+
+## O horror em argila
 
 ⟦NOINDENT⟧A coisa mais misericordiosa do mundo é, penso, a inabilidade
 da mente humana em correlacionar todas as suas partes. Vivemos numa
@@ -298,7 +305,7 @@ seja dito; e hoje eu mal posso imaginar o nível de racionalidade rude
 com o qual o deixei de lado. Mas eu estava então convencido de que o
 jovem Wilcox sabia das questões antigas mencionadas pelo professor.
 
-# A narrativa do inspetor Legrasse
+## A narrativa do inspetor Legrasse
 
 ⟦NOINDENT⟧As questões antigas que fizeram o sonho e o baixo-relevo do
 escultor tão significativos para o meu tio compunham o assunto da
@@ -779,7 +786,7 @@ Angell morreu porque sabia demais, ou porque estava prestes a sabê-lo.
 Se o mesmo acontecerá comigo ainda está por se ver, porque agora também
 soube muito.
 
-# A loucura vinda do mar
+## A loucura vinda do mar
 
 ⟦NOINDENT⟧Se o céu um dia quiser conceder-me uma dádiva, será o
 apagamento total dos resultados de um mero acaso que fixou meu olho em
@@ -1194,7 +1201,7 @@ não devo e não posso pensar! Farei uma prece para que, se não sobreviver
 a este manuscrito, meus executores testamentários ponham a cautela antes
 da audácia e que isto não chegue ainda a outros olhos.
 
-# Iconografia
+## Iconografia
 
 As imagens reunidas neste livro, compostas por manuscritos e obras
 gráficas de autoria ou relacionadas a H. P. Lovecraft, integram o acervo
