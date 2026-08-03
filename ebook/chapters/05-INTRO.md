@@ -1,3 +1,9 @@
+
+<figure id="img-cthulhu1">
+<img src="../images/cthulhu1.png" alt="cthulhu1" />
+</figure>
+
+
 # Introdução
 
 <p class="subtitle">De homens e monstros: Lovecraft e o horror</p>

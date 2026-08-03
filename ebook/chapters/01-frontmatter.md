@@ -2,8 +2,17 @@
 
 
 <section class="frontispicio-image-page" epub:type="frontmatter">
-<figure class="full-page-figure">
+<figure class="full-page-figure" id="img-cthulhu-p1">
 <img src="../images/cthulhu-p1.png" alt="cthulhu p1" class="full-page-image" />
+</figure>
+</section>
+
+# Frontispício {.unnumbered .unlisted .hidden}
+
+
+<section class="frontispicio-image-page" epub:type="frontmatter">
+<figure class="full-page-figure" id="img-cthulhu4">
+<img src="../images/cthulhu4.png" alt="cthulhu4" class="full-page-image" />
 </figure>
 </section>
 

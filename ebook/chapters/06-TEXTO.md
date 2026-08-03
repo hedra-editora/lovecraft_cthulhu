@@ -305,6 +305,12 @@ seja dito; e hoje eu mal posso imaginar o nível de racionalidade rude
 com o qual o deixei de lado. Mas eu estava então convencido de que o
 jovem Wilcox sabia das questões antigas mencionadas pelo professor.
 
+
+<figure id="img-cthulhu2-modified">
+<img src="../images/cthulhu2_modified.png" alt="cthulhu2 modified" />
+</figure>
+
+
 ## A narrativa do inspetor Legrasse
 
 ⟦NOINDENT⟧As questões antigas que fizeram o sonho e o baixo-relevo do
@@ -1201,6 +1207,12 @@ não devo e não posso pensar! Farei uma prece para que, se não sobreviver
 a este manuscrito, meus executores testamentários ponham a cautela antes
 da audácia e que isto não chegue ainda a outros olhos.
 
+
+<figure id="img-cthulhu-pfinal">
+<img src="../images/cthulhu-pfinal.png" alt="cthulhu pfinal" />
+</figure>
+
+
 ## Iconografia
 
 As imagens reunidas neste livro, compostas por manuscritos e obras
@@ -1208,25 +1220,31 @@ gráficas de autoria ou relacionadas a H. P. Lovecraft, integram o acervo
 da *Howard P. Lovecraft Collection*, conservado na Brown University
 Library, em Providence, Rhode Island.
 
-p\. 1  
+[ver imagem](#img-cthulhu-p1)  
 *The Call of Cthulhu*, primeira página do datiloscrito, 1926.
 
-p\. 2  
+[ver imagem](#img-cthulhu4)  
 *Cthulhu*, vista frontal, desenho a lápis, 1934.
 
-p\. 8  
+[ver imagem](#img-cthulhu1)  
 *Cthulhu*, vista de perfil, desenho a lápis, 1934, com inscrição
 dedicada a R. H. Barlow.
 
-p\. 50  
+[ver imagem](#img-cthulhu2-modified)  
 *Cthulhu*, linoleogravura de R. H. Barlow, em carta de Lovecraft a
 Robert Bloch, c. 1930.
 
-p\. 80  
+[ver imagem](#img-cthulhu-pfinal)  
 *The Call of Cthulhu*, última página do datiloscrito, 1926.
 
-p\. 82  
+[ver imagem](#img-cthulhu5)  
 *Cthulhu*, vista posterior, desenho a lápis, 1934.
+
+
+<figure id="img-cthulhu5">
+<img src="../images/cthulhu5.png" alt="cthulhu5" />
+</figure>
+
 
 [^texto_1]: A citação de abertura vem do romance *O Centauro* (1911), de
     Algernon Blackwood. Lovecraft terá se baseado no estilo de Blackwood
